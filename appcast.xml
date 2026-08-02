@@ -3,6 +3,23 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>1.7.2</title>
+            <pubDate>Sun, 02 Aug 2026 03:37:20 +0300</pubDate>
+            <sparkle:version>1.7.2</sparkle:version>
+            <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 1.7.2</h2>
+<p>A maintenance release with no functional changes.</p>
+<p>It exists to confirm that Snapline can replace itself in place and keep
+its Screen Recording permission across an update — so that future releases
+arrive without interrupting you.</p>
+]]></description>
+            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-1.7.2.zip" length="4946835" type="application/octet-stream" sparkle:edSignature="VGKAIOFRUDLbbs2D8XpMydDsPBT1XkLitlo0WPlZLxUmVssWc5hcNHDtmWTGzUNPA+z/ORfsA40NhoGnxUznAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline1.7.2-1.7.1.delta" sparkle:deltaFrom="1.7.1" length="18286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kt9FXZhzfZHVIqbdDi3+Dy5Z/qEoUE/ZNvtd2f3dh+zLWhOyQAlTh7RxDt+32dSj6RuPo/IhyOBSXn1gqmNgBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.7.1</title>
             <pubDate>Sun, 02 Aug 2026 03:24:31 +0300</pubDate>
             <sparkle:version>1.7.1</sparkle:version>
