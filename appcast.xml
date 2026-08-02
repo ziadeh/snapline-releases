@@ -3,36 +3,21 @@
     <channel>
         <title>Snapline</title>
         <item>
-            <title>1.7.2</title>
-            <pubDate>Sun, 02 Aug 2026 03:37:20 +0300</pubDate>
-            <sparkle:version>1.7.2</sparkle:version>
-            <sparkle:shortVersionString>1.7.2</sparkle:shortVersionString>
+            <title>2.0.0</title>
+            <pubDate>Sun, 02 Aug 2026 09:50:24 +0300</pubDate>
+            <sparkle:version>2.0.0</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 1.7.2</h2>
-<p>A maintenance release with no functional changes.</p>
-<p>It exists to confirm that Snapline can replace itself in place and keep
-its Screen Recording permission across an update — so that future releases
-arrive without interrupting you.</p>
+            <description><![CDATA[<h2>Snapline 2.0</h2>
+<p>Snapline is now a licensed app. Taking new captures &mdash; screenshots,
+recordings, scrolling captures &mdash; requires a license key, entered once in
+the activation window.</p>
+<p>Everything you have already captured remains yours and stays fully
+accessible: History, the Editor, pinning, and export all work without a
+license, and always will.</p>
+<p>Updates also remain available to every install, licensed or not.</p>
 ]]></description>
-            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-1.7.2.zip" length="4946835" type="application/octet-stream" sparkle:edSignature="VGKAIOFRUDLbbs2D8XpMydDsPBT1XkLitlo0WPlZLxUmVssWc5hcNHDtmWTGzUNPA+z/ORfsA40NhoGnxUznAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline1.7.2-1.7.1.delta" sparkle:deltaFrom="1.7.1" length="18286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kt9FXZhzfZHVIqbdDi3+Dy5Z/qEoUE/ZNvtd2f3dh+zLWhOyQAlTh7RxDt+32dSj6RuPo/IhyOBSXn1gqmNgBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.7.1</title>
-            <pubDate>Sun, 02 Aug 2026 03:24:31 +0300</pubDate>
-            <sparkle:version>1.7.1</sparkle:version>
-            <sparkle:shortVersionString>1.7.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 1.7.1</h2>
-<p>The first release delivered through Snapline's own updater.</p>
-<p>Nothing else changes in this version. It exists to put the update
-mechanism in place: from here on, Snapline checks for new versions in the
-background and offers them in this dialog, replacing itself in place — so
-you never have to download and reinstall by hand again.</p>
-]]></description>
-            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-1.7.1.zip" length="4946765" type="application/octet-stream" sparkle:edSignature="/29aX2m/GMkSlobbKb1l/rhjFR7yr704K8TV8cvKiCGyj8l2myzOsLZndq2vcBv+haQeohUV2F8kQQF5mpM4CQ=="/>
+            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.0.0.zip" length="5014014" type="application/octet-stream" sparkle:edSignature="a4Z3F6Y2yRLFJu7DE71XkPjNJ4jALxTOSY2GyOfgmhLtC7AWx5ANFzuGCrM78DHHLK9ITt6PHAxMLzXXZgMzAg=="/>
         </item>
     </channel>
 </rss>
