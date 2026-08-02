@@ -3,6 +3,26 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.0.4</title>
+            <pubDate>Sun, 02 Aug 2026 14:21:39 +0300</pubDate>
+            <sparkle:version>2.0.4</sparkle:version>
+            <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.0.4</h2>
+<ul>
+  <li>Settings, History, the annotation editor, the trim editor and the text view now appear in &#8984;-Tab and the Dock while they are open, so you can switch back to a window after moving to another app. They were previously unreachable once Snapline was no longer frontmost.</li>
+  <li>A Window menu lists every open Snapline window, as a second way back to one.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.0.4.zip" length="5032152" type="application/octet-stream" sparkle:edSignature="YuUaQvsSB/Q9zdbe8bYvDzt7PnTChcqTKR0oD1pCEIGzfCq7wyZON/mZ7ni4AdAnxro7eDszitrCYWVyfHHhAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.0.4-2.0.3.delta" sparkle:deltaFrom="2.0.3" length="296314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nX9Fk/vAEMoC0nJAkyLLhWTXcIS2JfvIRRaUcMOmUyGAOziipz9B74DBlRBA64hUebX2XtHEJ9o545YkB9utCQ=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.0.4-2.0.2.delta" sparkle:deltaFrom="2.0.2" length="345218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0m6yj2uEP6N/QpVRe4QiNXPFeKeQgjUOiB+3og1hPD6lxhxAAN//lIJxvWuHPQvVnbxMLtDBUbaktRbRhREQCg=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.0.4-2.0.1.delta" sparkle:deltaFrom="2.0.1" length="347658" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v0qwssdRehNpiHZczlPUFvjHP6ONcxAlg5h//ec6Fa7aZPo2rA0jCIMPPBvJYl/FsTsizOIjBmSEb7ENDvAgDA=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.0.4-2.0.0.delta" sparkle:deltaFrom="2.0.0" length="346530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6cq+MB9bTdsBDE3qmo6c30iUgxcqVcrhU9bAoMEZLpnhtnrT4hRHZlD7dydfbNYUt8iK063K8nKsx4COobO7AA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.0.3</title>
             <pubDate>Sun, 02 Aug 2026 14:02:42 +0300</pubDate>
             <sparkle:version>2.0.3</sparkle:version>
@@ -14,11 +34,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.0.3.zip" length="5027855" type="application/octet-stream" sparkle:edSignature="qFpS/hqnzv21b00zBE+qrttX5bRPYH+OLsdUWr4sddv8lj4BxjMFRY43u5bTXII0NzpnwMjZSmwjm4/BrA0uDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.0.3-2.0.2.delta" sparkle:deltaFrom="2.0.2" length="276694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f+MVRYHYvGN7uCQjRJDVqxSOOxS4oMFr9LGn3XVNyQz9rKN4XLFIVT6WFpDMioHZKg/HGlHnf0nuZhwANVpqDw=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.0.3-2.0.1.delta" sparkle:deltaFrom="2.0.1" length="281482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3SuRabXiyF5vmLZOHROIsgkpygSmD3zg0BDlJBp9GF2FtuVjOkDkAk9VEWonB0vTxincByyvKsEr0xQMbZs1DQ=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.0.3-2.0.0.delta" sparkle:deltaFrom="2.0.0" length="281366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="28Gz0l8X4TdQHROjCQB+QEPwDIJke4BjfL2FSyL6OuOG8OOI9T50khP9cC7Fz+FDo60B7Yr0ivj9po9DsBw7Bg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.0.2</title>
@@ -33,20 +48,6 @@ working, request a replacement key &mdash; nothing about your purchase or
 your captures is affected.</p>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.0.2.zip" length="5014071" type="application/octet-stream" sparkle:edSignature="06Esm49F+XDHNiH1aYUQtRqogHPRvq+nlTOsBRh9kpO8C6iaB9qOrAqCACojKa7M1/JtV2RAFcHcfhIltk9xCw=="/>
-        </item>
-        <item>
-            <title>2.0.1</title>
-            <pubDate>Sun, 02 Aug 2026 10:18:03 +0300</pubDate>
-            <sparkle:version>2.0.1</sparkle:version>
-            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.0.1</h2>
-<p>A maintenance release that replaces the license signing key.</p>
-<p>Licenses issued before this release no longer verify. If yours stops
-working, request a replacement key &mdash; nothing about your purchase or
-your captures is affected.</p>
-]]></description>
-            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.0.1.zip" length="5014078" type="application/octet-stream" sparkle:edSignature="BEKPKgVRYrrCDw/F1rBny+ff0fC5d7QtylSBz7WxAEp2uWqdsDayQaoTqQF3zVwkXVjdVJ9vGLF3iQPO1FQhBw=="/>
         </item>
     </channel>
 </rss>
