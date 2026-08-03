@@ -3,6 +3,28 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.3.0</title>
+            <pubDate>Tue, 04 Aug 2026 00:33:05 +0300</pubDate>
+            <sparkle:version>2.3.0</sparkle:version>
+            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.3.0</h2>
+<ul>
+  <li><strong>Eyedropper color sampler</strong> — a new editor tool (E) reads any color straight out of a capture: hover for a loupe of magnified pixels with the value under the cursor, click to copy it. Hex or rgb() — the toggle sits in the tool options.</li>
+  <li>Values come from the capture's actual pixels, never the screen, so what you copy is exactly what the image holds — converted to sRGB for pasting straight into CSS and code. The sampler reads the composited scene, so annotations and crops count too.</li>
+  <li>Every sampled color joins a Sampled row in the color picker for the rest of the session, ready to reuse as a stroke color.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.3.0.zip" length="5152277" type="application/octet-stream" sparkle:edSignature="gmKFyw8j8Tc85QaEhXZoXzvrGWzbdUrdGxziLSUl+Y1vJMHToZaNiaNsnd9VG2yjjRUd+A7jbuIIQ9lztlG0BQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.2.0.delta" sparkle:deltaFrom="2.2.0" length="374226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yRLl+JIuo0Q8Hz6BohqcJuLP/r20raBpkTM6RDC22nMMuoqiE92447L1aPlxUt723W90uc5YvnF2JvNj4o7zBg=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.1.0.delta" sparkle:deltaFrom="2.1.0" length="472018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q/RQ/L3Z8YwrOn3eAMbPAEkqOLssv37xPLngd4XN2hCZ7x7zpwEECpIDjCY2car/iTait1pIMex9DfQwAJ6bAg=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.0.4.delta" sparkle:deltaFrom="2.0.4" length="637342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ugyd5MKsha+HjIPOnh6Ibm6fqOCYOnj/76RHDM6X1L3opGKM6zKIK1Hz12nhPgkBt3Ba6efzqhQxs6/KPLWuAQ=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.0.3.delta" sparkle:deltaFrom="2.0.3" length="653518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uHCwUQD49Pivk12YsFC+lLozz0xvme48SI8goa523WEDqid5f7vtRl4IAXIBD83cX1faWMg8rmUZRKTPdUNwBg=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.0.2.delta" sparkle:deltaFrom="2.0.2" length="672550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TB1q4TYiQGe548cD4E9iOw7K39OFo2aRy2PWtsPpA3pcbyaSX4DDjTPrj/R+kVm+avBhff6+dTft+Cz4jthcDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.2.0</title>
             <pubDate>Mon, 03 Aug 2026 23:45:26 +0300</pubDate>
             <sparkle:version>2.2.0</sparkle:version>
@@ -16,13 +38,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.2.0.zip" length="5127685" type="application/octet-stream" sparkle:edSignature="+sPHrX/TRA32vM7zvQdiY5Sz6qZMclgEfeTOoBiEDBejwxZXxjTzi8po4fuvd1xiLSjzo6lFSmzToQ4dRvR6DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.2.0-2.1.0.delta" sparkle:deltaFrom="2.1.0" length="396294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Oi00LM7ZCTW+Q9eb1DbzSaaKGU38TNRg+i1uC3HYcmTJEzugZeFb6aGzz2XgoO0ydfGbxHw09NSWg94wOKpVDQ=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.2.0-2.0.4.delta" sparkle:deltaFrom="2.0.4" length="588258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4A0Q5CLLitVcKB1ljaykq49BM67y/bmDRYtWraZTu2DL4PMxrO5L/aHvHoKlHnq+JMAf+Hfjan1XZjGA6abuAQ=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.2.0-2.0.3.delta" sparkle:deltaFrom="2.0.3" length="604154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="42E7pJeA/wTmbbgF1kfxZq7OSouG54jns1ckYmYA9VIWHvhuTUj4dMDAS1YRkHlTbQXtATRkVxI2sqbFpXX9Cw=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.2.0-2.0.2.delta" sparkle:deltaFrom="2.0.2" length="622922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7hskH1kHHMiVxp8qoQE89GXYfZi4Zkx2WeTTjGfdXxivG1QuWUwiw4YN3krfwXV2I9wO7PSeLGlwmUO4JVaDCQ=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.2.0-2.0.1.delta" sparkle:deltaFrom="2.0.1" length="624838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WDaDUS/XtkWLAJHV7vmrwDgjZZYY2VuDLklOApPO4lXVkXyyI1Y/WV/+f3zkKhPLvq84ioBqp27tJmLukpOgAQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.1.0</title>
@@ -38,20 +53,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.1.0.zip" length="5102677" type="application/octet-stream" sparkle:edSignature="G3OS+c2J+QBYE81Alnjy5fETOdh1xKmc9j20CJ+E220+bSLmRvtBwNk/1Q1X+7+4JkalOq54BGRnVHBkwx9OCQ=="/>
-        </item>
-        <item>
-            <title>2.0.4</title>
-            <pubDate>Sun, 02 Aug 2026 14:21:39 +0300</pubDate>
-            <sparkle:version>2.0.4</sparkle:version>
-            <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.0.4</h2>
-<ul>
-  <li>Settings, History, the annotation editor, the trim editor and the text view now appear in &#8984;-Tab and the Dock while they are open, so you can switch back to a window after moving to another app. They were previously unreachable once Snapline was no longer frontmost.</li>
-  <li>A Window menu lists every open Snapline window, as a second way back to one.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.0.4.zip" length="5032152" type="application/octet-stream" sparkle:edSignature="YuUaQvsSB/Q9zdbe8bYvDzt7PnTChcqTKR0oD1pCEIGzfCq7wyZON/mZ7ni4AdAnxro7eDszitrCYWVyfHHhAw=="/>
         </item>
     </channel>
 </rss>
