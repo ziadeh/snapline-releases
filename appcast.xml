@@ -3,6 +3,28 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.4.0</title>
+            <pubDate>Tue, 04 Aug 2026 22:01:36 +0300</pubDate>
+            <sparkle:version>2.4.0</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.4.0</h2>
+<ul>
+  <li><strong>Measure tool</strong> — a new editor tool (M) reads distances straight off a capture: drag to draw a ruler line with endpoint ticks and a live length label. Hold Shift to snap to 0/45/90°, and drag either endpoint later to re-measure — the label follows.</li>
+  <li><strong>Pixels or points</strong> — the label reads in device pixels, or in points on captures that recorded their display's scale (new captures do, automatically). A 100-pt span captured on a Retina display reads 200 px or 100 pt, your pick; the toggle sits in the tool options. Older and imported captures keep the pt toggle visibly disabled rather than guessing a scale that could read wrong.</li>
+  <li>The outlined label stays legible over any content — light, dark, or busy — and measurements survive export and History re-edit as editable shapes, like every other annotation.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.4.0.zip" length="5179834" type="application/octet-stream" sparkle:edSignature="ud2qhe92sIWPJ+qZxpYDaEOAOhWoTMV+awj5JFL3aVFedW3OlvciJGQGx5eLNAO3H2Fg+Iynf3rinMBkaXQSDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.3.0.delta" sparkle:deltaFrom="2.3.0" length="432074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kzBN62JfEZF6kWUhDWB40YJb4+Y9lMxievY8rPkkbpQgexTJZi8PbbIQAyUqXG4w+rtTdM9HcgnsCfAdrR7/CA=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.2.0.delta" sparkle:deltaFrom="2.2.0" length="479258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PVFBEyUOguDGzLyxM00AMWWgqY0OvJ3jvYbw/cHNZ7enbLR1G7Zp6hA6JreEzQlHHcW2aEtN5u3WFFzmuyjyDg=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.1.0.delta" sparkle:deltaFrom="2.1.0" length="552574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="s1zTZysLnox6S9jaGO37Hk29fR+yLMJbTrpNvNkKgfmzp93tIxv6hK2Mb1D59C9nuTCIrGz53ZT8HRS0QscpCA=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.0.4.delta" sparkle:deltaFrom="2.0.4" length="687058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Blwc5G8mBTgs+ZnYmamoFAHydtAQyPPT1DEDsPipRy6Q4zgaJY8yvjIC1DU9RtsjBa0RS9Q4CGm2vqVVSCN+BQ=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.0.3.delta" sparkle:deltaFrom="2.0.3" length="704602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ly2JrD8ol5IWpD7S2az6ZocWhntc5WTejgwzVU9lAKRtGs4IuZE+6tvuwpAdRg3K4khQCDc15l3cPlgAJ6x6DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.3.0</title>
             <pubDate>Tue, 04 Aug 2026 00:33:05 +0300</pubDate>
             <sparkle:version>2.3.0</sparkle:version>
@@ -16,13 +38,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.3.0.zip" length="5152277" type="application/octet-stream" sparkle:edSignature="gmKFyw8j8Tc85QaEhXZoXzvrGWzbdUrdGxziLSUl+Y1vJMHToZaNiaNsnd9VG2yjjRUd+A7jbuIIQ9lztlG0BQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.2.0.delta" sparkle:deltaFrom="2.2.0" length="374226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yRLl+JIuo0Q8Hz6BohqcJuLP/r20raBpkTM6RDC22nMMuoqiE92447L1aPlxUt723W90uc5YvnF2JvNj4o7zBg=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.1.0.delta" sparkle:deltaFrom="2.1.0" length="472018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q/RQ/L3Z8YwrOn3eAMbPAEkqOLssv37xPLngd4XN2hCZ7x7zpwEECpIDjCY2car/iTait1pIMex9DfQwAJ6bAg=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.0.4.delta" sparkle:deltaFrom="2.0.4" length="637342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ugyd5MKsha+HjIPOnh6Ibm6fqOCYOnj/76RHDM6X1L3opGKM6zKIK1Hz12nhPgkBt3Ba6efzqhQxs6/KPLWuAQ=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.0.3.delta" sparkle:deltaFrom="2.0.3" length="653518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uHCwUQD49Pivk12YsFC+lLozz0xvme48SI8goa523WEDqid5f7vtRl4IAXIBD83cX1faWMg8rmUZRKTPdUNwBg=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.3.0-2.0.2.delta" sparkle:deltaFrom="2.0.2" length="672550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TB1q4TYiQGe548cD4E9iOw7K39OFo2aRy2PWtsPpA3pcbyaSX4DDjTPrj/R+kVm+avBhff6+dTft+Cz4jthcDQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.2.0</title>
@@ -38,21 +53,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.2.0.zip" length="5127685" type="application/octet-stream" sparkle:edSignature="+sPHrX/TRA32vM7zvQdiY5Sz6qZMclgEfeTOoBiEDBejwxZXxjTzi8po4fuvd1xiLSjzo6lFSmzToQ4dRvR6DQ=="/>
-        </item>
-        <item>
-            <title>2.1.0</title>
-            <pubDate>Mon, 03 Aug 2026 22:16:27 +0300</pubDate>
-            <sparkle:version>2.1.0</sparkle:version>
-            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.1.0</h2>
-<ul>
-  <li><b>Backgrounds</b> — the annotation editor gains a Background stage: wrap a capture in a gradient or solid-color backdrop with padding, rounded corners, and a drop shadow before sharing. Ten gradient presets or any solid color; the result is baked into Copy, Done, Save to File, and drag-out alike.</li>
-  <li>Background settings stay editable. Reopen a capture from History and the backdrop, padding, corners, and shadow are yours to change &mdash; the original pixels are untouched underneath.</li>
-  <li>Snapline remembers your last Background configuration and offers it on the next capture you annotate. Off by default; Tall Captures are excluded.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.1.0.zip" length="5102677" type="application/octet-stream" sparkle:edSignature="G3OS+c2J+QBYE81Alnjy5fETOdh1xKmc9j20CJ+E220+bSLmRvtBwNk/1Q1X+7+4JkalOq54BGRnVHBkwx9OCQ=="/>
         </item>
     </channel>
 </rss>
