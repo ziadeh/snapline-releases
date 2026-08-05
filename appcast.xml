@@ -3,6 +3,29 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.5.0</title>
+            <pubDate>Wed, 05 Aug 2026 15:21:07 +0300</pubDate>
+            <sparkle:version>2.5.0</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>QR codes and barcodes</h2>
+<p>Snapline now reads QR codes and barcodes in your captures — on-device, alongside text recognition.</p>
+<ul>
+  <li><b>Codes section in the Text window:</b> every detected code is listed with its payload and a Copy button. Link payloads get an Open button that always shows you the full URL before anything opens.</li>
+  <li><b>Search by payload:</b> a URL or ticket number that exists in a capture only as a code now finds that capture in History search.</li>
+  <li><b>Older captures:</b> open a capture's Text window and use Re-scan to detect codes in captures taken before this update.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.5.0.zip" length="5223031" type="application/octet-stream" sparkle:edSignature="/V7cUD5haSv6/0Y3cEeoIAYMLnUB56PSD1Gs5Hzw1uGAQ3O8SdezIFGoZAe82KFAgTsotW6aPjkgsjgGXDJcCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.5.0-2.4.0.delta" sparkle:deltaFrom="2.4.0" length="440574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AZItihhac49DUHTUVkQunGJusy09uPqbSvbi7vZW2athT5B7WcYNhRi9KQdWjdjcpbP7p1anemmHYWYjAr2cAw=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.5.0-2.3.0.delta" sparkle:deltaFrom="2.3.0" length="524702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7Fr/ZRp3DAaSUVhVF9MROKOrQzZOMjdPCW7rnDvLLZL48GEZAiLpddELrtUgj+UEbQZLurz4nsuxTXokGMmsCw=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.5.0-2.2.0.delta" sparkle:deltaFrom="2.2.0" length="569546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="X828b/Zvgsz4JMc9clTacrL0tgmc7R3fTpU6OExirUKuN0hlp2En3vggQzISA2ZxcnGP+q8s3hxf8xPxx6iYDA=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.5.0-2.1.0.delta" sparkle:deltaFrom="2.1.0" length="632238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YWmnUQltrXwUAiNOx83+3S4etIUZHECUuX57Z4hKQ5/0H0Uyb+N2fCXYm0pxOBY6KuYXLQB9pdSk5n1bRqBIBg=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.5.0-2.0.4.delta" sparkle:deltaFrom="2.0.4" length="751434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yMVM1hZj2c9MPVj13OMw2+R2JH5xzSP/ZAdS67Ihgq4arMMcN66sUOF+5XIiwAZ1akgbih92BgowakJgLdKPCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.4.0</title>
             <pubDate>Tue, 04 Aug 2026 22:01:36 +0300</pubDate>
             <sparkle:version>2.4.0</sparkle:version>
@@ -16,13 +39,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.4.0.zip" length="5179834" type="application/octet-stream" sparkle:edSignature="ud2qhe92sIWPJ+qZxpYDaEOAOhWoTMV+awj5JFL3aVFedW3OlvciJGQGx5eLNAO3H2Fg+Iynf3rinMBkaXQSDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.3.0.delta" sparkle:deltaFrom="2.3.0" length="432074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kzBN62JfEZF6kWUhDWB40YJb4+Y9lMxievY8rPkkbpQgexTJZi8PbbIQAyUqXG4w+rtTdM9HcgnsCfAdrR7/CA=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.2.0.delta" sparkle:deltaFrom="2.2.0" length="479258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PVFBEyUOguDGzLyxM00AMWWgqY0OvJ3jvYbw/cHNZ7enbLR1G7Zp6hA6JreEzQlHHcW2aEtN5u3WFFzmuyjyDg=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.1.0.delta" sparkle:deltaFrom="2.1.0" length="552574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="s1zTZysLnox6S9jaGO37Hk29fR+yLMJbTrpNvNkKgfmzp93tIxv6hK2Mb1D59C9nuTCIrGz53ZT8HRS0QscpCA=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.0.4.delta" sparkle:deltaFrom="2.0.4" length="687058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Blwc5G8mBTgs+ZnYmamoFAHydtAQyPPT1DEDsPipRy6Q4zgaJY8yvjIC1DU9RtsjBa0RS9Q4CGm2vqVVSCN+BQ=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.4.0-2.0.3.delta" sparkle:deltaFrom="2.0.3" length="704602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ly2JrD8ol5IWpD7S2az6ZocWhntc5WTejgwzVU9lAKRtGs4IuZE+6tvuwpAdRg3K4khQCDc15l3cPlgAJ6x6DA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.3.0</title>
@@ -38,21 +54,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.3.0.zip" length="5152277" type="application/octet-stream" sparkle:edSignature="gmKFyw8j8Tc85QaEhXZoXzvrGWzbdUrdGxziLSUl+Y1vJMHToZaNiaNsnd9VG2yjjRUd+A7jbuIIQ9lztlG0BQ=="/>
-        </item>
-        <item>
-            <title>2.2.0</title>
-            <pubDate>Mon, 03 Aug 2026 23:45:26 +0300</pubDate>
-            <sparkle:version>2.2.0</sparkle:version>
-            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.2.0</h2>
-<ul>
-  <li><b>Smart Redact sees faces and people</b> &mdash; two new opt-in detectors in the Smart Redact settings find human faces and full or partial figures: bystanders, video-call tiles, profile photos. Each detection becomes an ordinary redaction &mdash; blur, pixelate, or solid, individually deletable &mdash; in the editor&rsquo;s scan and the after-capture pass alike.</li>
-  <li>One subject, one annotation: a face inside a detected person is covered by the person box alone, so deleting a false positive never leaves an orphaned box behind. In Tall Captures, a figure crossing a scan seam comes back as a single box, not two halves.</li>
-  <li>The completion message counts per detector (&ldquo;Found 3 faces and 1 person&rdquo;), a clean scan says so explicitly, and if one detector can&rsquo;t read an image the others&rsquo; results still land &mdash; with a note naming what didn&rsquo;t run. All detection is on-device; nothing leaves your Mac, and no new permissions are needed.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.2.0.zip" length="5127685" type="application/octet-stream" sparkle:edSignature="+sPHrX/TRA32vM7zvQdiY5Sz6qZMclgEfeTOoBiEDBejwxZXxjTzi8po4fuvd1xiLSjzo6lFSmzToQ4dRvR6DQ=="/>
         </item>
     </channel>
 </rss>
