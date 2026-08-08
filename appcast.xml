@@ -3,6 +3,37 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.7.0</title>
+            <pubDate>Sat, 08 Aug 2026 15:45:36 +0300</pubDate>
+            <sparkle:version>2.7.0</sparkle:version>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Help, one keystroke away</h2>
+<p>A new Snapline Help window — from Help… in the status menu, or ⌘? in any Snapline window — so what the app can do is never more than a click from where you are.</p>
+<ul>
+  <li><b>Shortcuts:</b> a cheat sheet grouped by surface — Capturing, After a capture, History, Editor — showing <i>your</i> actual bindings, live. Change a shortcut in Settings and the sheet follows; an unbound action stays listed, greyed, with a link straight to the Shortcuts pane.</li>
+  <li><b>Features:</b> the capability tour — capture modes, editor tools, Smart Redact, Copy Text, QR &amp; barcode detection, Translation, History, pinning, export — each with a one-liner, including the ones you'd otherwise only find by accident.</li>
+  <li>A real Help menu joins the menu bar, so ⌘? and macOS's own help search work the way they do everywhere else.</li>
+</ul>
+<h2>Recordings keep every second</h2>
+<p>A recording that ended on a still screen used to lose its tail: the file stopped at the last moment anything changed on screen, so ten seconds of recording could save as a five-second movie. Recordings are now anchored to the moment you press stop.</p>
+<ul>
+  <li><b>Still time is recorded time:</b> the last frame holds until the moment you stopped, however long the screen sat still — and the menu-bar timer keeps counting through still stretches, always reading what the file will hold.</li>
+  <li><b>Pauses cut exactly the paused span:</b> still time on either side of a pause stays in the recording, and a recording resumed onto a still screen starts counting again immediately. Only the time between pause and resume is removed.</li>
+  <li><b>Stopping is immediate and safe:</b> the file is finalized before the capture stream is torn down, so a slow teardown can no longer cost recorded seconds — and the moment you press stop, the menu bar swaps the red recording control for a quiet "finalizing" glyph frozen at the recording's final length.</li>
+  <li><b>GIF export holds the last frame</b> for its full duration, so a converted recording lasts exactly as long as the movie it came from.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.7.0.zip" length="5311954" type="application/octet-stream" sparkle:edSignature="U0zXLN3m0WB6g4HjzU/8yxG6mWChds8tAPg9J+42sK9upBzHV+iIF9tDlSCdWvlgx1ioO8b5xmM1wUhQns4hBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.7.0-2.6.0.delta" sparkle:deltaFrom="2.6.0" length="436702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E4FwCnHQQfezRBVUtfWBMh1XvXrRbEAHY/spNnA5Y2enT1giCubzY7NwpXephKFTJvFTMERwwtUHyrg2ZWMDAg=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.7.0-2.5.0.delta" sparkle:deltaFrom="2.5.0" length="541838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v/rzd0BMR5HKksFUxn0/phIzs/TyCa7T2+J7+Ii6Hc5fZaySGS0036mdn9ORHO3XdPWIRmWdYw13nIe1EqSDBQ=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.7.0-2.4.0.delta" sparkle:deltaFrom="2.4.0" length="631030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1UXWHHX/v+7MnaSDqRRkeX3C9FG2Nq0UYGK0N5Felnea4mUh6LUpEBLXyVDf5dKdve0qg+yF9mn6jA8p/NDOCA=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.7.0-2.3.0.delta" sparkle:deltaFrom="2.3.0" length="710534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VPsHep5gHeZdfk0gS8pPVBCOVHu0o/XYX32T+oRhO6EjWfOlgS8D+20xBtG1z8pYaO71x/01Dx6iKjWdi8JzAw=="/>
+                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.7.0-2.2.0.delta" sparkle:deltaFrom="2.2.0" length="748710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RK7RofKwGB/qOWapyyPqqiMklxB9md8ZvvX89GCu0FVLzSV2WJm74/YDkLEGSO8etKmKOfKzjPPeSQZcIIFzBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.6.0</title>
             <pubDate>Thu, 06 Aug 2026 23:00:07 +0300</pubDate>
             <sparkle:version>2.6.0</sparkle:version>
@@ -24,13 +55,6 @@
 <p>A license key confirmed to be circulating publicly no longer verifies; its owner received a free replacement. Replacement keys are always free from support.</p>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.6.0.zip" length="5258967" type="application/octet-stream" sparkle:edSignature="IdCow0jLsUFj6sbpNK84P2r1bu/XHK9XVRrtlooe5QNYBQYJuK1pYOLtHaX6Sn3R8LculNAPYgsUQKCIqxCiAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.6.0-2.5.0.delta" sparkle:deltaFrom="2.5.0" length="429694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AS9A8gkw4eW1jHvkYfvjlT6cwUjuT/vpgKIqF1Uy9G4EnCj4Cqs4gLPRNjrcMjMTCwEOHVggU/6bbEeQdNZwBw=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.6.0-2.4.0.delta" sparkle:deltaFrom="2.4.0" length="539750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v9O8VCFhkN2/e1UV2uSYxENpRBl5hLLtl+P+6RFVN9ntMABmTPe2qWKN4VrNV2Mgw2XSWLMpdAl/NcDWGllTDg=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.6.0-2.3.0.delta" sparkle:deltaFrom="2.3.0" length="623998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a8+2/X47fpVUgR0/NIDgjbLq/A3et1X1Rl4EkSYissGaIuZpzOhCunmkeyN22Fl7adMfFITdH5Ku0ww70IXjCg=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.6.0-2.2.0.delta" sparkle:deltaFrom="2.2.0" length="657178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/qLGZ8D30BIwJavSM2SKvvxSAcjiUs4FmE1DbnTln1c3htFi07a2qR501MxsvDRpmVfjPy+l696QYm9m68urDQ=="/>
-                <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline2.6.0-2.1.0.delta" sparkle:deltaFrom="2.1.0" length="717842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="enNZIvndtWLglz5jbOt37X0tJ4hehf9ZWPh8VT0muvk0WKTc3Gy+HRdgOEdTjEcFr5J1Zb1YTfgUHWrYK0QxCQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.5.0</title>
@@ -47,21 +71,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.5.0.zip" length="5223031" type="application/octet-stream" sparkle:edSignature="/V7cUD5haSv6/0Y3cEeoIAYMLnUB56PSD1Gs5Hzw1uGAQ3O8SdezIFGoZAe82KFAgTsotW6aPjkgsjgGXDJcCA=="/>
-        </item>
-        <item>
-            <title>2.4.0</title>
-            <pubDate>Tue, 04 Aug 2026 22:01:36 +0300</pubDate>
-            <sparkle:version>2.4.0</sparkle:version>
-            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.4.0</h2>
-<ul>
-  <li><strong>Measure tool</strong> — a new editor tool (M) reads distances straight off a capture: drag to draw a ruler line with endpoint ticks and a live length label. Hold Shift to snap to 0/45/90°, and drag either endpoint later to re-measure — the label follows.</li>
-  <li><strong>Pixels or points</strong> — the label reads in device pixels, or in points on captures that recorded their display's scale (new captures do, automatically). A 100-pt span captured on a Retina display reads 200 px or 100 pt, your pick; the toggle sits in the tool options. Older and imported captures keep the pt toggle visibly disabled rather than guessing a scale that could read wrong.</li>
-  <li>The outlined label stays legible over any content — light, dark, or busy — and measurements survive export and History re-edit as editable shapes, like every other annotation.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/ziadeh/snapline-releases/releases/download/updates/Snapline-2.4.0.zip" length="5179834" type="application/octet-stream" sparkle:edSignature="ud2qhe92sIWPJ+qZxpYDaEOAOhWoTMV+awj5JFL3aVFedW3OlvciJGQGx5eLNAO3H2Fg+Iynf3rinMBkaXQSDA=="/>
         </item>
     </channel>
 </rss>
