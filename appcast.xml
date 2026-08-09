@@ -3,6 +3,51 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.8.1</title>
+            <pubDate>Sun, 09 Aug 2026 14:14:14 +0300</pubDate>
+            <sparkle:version>2.8.1</sparkle:version>
+            <sparkle:shortVersionString>2.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.8.1</h2>
+<p>A reliability and privacy release: every finding from a full audit of the app, fixed.</p>
+
+<h3>Privacy</h3>
+<ul>
+  <li><b>Redactions are now unrecoverable by default.</b> New redactions use a solid box — blur and pixelate remain available, with a note that blurred text can sometimes be reconstructed.</li>
+  <li>Redacting a screenshot while its text was still being indexed can no longer leave the pre-redaction text searchable.</li>
+  <li>With Smart Redact after capture, the un-redacted original is now kept privately in Snapline's own storage instead of your screenshots folder — so raw captures never sync to Desktop, Dropbox, or iCloud locations.</li>
+  <li>Auto-copied captures are marked as concealed, so clipboard managers no longer archive them.</li>
+  <li>Turning off "Index text in screenshots" right after launch now purges reliably, and the on-disk index is readable only by your account.</li>
+</ul>
+
+<h3>Never lose an edit</h3>
+<ul>
+  <li>Clicking Done, Pin, or Copy with a caption still being typed now includes that text in the saved image.</li>
+  <li>Quitting immediately after a capture no longer loses the capture's History entry, and quitting after a recording keeps its duration badge.</li>
+  <li>Editing or relocating your archive is now crash-safe — a crash at the wrong moment can no longer drop entries from History.</li>
+  <li>A save that fails (full disk, unmounted volume) now says so instead of failing silently.</li>
+</ul>
+
+<h3>Fixes</h3>
+<ul>
+  <li>Cancelling Tall Capture during startup no longer leaves the screen-recording indicator on.</li>
+  <li>Clicking a shape to select it no longer disturbs undo/redo.</li>
+  <li>The Quick Access card no longer slides away underneath an open Save dialog.</li>
+  <li>Changing the translation language mid-translation now reliably restarts it.</li>
+  <li>Combining many large captures no longer spikes memory before reporting the size limit.</li>
+  <li>Many smaller fixes across capture, recording, trimming, and licensing.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.8.1.zip" length="5519191" type="application/octet-stream" sparkle:edSignature="bMKdcAwU+Nhe7OsG+1c0y0asKGj/rD501V5Mc00SkdIKmHPDCSHwGisWKMSMZeU9Q1wjjxXeDsb6urX4h+fZCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.8.0.delta" sparkle:deltaFrom="2.8.0" length="769790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="105r/a/0CoQn5xE/QB2eBhFrIel+S4QuN4H9sv+ujZSRCveIHNVEUm+n4GfXIqItIHUyq31CXbsNX7SpK9MlBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.7.0.delta" sparkle:deltaFrom="2.7.0" length="820502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J9h/hR0zwVVFHM5nXqoWBEhN+LKLk2CzZldWWZw07rwaLz8e1k24HGS+jezuvnWQAkIFLb7A3uHLiOm2/cIjBw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.6.0.delta" sparkle:deltaFrom="2.6.0" length="873522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q+K3Ko/pWbKa5+TA+wqkBpn57fce116UD1QBOcfW05e3x3F8fNlf2wOSD/H93cpg2s6E121xNc/Aj78PKsEBDA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.5.0.delta" sparkle:deltaFrom="2.5.0" length="925814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="voeMnp5BJEQSrQ0ZpX/zx4QV9DiCrWznaTEW0kTmOXDgZMis6EYmtpDaDWzFkEAau/VkbnNhvWVn6VjmiHnGAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.4.0.delta" sparkle:deltaFrom="2.4.0" length="984806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8k5r94FzPOra6D1PcwcotBlYfagSOP1ik267PVZB1lAvGlcMWR9wEi8mAYudYW9hCH4/HNgupcYtzF/BpAn/Dw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.8.0</title>
             <pubDate>Sat, 08 Aug 2026 21:30:32 +0300</pubDate>
             <sparkle:version>2.8.0</sparkle:version>
@@ -19,13 +64,6 @@
 <p>The update feed and update downloads are now served from our own domain. From this version on, the app contacts only snap-line.app — no request from the app reaches a third-party host. Nothing to do; updates keep arriving exactly as before.</p>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.8.0.zip" length="5332254" type="application/octet-stream" sparkle:edSignature="3Sns79BOSiEZ+G8/+jQo3NfALYpHY1jE6Tn9ihvB8IMntIu42pdRzYhke8zrmwR0Z2AGYGJVw7gMarY32RyzAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.0-2.7.0.delta" sparkle:deltaFrom="2.7.0" length="385858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="39iBee5odHfG76zP9XR1MdFde8TzZolWKrLBH7u51abtv5ob32B4BjR+lVMMeWaZ4uQh3Vx3X671GukJdb/PCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.0-2.6.0.delta" sparkle:deltaFrom="2.6.0" length="516306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="huQC6kGPBNo2yb2tGJ/5iUPdKxWHM1OvBqE+AZJSQsa3AzXiiNy90MkcIl9NYOi4sM5Qy30qUIaz9oc5CSEwBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.0-2.5.0.delta" sparkle:deltaFrom="2.5.0" length="596838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0U7cHusAPZm4rjyfZ9Q/7dDar1wzBP7NX7OWv0wixT/GAA2hqLVPnsBwICOX3ic3CW8KRr6w2+xHZ/IVAnVpCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.0-2.4.0.delta" sparkle:deltaFrom="2.4.0" length="680626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="miy21aT6hSpuQ/zsY3I+9wXthKD9vS84fqFQDmGOUS/wZc6oXFttqrYew1k9eS6phA+y3DYJZAKVqpquzOVfDQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.0-2.3.0.delta" sparkle:deltaFrom="2.3.0" length="753930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dshMZ+Y4ZwHH8HDpPVcttoLu6YUmxU+ROs/Tnp8LCTeeXL/wszHml5jG38lkImpu+b1w4dA6NnHn+2XMkMpICg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.7.0</title>
@@ -50,29 +88,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.7.0.zip" length="5311954" type="application/octet-stream" sparkle:edSignature="U0zXLN3m0WB6g4HjzU/8yxG6mWChds8tAPg9J+42sK9upBzHV+iIF9tDlSCdWvlgx1ioO8b5xmM1wUhQns4hBw=="/>
-        </item>
-        <item>
-            <title>2.6.0</title>
-            <pubDate>Thu, 06 Aug 2026 23:00:07 +0300</pubDate>
-            <sparkle:version>2.6.0</sparkle:version>
-            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Quick Look in History</h2>
-<p>Press Space on any capture in the History grid to peek at it — full size, without opening an editor. The same gesture you already know from Finder.</p>
-<ul>
-  <li><b>Space to preview, Space or Esc to dismiss:</b> screenshots open as images, recordings play in the native Quick Look player with standard controls. Clicking a capture still opens the Editor or Trim Editor, exactly as before.</li>
-  <li><b>Arrow keys ride along:</b> the grid gains keyboard focus — arrows move the selection ring through your current search results (only what's visible, never the full archive), and an open preview follows it. Return opens the focused capture in its editor.</li>
-  <li><b>Right-click → Quick Look</b> is there too, so the shortcut is learnable.</li>
-  <li><b>Honest about missing files:</b> previewing an entry whose file was deleted behind Snapline's back answers with a clear message naming the capture — never a broken icon, never silence.</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-  <li>Thumbnail previews keep their full Retina backing — capture cards no longer render at half resolution on Retina displays.</li>
-  <li>The Open confirmation for a scanned code's link is now a standard app-modal alert.</li>
-</ul>
-<p>A license key confirmed to be circulating publicly no longer verifies; its owner received a free replacement. Replacement keys are always free from support.</p>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.6.0.zip" length="5258967" type="application/octet-stream" sparkle:edSignature="IdCow0jLsUFj6sbpNK84P2r1bu/XHK9XVRrtlooe5QNYBQYJuK1pYOLtHaX6Sn3R8LculNAPYgsUQKCIqxCiAw=="/>
         </item>
     </channel>
 </rss>
