@@ -9,7 +9,13 @@
             <sparkle:shortVersionString>2.8.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Snapline 2.8.1</h2>
-<p>A reliability and privacy release: every finding from a full audit of the app, fixed.</p>
+<p>Two new ways to build one image from many captures, plus every finding from a full audit of the app, fixed.</p>
+
+<h3>New</h3>
+<ul>
+  <li><b>Capture Set.</b> Arm a set from the status menu (or its own rebindable shortcut) and every capture you take joins it, counted on a floating pill. Finish, and the composer lays the set out side by side, stacked, or as a grid — before/after shots, steps, states. Your captures stay ordinary History entries throughout; ending a session never deletes anything.</li>
+  <li><b>Combine from History.</b> Select captures in the History grid — Finder-style multi-select is new too — and flatten them into a single image on a backdrop of your choice. The originals stay untouched.</li>
+</ul>
 
 <h3>Privacy</h3>
 <ul>
