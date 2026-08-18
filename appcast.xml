@@ -3,6 +3,44 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.9.0</title>
+            <pubDate>Tue, 18 Aug 2026 16:17:17 +0300</pubDate>
+            <sparkle:version>2.9.0</sparkle:version>
+            <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.9.0</h2>
+<p>The editor learns to combine, any image can join your library, and recordings turn into GIFs right from History.</p>
+
+<h3>New</h3>
+<ul>
+  <li><b>Combine in the editor.</b> Drop images onto an open editor — or add them from the new toolbar popover — and they join the capture as one editable composite. Every tool works across the whole arrangement, and changing the layout or gutters keeps your annotations, undo history, and crop where they belong.</li>
+  <li><b>Import any image.</b> File &gt; Open (⌘O), Finder's "Open With", or a drop on the Dock or menu bar icon brings existing images into Snapline, filed in History like any capture.</li>
+  <li><b>GIF from History.</b> Convert a recording to a GIF straight from its History card — the GIF joins History with its own Quick Access card.</li>
+</ul>
+
+<h3>Changed</h3>
+<ul>
+  <li><b>Copy to Clipboard after capture is now on by default.</b> If you've ever set it yourself, your choice is kept.</li>
+  <li><b>The History Shelf now appears at the bottom of the screen by default.</b> Pick a different edge any time in Settings → History.</li>
+  <li>Editing a capture now surfaces it at the top of History, and wide images letterbox in their tiles instead of cropping to a middle slice.</li>
+</ul>
+
+<h3>Fixes</h3>
+<ul>
+  <li>A stale History card after an edit now refreshes correctly.</li>
+  <li>Many smaller fixes across importing, combining, and the editor from a full review pass.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.9.0.zip" length="5709530" type="application/octet-stream" sparkle:edSignature="tNEVEikJUXILHCflKVS+xL5L/RapPEtfZ3Q8/GrWZpfVYiJNo1z/BjGd2KhVY4SwVJWu9OeSLTdnF8+MSwdaBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.8.1.delta" sparkle:deltaFrom="2.8.1" length="796702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L40UYs76Szif8k/HYvgVmwmKp0bjKa1BWerS6tBQXXO6t+T5V3XucyFp3bpjcsL/KHJsfrBHoqSRwuzKGXQEBA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.8.0.delta" sparkle:deltaFrom="2.8.0" length="1067122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ovu4q0Y0FjY6fA6nQhsn2Z7Cv/eblEkeqxidPkYxIdFc3AZGfcREDzcdOPhJdNDAYKcJcZevMuJNa6kSbrL8BA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.7.0.delta" sparkle:deltaFrom="2.7.0" length="1106838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xxkQOxivL1jpQyl/Cco7OdytqKfkopTbcqZn+QOFoQcrfdlrQ3LVkhxdecY5vUw3IHrvYWGO1rPuhGava7N6Bg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.6.0.delta" sparkle:deltaFrom="2.6.0" length="1157014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ej/4H7gsuHngty6W3wfn/4khRs0RhFGbK8RzuQgoLhm43a4BuGKzfrT0uGhmdas6df+cC11LFepEakiOqa0pDA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.5.0.delta" sparkle:deltaFrom="2.5.0" length="1196878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="R3y4lsQAgrSyepzTtoUM5oUYdkgPT7hTeovzcUIxtoR1K+QWHC0AqWiht4CBaKIBPW5JkMhOdpwqYe1UvmyeCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.8.1</title>
             <pubDate>Sun, 09 Aug 2026 14:14:14 +0300</pubDate>
             <sparkle:version>2.8.1</sparkle:version>
@@ -45,13 +83,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.8.1.zip" length="5519191" type="application/octet-stream" sparkle:edSignature="bMKdcAwU+Nhe7OsG+1c0y0asKGj/rD501V5Mc00SkdIKmHPDCSHwGisWKMSMZeU9Q1wjjxXeDsb6urX4h+fZCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.8.0.delta" sparkle:deltaFrom="2.8.0" length="769790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="105r/a/0CoQn5xE/QB2eBhFrIel+S4QuN4H9sv+ujZSRCveIHNVEUm+n4GfXIqItIHUyq31CXbsNX7SpK9MlBQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.7.0.delta" sparkle:deltaFrom="2.7.0" length="820502" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J9h/hR0zwVVFHM5nXqoWBEhN+LKLk2CzZldWWZw07rwaLz8e1k24HGS+jezuvnWQAkIFLb7A3uHLiOm2/cIjBw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.6.0.delta" sparkle:deltaFrom="2.6.0" length="873522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q+K3Ko/pWbKa5+TA+wqkBpn57fce116UD1QBOcfW05e3x3F8fNlf2wOSD/H93cpg2s6E121xNc/Aj78PKsEBDA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.5.0.delta" sparkle:deltaFrom="2.5.0" length="925814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="voeMnp5BJEQSrQ0ZpX/zx4QV9DiCrWznaTEW0kTmOXDgZMis6EYmtpDaDWzFkEAau/VkbnNhvWVn6VjmiHnGAg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.8.1-2.4.0.delta" sparkle:deltaFrom="2.4.0" length="984806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8k5r94FzPOra6D1PcwcotBlYfagSOP1ik267PVZB1lAvGlcMWR9wEi8mAYudYW9hCH4/HNgupcYtzF/BpAn/Dw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.8.0</title>
@@ -70,30 +101,6 @@
 <p>The update feed and update downloads are now served from our own domain. From this version on, the app contacts only snap-line.app — no request from the app reaches a third-party host. Nothing to do; updates keep arriving exactly as before.</p>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.8.0.zip" length="5332254" type="application/octet-stream" sparkle:edSignature="3Sns79BOSiEZ+G8/+jQo3NfALYpHY1jE6Tn9ihvB8IMntIu42pdRzYhke8zrmwR0Z2AGYGJVw7gMarY32RyzAQ=="/>
-        </item>
-        <item>
-            <title>2.7.0</title>
-            <pubDate>Sat, 08 Aug 2026 15:45:36 +0300</pubDate>
-            <sparkle:version>2.7.0</sparkle:version>
-            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Help, one keystroke away</h2>
-<p>A new Snapline Help window — from Help… in the status menu, or ⌘? in any Snapline window — so what the app can do is never more than a click from where you are.</p>
-<ul>
-  <li><b>Shortcuts:</b> a cheat sheet grouped by surface — Capturing, After a capture, History, Editor — showing <i>your</i> actual bindings, live. Change a shortcut in Settings and the sheet follows; an unbound action stays listed, greyed, with a link straight to the Shortcuts pane.</li>
-  <li><b>Features:</b> the capability tour — capture modes, editor tools, Smart Redact, Copy Text, QR &amp; barcode detection, Translation, History, pinning, export — each with a one-liner, including the ones you'd otherwise only find by accident.</li>
-  <li>A real Help menu joins the menu bar, so ⌘? and macOS's own help search work the way they do everywhere else.</li>
-</ul>
-<h2>Recordings keep every second</h2>
-<p>A recording that ended on a still screen used to lose its tail: the file stopped at the last moment anything changed on screen, so ten seconds of recording could save as a five-second movie. Recordings are now anchored to the moment you press stop.</p>
-<ul>
-  <li><b>Still time is recorded time:</b> the last frame holds until the moment you stopped, however long the screen sat still — and the menu-bar timer keeps counting through still stretches, always reading what the file will hold.</li>
-  <li><b>Pauses cut exactly the paused span:</b> still time on either side of a pause stays in the recording, and a recording resumed onto a still screen starts counting again immediately. Only the time between pause and resume is removed.</li>
-  <li><b>Stopping is immediate and safe:</b> the file is finalized before the capture stream is torn down, so a slow teardown can no longer cost recorded seconds — and the moment you press stop, the menu bar swaps the red recording control for a quiet "finalizing" glyph frozen at the recording's final length.</li>
-  <li><b>GIF export holds the last frame</b> for its full duration, so a converted recording lasts exactly as long as the movie it came from.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.7.0.zip" length="5311954" type="application/octet-stream" sparkle:edSignature="U0zXLN3m0WB6g4HjzU/8yxG6mWChds8tAPg9J+42sK9upBzHV+iIF9tDlSCdWvlgx1ioO8b5xmM1wUhQns4hBw=="/>
         </item>
     </channel>
 </rss>
