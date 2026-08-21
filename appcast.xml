@@ -3,6 +3,36 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.10.0</title>
+            <pubDate>Fri, 21 Aug 2026 04:48:05 +0300</pubDate>
+            <sparkle:version>2.10.0</sparkle:version>
+            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Try everything free for 14 days</h2>
+<p>Snapline now starts as a full-featured trial: every capture mode, recording, and editor feature works for 14 days, with no card, no account, and no sign-up. When the trial ends, capture locks until a license is entered — History, the editor, and text recognition stay open, because those hold captures you already made.</p>
+<ul>
+  <li><b>Already tried Snapline before the trial existed?</b> If this install was unlicensed, a fresh 14 days starts the first time you launch this version — deliberately, so you can judge the whole app rather than a paywall.</li>
+  <li><b>Quiet by design:</b> no banners, no nags. In the final days, a small "N days left · Buy Snapline" countdown appears in the status menu and the License pane, and that's all.</li>
+  <li>Trials are dated by Snapline's server, so a reinstall doesn't restart one.</li>
+</ul>
+<h2>Activation goes online — and runs offline</h2>
+<p>Pasting your license key now makes one quick check that claims this Mac's seat. After that, everything works offline: launches, captures, and every feature verify locally, with no account and no sign-in.</p>
+<ul>
+  <li><b>One seat, one Mac:</b> a license activates on as many Macs at once as its seat count. Moving is instant — deactivate in Settings → License on the old Mac, activate on the new one.</li>
+  <li><b>Already activated?</b> Nothing to do. Your install keeps working untouched and upgrades itself silently the first time it's online.</li>
+  <li>The activation call carries your key and a salted hash of this Mac's hardware identifier — never the identifier itself. The <a href="https://snap-line.app/privacy/">privacy policy</a> spells out exactly what's sent and stored.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.10.0.zip" length="5770894" type="application/octet-stream" sparkle:edSignature="k4F7mLvOcKbDS9rxGGzaY2f2Pkqw/ypNGhgwq233RF345WuO6jhe/X/6qoeUwz5n7gHPklPmo6mxT1VrJe4XBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.10.0-2.9.0.delta" sparkle:deltaFrom="2.9.0" length="509962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BFaHBe5BUiwUi72/UE3P4KsgGHaV/YQvbtUQn7ECsC45GG7yYZVgN0ZJcznziNEnkNvwprdMWtVhw1D1V1JKDA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.10.0-2.8.1.delta" sparkle:deltaFrom="2.8.1" length="899418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="y/UsgDnVyNItekgfGRjt3aiFr7nlm+AJY7dqj5VEe/kMmo5B7Dghd2gSGXu8NqWP7QPMSGxMGpR1KxnpGp4ZBw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.10.0-2.8.0.delta" sparkle:deltaFrom="2.8.0" length="1150886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mLVnH4UYWoaQA1TDcFxhQjEWAa7h2c9+IJubtcytAzzIpAwKhPmGjMOidWs5v5k4HQC4i7yqbYvSSJfqPqbiAw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.10.0-2.7.0.delta" sparkle:deltaFrom="2.7.0" length="1185890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SjGvvr1fQALoy4fRPdNXj9wap9eZy1qaz1B1eH+QOGAihusTefLIDKmZo/hELEAgE7jzZMLcYVmez2l2PkQvDQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.10.0-2.6.0.delta" sparkle:deltaFrom="2.6.0" length="1235958" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RjVA0+rXzD9hTKap+fM6aOlX9vs5eBTFiQ+kAGOVG0PS5XPZiL186kkOH+SDooiSMKeU+m3yPRpwHWUnZQo1CA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.9.0</title>
             <pubDate>Tue, 18 Aug 2026 16:17:17 +0300</pubDate>
             <sparkle:version>2.9.0</sparkle:version>
@@ -32,13 +62,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.9.0.zip" length="5709530" type="application/octet-stream" sparkle:edSignature="tNEVEikJUXILHCflKVS+xL5L/RapPEtfZ3Q8/GrWZpfVYiJNo1z/BjGd2KhVY4SwVJWu9OeSLTdnF8+MSwdaBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.8.1.delta" sparkle:deltaFrom="2.8.1" length="796702" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L40UYs76Szif8k/HYvgVmwmKp0bjKa1BWerS6tBQXXO6t+T5V3XucyFp3bpjcsL/KHJsfrBHoqSRwuzKGXQEBA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.8.0.delta" sparkle:deltaFrom="2.8.0" length="1067122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ovu4q0Y0FjY6fA6nQhsn2Z7Cv/eblEkeqxidPkYxIdFc3AZGfcREDzcdOPhJdNDAYKcJcZevMuJNa6kSbrL8BA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.7.0.delta" sparkle:deltaFrom="2.7.0" length="1106838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xxkQOxivL1jpQyl/Cco7OdytqKfkopTbcqZn+QOFoQcrfdlrQ3LVkhxdecY5vUw3IHrvYWGO1rPuhGava7N6Bg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.6.0.delta" sparkle:deltaFrom="2.6.0" length="1157014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ej/4H7gsuHngty6W3wfn/4khRs0RhFGbK8RzuQgoLhm43a4BuGKzfrT0uGhmdas6df+cC11LFepEakiOqa0pDA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.9.0-2.5.0.delta" sparkle:deltaFrom="2.5.0" length="1196878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="R3y4lsQAgrSyepzTtoUM5oUYdkgPT7hTeovzcUIxtoR1K+QWHC0AqWiht4CBaKIBPW5JkMhOdpwqYe1UvmyeCA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.8.1</title>
@@ -83,24 +106,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.8.1.zip" length="5519191" type="application/octet-stream" sparkle:edSignature="bMKdcAwU+Nhe7OsG+1c0y0asKGj/rD501V5Mc00SkdIKmHPDCSHwGisWKMSMZeU9Q1wjjxXeDsb6urX4h+fZCA=="/>
-        </item>
-        <item>
-            <title>2.8.0</title>
-            <pubDate>Sat, 08 Aug 2026 21:30:32 +0300</pubDate>
-            <sparkle:version>2.8.0</sparkle:version>
-            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Choose what the text index keeps</h2>
-<p>A new privacy setting — <b>Index text in screenshots</b>, in Settings → History, on by default — governs what text recognition <i>keeps</i>, never what it can read.</p>
-<ul>
-  <li><b>Off purges the index:</b> the background indexer stops, and every recognition record already stored — text, code payloads, cached translations — is deleted behind a confirmation that states exactly how many entries it covers.</li>
-  <li><b>Everything still works:</b> Copy Text, the Text window, code detection, and translation read the capture on demand and keep nothing. History search falls back to filenames and dates, and the empty state says so.</li>
-  <li><b>Nothing is lost but the stored text:</b> re-enable the setting and your captures are indexed again, automatically.</li>
-</ul>
-<h2>Updates come straight from snap-line.app</h2>
-<p>The update feed and update downloads are now served from our own domain. From this version on, the app contacts only snap-line.app — no request from the app reaches a third-party host. Nothing to do; updates keep arriving exactly as before.</p>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.8.0.zip" length="5332254" type="application/octet-stream" sparkle:edSignature="3Sns79BOSiEZ+G8/+jQo3NfALYpHY1jE6Tn9ihvB8IMntIu42pdRzYhke8zrmwR0Z2AGYGJVw7gMarY32RyzAQ=="/>
         </item>
     </channel>
 </rss>
