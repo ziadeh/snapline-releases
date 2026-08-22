@@ -3,6 +3,38 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.12.0</title>
+            <pubDate>Sat, 22 Aug 2026 13:55:45 +0300</pubDate>
+            <sparkle:version>2.12.0</sparkle:version>
+            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.12.0</h2>
+<p>Screen recordings can carry sound: your microphone, what your Mac is playing, or both — each its own track in the movie.</p>
+
+<h3>New</h3>
+<ul>
+  <li><b>Microphone and System Audio for recordings.</b> Two toggles, in Settings → General and right on the Record Screen bar. Each source is written as its own track, never mixed, so an editor can pull either apart later. Both are off by default — a recording stays silent until you say otherwise.</li>
+  <li><b>Pick your microphone.</b> The Record Screen bar lists every connected input. Your choice sticks; if the device isn't connected at record time, Snapline says so, records with the system default, and shows the missing device as "not connected" until you re-pick.</li>
+</ul>
+
+<h3>Notes</h3>
+<ul>
+  <li>A recording never fails because of the microphone. Access refused, no input device, or a microphone unplugged mid-take — Snapline tells you at the time, and the video (and any system audio) is exactly what it would have been.</li>
+  <li>Audio stays in step with the picture through pauses, stalls, and long takes — gaps are healed rather than letting the soundtrack drift.</li>
+  <li>Snapline's own notification pills no longer appear in recordings.</li>
+  <li>Recorded audio stays inside the movie file on your Mac; nothing is uploaded. Snapline asks for microphone access only when you turn Microphone on — the privacy policy spells it out.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.12.0.zip" length="5869505" type="application/octet-stream" sparkle:edSignature="WuR63UFrD7EEEuRs4N2iqcA8T6jxqW6i9oJtoNHCpMgeveUu5T46EmX2mMyA/cgC37quzi/+IjBhP/7gil2ECA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.11.0.delta" sparkle:deltaFrom="2.11.0" length="564218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mqD1WsGvC0QhzKBRKPWT9uqoD3Gm4Vak9RaRpXXOQjdPCpeuuabdTHnwDmFjBjaGbRE8PlbR005GG3B9QCpLCQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.10.0.delta" sparkle:deltaFrom="2.10.0" length="675014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U7Wo/HcUqCa4JtAtD4CP2exizSkElZRLL/3sgShpDYHFy9e5ZfJSHdKNjf+4ENxpQ5Y2yN0IEafRp+IKeNduCQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.9.0.delta" sparkle:deltaFrom="2.9.0" length="743354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N/pekBlRzmq5CptoToEER+j257xgsNEZxCE6dcIcKkvggBKlKCboXegyZxc8rrxI/cc5D922HPezHGESn05kCA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.8.1.delta" sparkle:deltaFrom="2.8.1" length="1066594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fky57ncSU4F6lbS66i792K1FzruQcSerXELENqy4ic50sOpG5I1AeUQvYWIDobPboPqKLfzxKETuiXGh5g1NBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.8.0.delta" sparkle:deltaFrom="2.8.0" length="1278254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LqH85R4CGPlD666iWqV2IIDJoCMrdF/L/eZT/lGZrU5N9NWeudmNUOfzcNu2oiAj6AW08KCE0AnebErUXs8ADA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.11.0</title>
             <pubDate>Sat, 22 Aug 2026 00:10:03 +0300</pubDate>
             <sparkle:version>2.11.0</sparkle:version>
@@ -25,13 +57,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.11.0.zip" length="5792306" type="application/octet-stream" sparkle:edSignature="6SmvyatyLmDhHdhfPXBFoN4KL0zHTkdCyqdfCQ3Xb1jpK4LYey8qOvWl0aQ4vt9qP/4Uktymjpd1s1sbGi+6CQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.11.0-2.10.0.delta" sparkle:deltaFrom="2.10.0" length="518250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w4ijmnoujICzn1AmDsGakmCF1t6ipcva8TJlujgy9Ekqmt0tZrLOJan9PPeSYF86bKPAw9B16jsAFhamRzw4Aw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.11.0-2.9.0.delta" sparkle:deltaFrom="2.9.0" length="612770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Wtz3TmnBTU172oxrAXH7UBxsqL5lD6gyXVj7SxRpA8hym1NlgcxX0goPofWwQgpuDVASxf2jv5FLQDVf/p5bAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.11.0-2.8.1.delta" sparkle:deltaFrom="2.8.1" length="956762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zu9jU2YgnpXyhm4ag9GE2b33CohMe2EJldGrYZuUnE3BulxUDWz4bGliv7BPayFzrViSmKfRAbFmhF4A8CcqAg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.11.0-2.8.0.delta" sparkle:deltaFrom="2.8.0" length="1186154" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f71IctO6hOD41mAEKRTPhlA9m+5SOZy63mskYgoXJxQozvV3yVCiNOxgPtzu7uq5aStoMlW2yOSpkCvbgFUXBw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.11.0-2.7.0.delta" sparkle:deltaFrom="2.7.0" length="1217954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="De7+20bCAPV2ofRKND7LfUtZ2EyGtMmeEJedyRqmVT8+LD5QotMqXHB7535C4ngXuIKuyhKkGPesWn0HUhqGDw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.10.0</title>
@@ -55,37 +80,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.10.0.zip" length="5770894" type="application/octet-stream" sparkle:edSignature="k4F7mLvOcKbDS9rxGGzaY2f2Pkqw/ypNGhgwq233RF345WuO6jhe/X/6qoeUwz5n7gHPklPmo6mxT1VrJe4XBQ=="/>
-        </item>
-        <item>
-            <title>2.9.0</title>
-            <pubDate>Tue, 18 Aug 2026 16:17:17 +0300</pubDate>
-            <sparkle:version>2.9.0</sparkle:version>
-            <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.9.0</h2>
-<p>The editor learns to combine, any image can join your library, and recordings turn into GIFs right from History.</p>
-
-<h3>New</h3>
-<ul>
-  <li><b>Combine in the editor.</b> Drop images onto an open editor — or add them from the new toolbar popover — and they join the capture as one editable composite. Every tool works across the whole arrangement, and changing the layout or gutters keeps your annotations, undo history, and crop where they belong.</li>
-  <li><b>Import any image.</b> File &gt; Open (⌘O), Finder's "Open With", or a drop on the Dock or menu bar icon brings existing images into Snapline, filed in History like any capture.</li>
-  <li><b>GIF from History.</b> Convert a recording to a GIF straight from its History card — the GIF joins History with its own Quick Access card.</li>
-</ul>
-
-<h3>Changed</h3>
-<ul>
-  <li><b>Copy to Clipboard after capture is now on by default.</b> If you've ever set it yourself, your choice is kept.</li>
-  <li><b>The History Shelf now appears at the bottom of the screen by default.</b> Pick a different edge any time in Settings → History.</li>
-  <li>Editing a capture now surfaces it at the top of History, and wide images letterbox in their tiles instead of cropping to a middle slice.</li>
-</ul>
-
-<h3>Fixes</h3>
-<ul>
-  <li>A stale History card after an edit now refreshes correctly.</li>
-  <li>Many smaller fixes across importing, combining, and the editor from a full review pass.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.9.0.zip" length="5709530" type="application/octet-stream" sparkle:edSignature="tNEVEikJUXILHCflKVS+xL5L/RapPEtfZ3Q8/GrWZpfVYiJNo1z/BjGd2KhVY4SwVJWu9OeSLTdnF8+MSwdaBA=="/>
         </item>
     </channel>
 </rss>
