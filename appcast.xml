@@ -3,6 +3,33 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.13.0</title>
+            <pubDate>Tue, 25 Aug 2026 00:04:22 +0300</pubDate>
+            <sparkle:version>2.13.0</sparkle:version>
+            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.13.0</h2>
+<p>The Screen Recording permission flow gets untangled: one dialog at a time, and it's the right one.</p>
+
+<h3>Permissions</h3>
+<ul>
+  <li><b>No more stacked dialogs.</b> When Screen Recording access is missing, macOS's own prompt now goes first — Snapline stays quiet behind it instead of piling its own alert on top.</li>
+  <li><b>The Settings button lands somewhere useful.</b> Snapline's alert now registers the app with macOS before opening System Settings, so the Screen Recording list always has a Snapline row to act on.</li>
+  <li><b>Honest instructions.</b> The alert no longer blames "the update" for a missing grant, and its steps cover both cases: a stale entry that needs removing and re-adding, and no entry at all.</li>
+  <li><b>Relaunch offered, not homework.</b> Once you grant access, Snapline notices and offers to relaunch itself so recording features pick up the permission.</li>
+  <li><b>No more dead shortcut.</b> A capture attempt after a declined prompt now explains the way forward instead of silently doing nothing.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.13.0.zip" length="5906176" type="application/octet-stream" sparkle:edSignature="Cr8XjSIdizd6JohmwHY36FXEJR+X9gfpBw3Tp/16LO05HzQxqAzJORGpz31fWfEyqd3bctHGqH8vY17V/JlGCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.13.0-2.12.0.delta" sparkle:deltaFrom="2.12.0" length="589826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LxaQkJOxmRWVqCD3vH12K+HdYE4v3QUeh0pj5KGLByvCcOR9ZWa0uYok/bEB2jW5QY6wkYGX128S5TxHrJvmAQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.13.0-2.11.0.delta" sparkle:deltaFrom="2.11.0" length="727918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IE1AG4TTC0BlL4TZNP5ncOqo4cI6dwq8Q9gMAiHcprhIxSSCEv79ujnzrxYKipW5Y2JK73iJbechPn5dUaQ1Cg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.13.0-2.10.0.delta" sparkle:deltaFrom="2.10.0" length="805550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="75s5LSr1JkWwYfvQ7MGpfyEjpkja0kNt2IDhr/xZkgAfp67q02d8ZGwN9R1/Q0ObX1TN3U+ik0b3OZkguxuTDg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.13.0-2.9.0.delta" sparkle:deltaFrom="2.9.0" length="870402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IoxW/S9e0Wt5q1WcZLfKSKEZVNss0s2ZeGwNHhoKcc+Q4IC252HXxtyf5WlBp7z9nGtJ6Knxqx6PV+A+uc04Bg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.13.0-2.8.1.delta" sparkle:deltaFrom="2.8.1" length="1162134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2WCYClSAnVb8JnQMaS0WSPB8KL0qhs1/c43K1+lvcQNOEqcqZGF+x/rFJ6FypKXil4G5SkUmqKuKtEr/h654BA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.12.0</title>
             <pubDate>Sat, 22 Aug 2026 13:55:45 +0300</pubDate>
             <sparkle:version>2.12.0</sparkle:version>
@@ -26,13 +53,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.12.0.zip" length="5869505" type="application/octet-stream" sparkle:edSignature="WuR63UFrD7EEEuRs4N2iqcA8T6jxqW6i9oJtoNHCpMgeveUu5T46EmX2mMyA/cgC37quzi/+IjBhP/7gil2ECA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.11.0.delta" sparkle:deltaFrom="2.11.0" length="564218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mqD1WsGvC0QhzKBRKPWT9uqoD3Gm4Vak9RaRpXXOQjdPCpeuuabdTHnwDmFjBjaGbRE8PlbR005GG3B9QCpLCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.10.0.delta" sparkle:deltaFrom="2.10.0" length="675014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U7Wo/HcUqCa4JtAtD4CP2exizSkElZRLL/3sgShpDYHFy9e5ZfJSHdKNjf+4ENxpQ5Y2yN0IEafRp+IKeNduCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.9.0.delta" sparkle:deltaFrom="2.9.0" length="743354" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N/pekBlRzmq5CptoToEER+j257xgsNEZxCE6dcIcKkvggBKlKCboXegyZxc8rrxI/cc5D922HPezHGESn05kCA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.8.1.delta" sparkle:deltaFrom="2.8.1" length="1066594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fky57ncSU4F6lbS66i792K1FzruQcSerXELENqy4ic50sOpG5I1AeUQvYWIDobPboPqKLfzxKETuiXGh5g1NBQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.12.0-2.8.0.delta" sparkle:deltaFrom="2.8.0" length="1278254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LqH85R4CGPlD666iWqV2IIDJoCMrdF/L/eZT/lGZrU5N9NWeudmNUOfzcNu2oiAj6AW08KCE0AnebErUXs8ADA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.11.0</title>
@@ -57,29 +77,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.11.0.zip" length="5792306" type="application/octet-stream" sparkle:edSignature="6SmvyatyLmDhHdhfPXBFoN4KL0zHTkdCyqdfCQ3Xb1jpK4LYey8qOvWl0aQ4vt9qP/4Uktymjpd1s1sbGi+6CQ=="/>
-        </item>
-        <item>
-            <title>2.10.0</title>
-            <pubDate>Fri, 21 Aug 2026 04:48:05 +0300</pubDate>
-            <sparkle:version>2.10.0</sparkle:version>
-            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Try everything free for 14 days</h2>
-<p>Snapline now starts as a full-featured trial: every capture mode, recording, and editor feature works for 14 days, with no card, no account, and no sign-up. When the trial ends, capture locks until a license is entered — History, the editor, and text recognition stay open, because those hold captures you already made.</p>
-<ul>
-  <li><b>Already tried Snapline before the trial existed?</b> If this install was unlicensed, a fresh 14 days starts the first time you launch this version — deliberately, so you can judge the whole app rather than a paywall.</li>
-  <li><b>Quiet by design:</b> no banners, no nags. In the final days, a small "N days left · Buy Snapline" countdown appears in the status menu and the License pane, and that's all.</li>
-  <li>Trials are dated by Snapline's server, so a reinstall doesn't restart one.</li>
-</ul>
-<h2>Activation goes online — and runs offline</h2>
-<p>Pasting your license key now makes one quick check that claims this Mac's seat. After that, everything works offline: launches, captures, and every feature verify locally, with no account and no sign-in.</p>
-<ul>
-  <li><b>One seat, one Mac:</b> a license activates on as many Macs at once as its seat count. Moving is instant — deactivate in Settings → License on the old Mac, activate on the new one.</li>
-  <li><b>Already activated?</b> Nothing to do. Your install keeps working untouched and upgrades itself silently the first time it's online.</li>
-  <li>The activation call carries your key and a salted hash of this Mac's hardware identifier — never the identifier itself. The <a href="https://snap-line.app/privacy/">privacy policy</a> spells out exactly what's sent and stored.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.10.0.zip" length="5770894" type="application/octet-stream" sparkle:edSignature="k4F7mLvOcKbDS9rxGGzaY2f2Pkqw/ypNGhgwq233RF345WuO6jhe/X/6qoeUwz5n7gHPklPmo6mxT1VrJe4XBQ=="/>
         </item>
     </channel>
 </rss>
