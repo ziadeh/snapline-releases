@@ -9,7 +9,14 @@
             <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<h2>Snapline 2.13.0</h2>
-<p>The Screen Recording permission flow gets untangled: one dialog at a time, and it's the right one.</p>
+<p>The text tool becomes a real text box, and the Screen Recording permission flow gets untangled — one dialog at a time, and it's the right one.</p>
+
+<h3>Annotate</h3>
+<ul>
+  <li><b>The text tool becomes a real text box.</b> Drag to place a text box at the width you want — text wraps inside it instead of running in one line. Move it by its border, resize it from either side handle, scale it from the corner, and restyle it live from the color and size pickers while you type.</li>
+  <li><b>Editing that behaves like editing.</b> Enter types a newline; ⌘-Enter or a click outside commits; Esc keeps a non-empty draft; ⌘Z steps back through your typing. What you see while typing is exactly what commits — no shift when the draft lands.</li>
+  <li><b>Click to re-edit.</b> With the text tool active, clicking an existing text box opens it for editing instead of stacking a new one on top. Text from earlier versions keeps its old auto-width look until you edit it.</li>
+</ul>
 
 <h3>Permissions</h3>
 <ul>
