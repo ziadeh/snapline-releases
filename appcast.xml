@@ -3,6 +3,35 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.15.0</title>
+            <pubDate>Wed, 26 Aug 2026 11:37:58 +0300</pubDate>
+            <sparkle:version>2.15.0</sparkle:version>
+            <sparkle:shortVersionString>2.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.15.0</h2>
+<p>History learns starred captures. The relaunch now waits for the old copy to actually exit.</p>
+
+<h3>History</h3>
+<ul>
+  <li><b>History learns starred captures.</b> Star anything worth keeping and it survives the retention sweep unconditionally — it never expires, and a starred card asks before a manual delete goes through. Star from the card's hover control or its Star/Unstar menu item; a starred capture wears a badge at rest. The History toolbar gains a Starred filter that combines with search.</li>
+</ul>
+
+<h3>Robustness</h3>
+<ul>
+  <li><b>Fixed:</b> Snapline could quit itself and not come back after you answered the Screen Recording prompt. The relaunch waited a fixed half-second before reopening, which could fire while the old copy was still shutting down — so nothing came back, and no crash report explained it. The relaunch now waits for the old copy to actually exit, and when it can't reopen safely it stays running and tells you instead of vanishing. The prompt for one permission no longer triggers a relaunch offer for another.</li>
+  <li><b>Also fixed:</b> the camera bubble no longer scans for cameras on the main thread, which could stall the Record Screen bar (and probe for nearby iPhones) each time it opened; its window now closes cleanly instead of racing an in-flight animation; and the bubble's style controls no longer risk a crash from a settings change or a removed gradient stop.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.15.0.zip" length="6099842" type="application/octet-stream" sparkle:edSignature="EM5SxvgjZ0ekE8Cded7r40is0eOXU/bu8HX0nIxAQb/z03SXyJ443giBwY3KAqk4nmxHyy+D+KRcI/12hqEmCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.14.0.delta" sparkle:deltaFrom="2.14.0" length="555518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ty4EO+VUV9011jUbA4CPq4edEzCfTQu+q3Z5ujTVJumjRNAlOpx3Ms1OzMgIqrVcCV+t5mI/uSaSRTT24fCZAA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.13.0.delta" sparkle:deltaFrom="2.13.0" length="842706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t/wEKzrKfm4rlri5ENX9L6R9vc0PUXM3i648whal4/bJ8q3XIffQnQfIlxh7zeKwthzz79er7ofwncwFebEJAA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.12.0.delta" sparkle:deltaFrom="2.12.0" length="978070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zohYXqTuQLMfIKvlRakRvY25eQdWAfu6zAa/q5jFe2spklrfJmIjSbBdbC4JwS9c6NOh9szZH4vHNgYXwI0DDQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.11.0.delta" sparkle:deltaFrom="2.11.0" length="1069054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="za+M39b9KEfQsBLMd6P7jK/Kfyi1R/2qF1Z2s/GIQC3eNJf3+r/lV4hn9GxnlHG8qWi6HXZjTbsoQh0znF6vDQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.10.0.delta" sparkle:deltaFrom="2.10.0" length="1139326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2bwubyav0g4JoEjFd07F35szbtY6rmhn56rJBF9906329ls68jJtzGTyYmaWDE35+PUa2Dqf4wVsJrVnBjCzCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.14.0</title>
             <pubDate>Tue, 25 Aug 2026 20:16:07 +0300</pubDate>
             <sparkle:version>2.14.0</sparkle:version>
@@ -17,13 +46,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.14.0.zip" length="6074461" type="application/octet-stream" sparkle:edSignature="zn0GGvSHI8SVvceMuLq5FnvR4rNtRW5UWRkJmPRWSjUJx/4lqLuMGQCYGDK58lP2TDScQ0xKkNlEhXycNC3BDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.14.0-2.13.0.delta" sparkle:deltaFrom="2.13.0" length="735522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rd2xO2P/3/sgewwIo1HqZ8huQ1E4SfktMvym0gITyJVPPK6cNHit2Ra9UpOfH6oc191arvtTjoqeg3+YubSCAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.14.0-2.12.0.delta" sparkle:deltaFrom="2.12.0" length="882974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iRxE6nU/MadMpeTzW3uK+TTWsR+GYfNMx9MXIe62RKoPJj6cfKg6nugGPDabIPu1KPxfxR5rHzGhvMYgbiVaBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.14.0-2.11.0.delta" sparkle:deltaFrom="2.11.0" length="972822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="09Kr+mAkO/AW+0lHWPcAx4amcYPyNEAVsQL1HIFL6Adc/6i9x64Ys2lwwFLhPjtlUvNMfqQMzVJ6xbqdjv9wDQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.14.0-2.10.0.delta" sparkle:deltaFrom="2.10.0" length="1052586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/B+vI/2qPdLdPdSHstxTKnF92k+E7n0jzomK/NIvAkPaj+YLCe3HhzkY8iKnQZNjCL6zlr6w9Qz4Y1eXjYmiAQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.14.0-2.9.0.delta" sparkle:deltaFrom="2.9.0" length="1111990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZxFWjJcMnS24XjJim3zaKfKfrEyfGw07xUlIq0Fc7ZD9mpiHR1I0nr2p6aC/1b6thybKSMc8+5+vpGEAIy+wDg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.13.0</title>
@@ -51,31 +73,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.13.0.zip" length="5906176" type="application/octet-stream" sparkle:edSignature="Cr8XjSIdizd6JohmwHY36FXEJR+X9gfpBw3Tp/16LO05HzQxqAzJORGpz31fWfEyqd3bctHGqH8vY17V/JlGCg=="/>
-        </item>
-        <item>
-            <title>2.12.0</title>
-            <pubDate>Sat, 22 Aug 2026 13:55:45 +0300</pubDate>
-            <sparkle:version>2.12.0</sparkle:version>
-            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.12.0</h2>
-<p>Screen recordings can carry sound: your microphone, what your Mac is playing, or both — each its own track in the movie.</p>
-
-<h3>New</h3>
-<ul>
-  <li><b>Microphone and System Audio for recordings.</b> Two toggles, in Settings → General and right on the Record Screen bar. Each source is written as its own track, never mixed, so an editor can pull either apart later. Both are off by default — a recording stays silent until you say otherwise.</li>
-  <li><b>Pick your microphone.</b> The Record Screen bar lists every connected input. Your choice sticks; if the device isn't connected at record time, Snapline says so, records with the system default, and shows the missing device as "not connected" until you re-pick.</li>
-</ul>
-
-<h3>Notes</h3>
-<ul>
-  <li>A recording never fails because of the microphone. Access refused, no input device, or a microphone unplugged mid-take — Snapline tells you at the time, and the video (and any system audio) is exactly what it would have been.</li>
-  <li>Audio stays in step with the picture through pauses, stalls, and long takes — gaps are healed rather than letting the soundtrack drift.</li>
-  <li>Snapline's own notification pills no longer appear in recordings.</li>
-  <li>Recorded audio stays inside the movie file on your Mac; nothing is uploaded. Snapline asks for microphone access only when you turn Microphone on — the privacy policy spells it out.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.12.0.zip" length="5869505" type="application/octet-stream" sparkle:edSignature="WuR63UFrD7EEEuRs4N2iqcA8T6jxqW6i9oJtoNHCpMgeveUu5T46EmX2mMyA/cgC37quzi/+IjBhP/7gil2ECA=="/>
         </item>
     </channel>
 </rss>
