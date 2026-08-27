@@ -3,6 +3,31 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.16.0</title>
+            <pubDate>Thu, 27 Aug 2026 19:24:18 +0300</pubDate>
+            <sparkle:version>2.16.0</sparkle:version>
+            <sparkle:shortVersionString>2.16.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.16.0</h2>
+<p>Capture with Self-Timer: frame the region first, watch the countdown, and the shot fires by itself.</p>
+
+<h3>Capture</h3>
+<ul>
+  <li><b>Capture with Self-Timer.</b> Frame the region first, then a visible countdown runs — and the shot fires by itself. The delay is for staging: open the menu or tooltip you want inside the frame while the timer counts. Selection works exactly like a normal region capture (releasing the drag starts the timer — no extra confirm), and the countdown sits inside the region with the seconds, an Esc hint, and a ✕ to cancel. Nothing steals focus, so the menu you stage stays open, and the countdown never appears in the shot.</li>
+  <li><b>Pick 3, 5, or 10 seconds</b> from the new status-menu item beside the Self-Timer setting — its top row remembers your last-used delay for a one-click repeat — or bind a shortcut in Settings → Shortcuts (it ships unbound). A canceled timer saves nothing and says so.</li>
+  <li><b>The invisible delay is gone.</b> If you keep a sticky Self-Timer default set, region and main-display captures now show this same live countdown instead of silently stalling before the crosshair — same delay, visible and cancellable.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.16.0.zip" length="6137596" type="application/octet-stream" sparkle:edSignature="TBY09lHOiaTtFJ6FulRJwdoUq+xuEqYxDUeShILStsu+MvvxSwPyeRFufqYIfRV8ec3Q7iRBcuMoNyqMN5+IBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.16.0-2.15.0.delta" sparkle:deltaFrom="2.15.0" length="528390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dz42AbDKUYUf3GzB/Oc8wpJEy8b1fGEyfhqIrAKrTEMQYhu9L3V+acomF7ewdTWKZyoVXeceSb5AO+eTBP5mDg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.16.0-2.14.0.delta" sparkle:deltaFrom="2.14.0" length="678842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aAQSRjbl2Lf8eYJciV4f40HQWve5ewf0r7dhAM/W0obdcgoYSZAjIhdMoX4RL+yIzyg/+i42yxEbbYEyzG3DBA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.16.0-2.13.0.delta" sparkle:deltaFrom="2.13.0" length="922374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4nQTHQg7dZ1+NUeNUg4K8NOLec4AdpnZpRXHYZHLKn+ZDSoFARHN8ssgbF4cYzW0kgZruPw2wmHq1477h7j3DA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.16.0-2.12.0.delta" sparkle:deltaFrom="2.12.0" length="1049854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BcGguDd327O7Ebi/B/AWIaLOJK7S40LI2p/4HBacct8zHtZIo49g4tueWuFVE5s2lMzb4/Tk3mLBmmdBn5OwAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.16.0-2.11.0.delta" sparkle:deltaFrom="2.11.0" length="1132514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/LcwqBf9WkW4OO9wixYFWVaCBCe9lHRalo8kyzd092T2fRYlFhKdtz4vzUR/4/DVe8vz0TbJ6C/SDu3G/uWyAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.15.0</title>
             <pubDate>Wed, 26 Aug 2026 11:37:58 +0300</pubDate>
             <sparkle:version>2.15.0</sparkle:version>
@@ -23,13 +48,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.15.0.zip" length="6099842" type="application/octet-stream" sparkle:edSignature="EM5SxvgjZ0ekE8Cded7r40is0eOXU/bu8HX0nIxAQb/z03SXyJ443giBwY3KAqk4nmxHyy+D+KRcI/12hqEmCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.14.0.delta" sparkle:deltaFrom="2.14.0" length="555518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ty4EO+VUV9011jUbA4CPq4edEzCfTQu+q3Z5ujTVJumjRNAlOpx3Ms1OzMgIqrVcCV+t5mI/uSaSRTT24fCZAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.13.0.delta" sparkle:deltaFrom="2.13.0" length="842706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t/wEKzrKfm4rlri5ENX9L6R9vc0PUXM3i648whal4/bJ8q3XIffQnQfIlxh7zeKwthzz79er7ofwncwFebEJAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.12.0.delta" sparkle:deltaFrom="2.12.0" length="978070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zohYXqTuQLMfIKvlRakRvY25eQdWAfu6zAa/q5jFe2spklrfJmIjSbBdbC4JwS9c6NOh9szZH4vHNgYXwI0DDQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.11.0.delta" sparkle:deltaFrom="2.11.0" length="1069054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="za+M39b9KEfQsBLMd6P7jK/Kfyi1R/2qF1Z2s/GIQC3eNJf3+r/lV4hn9GxnlHG8qWi6HXZjTbsoQh0znF6vDQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.15.0-2.10.0.delta" sparkle:deltaFrom="2.10.0" length="1139326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2bwubyav0g4JoEjFd07F35szbtY6rmhn56rJBF9906329ls68jJtzGTyYmaWDE35+PUa2Dqf4wVsJrVnBjCzCw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.14.0</title>
@@ -46,33 +64,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.14.0.zip" length="6074461" type="application/octet-stream" sparkle:edSignature="zn0GGvSHI8SVvceMuLq5FnvR4rNtRW5UWRkJmPRWSjUJx/4lqLuMGQCYGDK58lP2TDScQ0xKkNlEhXycNC3BDA=="/>
-        </item>
-        <item>
-            <title>2.13.0</title>
-            <pubDate>Tue, 25 Aug 2026 00:04:22 +0300</pubDate>
-            <sparkle:version>2.13.0</sparkle:version>
-            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.13.0</h2>
-<p>The text tool becomes a real text box, and the Screen Recording permission flow gets untangled — one dialog at a time, and it's the right one.</p>
-
-<h3>Annotate</h3>
-<ul>
-  <li><b>The text tool becomes a real text box.</b> Drag to place a text box at the width you want — text wraps inside it instead of running in one line. Move it by its border, resize it from either side handle, scale it from the corner, and restyle it live from the color and size pickers while you type.</li>
-  <li><b>Editing that behaves like editing.</b> Enter types a newline; ⌘-Enter or a click outside commits; Esc keeps a non-empty draft; ⌘Z steps back through your typing. What you see while typing is exactly what commits — no shift when the draft lands.</li>
-  <li><b>Click to re-edit.</b> With the text tool active, clicking an existing text box opens it for editing instead of stacking a new one on top. Text from earlier versions keeps its old auto-width look until you edit it.</li>
-</ul>
-
-<h3>Permissions</h3>
-<ul>
-  <li><b>No more stacked dialogs.</b> When Screen Recording access is missing, macOS's own prompt now goes first — Snapline stays quiet behind it instead of piling its own alert on top.</li>
-  <li><b>The Settings button lands somewhere useful.</b> Snapline's alert now registers the app with macOS before opening System Settings, so the Screen Recording list always has a Snapline row to act on.</li>
-  <li><b>Honest instructions.</b> The alert no longer blames "the update" for a missing grant, and its steps cover both cases: a stale entry that needs removing and re-adding, and no entry at all.</li>
-  <li><b>Relaunch offered, not homework.</b> Once you grant access, Snapline notices and offers to relaunch itself so recording features pick up the permission.</li>
-  <li><b>No more dead shortcut.</b> A capture attempt after a declined prompt now explains the way forward instead of silently doing nothing.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.13.0.zip" length="5906176" type="application/octet-stream" sparkle:edSignature="Cr8XjSIdizd6JohmwHY36FXEJR+X9gfpBw3Tp/16LO05HzQxqAzJORGpz31fWfEyqd3bctHGqH8vY17V/JlGCg=="/>
         </item>
     </channel>
 </rss>
