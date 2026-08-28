@@ -3,6 +3,29 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.18.0</title>
+            <pubDate>Sat, 29 Aug 2026 02:23:35 +0300</pubDate>
+            <sparkle:version>2.18.0</sparkle:version>
+            <sparkle:shortVersionString>2.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.18.0</h2>
+<ul>
+  <li><strong>Runs on macOS 14 Sonoma.</strong> The minimum system version is now macOS 14, where it was macOS 15. Everything works on 14 except Translation in the Text View, which needs macOS 15; on 14 the Text View simply shows no translation bar.</li>
+  <li><strong>Pixelate is the new default redaction style.</strong> New redactions in the editor and from Smart Redact are pixelated unless you have chosen a style. Solid is still one click away, and it remains the only style image analysis can't undo, so pick it for anything sensitive.</li>
+  <li><strong>QR and barcode detection is more robust.</strong> When Vision's default detector finds nothing in a capture, Snapline retries with the classic detector, so codes are still found on Macs where the newer detector comes up empty.</li>
+  <li>The recording bar now sits above the Dock instead of overlapping its icons.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.18.0.zip" length="6211790" type="application/octet-stream" sparkle:edSignature="h1KctemgRdH1aCmaG8c0D9/WLSTa28f8cl+agcanZ28fQdZ8QM/I487K5ZD38LhedhIjKSKhKdOXupW4WkbCAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.17.0.delta" sparkle:deltaFrom="2.17.0" length="689114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1PGrCRGhFXlO0bIIGPwQZR63++EwsUr0Va554AQnzduKCPxAZ9NMUoaDq9efchHwyMj4g215QhjnSpeTJ5kZBw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.16.0.delta" sparkle:deltaFrom="2.16.0" length="802074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wK3HwGIWj46Ml5BzHXa6Wh6yZFEwuQJRT2wqVOeDTaai2+XArjiAdaFRuoz/s5gNDghOdlVZriSeEI0PI4q6Dw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.15.0.delta" sparkle:deltaFrom="2.15.0" length="876722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TRmsaR9WJWYM+boCHel4wpglvhvT6Jf2s0xlqXDX4KeK5bIBRSIUpes4Fhse+IoMJ2P7TBYw2d5KVRaEhsW5AA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.14.0.delta" sparkle:deltaFrom="2.14.0" length="974858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BJJTYsfwI5a7XcVVpI5cKCi7al6fQbUoS3wzessoZsaTQgR6bCMIcTQ0OR9sAM7wcgdoTIKwAUj7SQk2bnVfCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.13.0.delta" sparkle:deltaFrom="2.13.0" length="1163562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OdJ/Z2h5Wf5qyhdgJSPYXnICuLs94Wg9VSXQN06/nNSx6rIOtAtdngTQeTW4Y7pMyYWMTpLQwg9qdQBrvtfsCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.17.0</title>
             <pubDate>Fri, 28 Aug 2026 00:31:25 +0300</pubDate>
             <sparkle:version>2.17.0</sparkle:version>
