@@ -3,6 +3,40 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.19.0</title>
+            <pubDate>Sat, 29 Aug 2026 16:29:21 +0300</pubDate>
+            <sparkle:version>2.19.0</sparkle:version>
+            <sparkle:shortVersionString>2.19.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.19.0</h2>
+<p>The Quick Access card that appears after a capture now does the things that used to mean a round trip through the editor: change the format, shrink the file, redact — each in place, each one click.</p>
+
+<h3>Quick Access card</h3>
+<ul>
+  <li><b>A new frame around the card.</b> Every action is a labelled cell around the picture — pin, dismiss, convert, copy, edit, redact, view text, copy text, save — and the caption reads the capture's dimensions, size and format. History tiles wear the same frame on hover, so what you learn on the card works in History too.</li>
+  <li><b>Convert.</b> A PNG, JPEG, HEIC and WebP row switches the capture's format in place: the file in your screenshot folder is replaced, the History entry stays exactly where it was, the old file goes to the Trash, and the new one lands on your clipboard. A format the capture can't be held in is refused before anything is written.</li>
+  <li><b>Compress.</b> One click cuts a capture's size and reports what it saved: a lossy file is re-encoded at a compact quality, a Retina PNG is redrawn at 1×, and any other PNG becomes an 8-bit palette PNG. A capture that is already compact says so rather than being squeezed twice.</li>
+  <li><b>Redact.</b> Runs Smart Redact on the shot you just took and bakes the boxes in; press it again and the original comes back. Any capture currently carrying redactions wears a small badge on the card and in History.</li>
+  <li><b>Choose which actions you see.</b> Settings → Quick Access → Card actions turns Convert, Compress and Redact off individually; an action that is off is gone from the card and its menu, not greyed out.</li>
+  <li><b>Clearer glyphs.</b> Copy Text and View Text no longer look like twins: Copy Text takes the Live Text viewfinder, View Text a text window under a glass — on the card, in History and in the menu bar.</li>
+</ul>
+
+<h3>Export</h3>
+<ul>
+  <li><b>HEIC and WebP join the export formats.</b> Settings → General offers all four, with one Quality slider covering every lossy format. Both are far smaller than PNG and both keep transparency, and both go on the clipboard with a PNG alongside so they paste into apps that can't read them.</li>
+  <li><b>Save panels offer the file's own type</b> instead of always proposing PNG.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.19.0.zip" length="6844740" type="application/octet-stream" sparkle:edSignature="TMrCvm1cC8NRyE99LToWCgKnF/Xi3CZw4IfYRenaGLO4ButqdYrmFYPPYDH/b9NGoJucrjHtPrDuJNi83tDdDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.19.0-2.18.0.delta" sparkle:deltaFrom="2.18.0" length="1230962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KhhCS3Icj/6wIVHS/o9f5PsUaj/c9PdJ4g1bwj30SjVJpOQRztb4wAd9qbcIzoBvK6XtFccGTofkj1oDX3jiBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.19.0-2.17.0.delta" sparkle:deltaFrom="2.17.0" length="1413818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5w+250KfawdSEw1C6+l7L7HWemtPLTpC/kUsXCxTahSovd7cJAc5mosQZFvluJ9qL5HXaltZYomoALyFSwhKBA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.19.0-2.16.0.delta" sparkle:deltaFrom="2.16.0" length="1488086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gC3Do2tdY4JTv+3fokMz6TSThCAFRjRCyvp2Uyj02qQuPYXsl4H02peViPMhoc1pZup25wmHmkI/EtXebxZ3DA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.19.0-2.15.0.delta" sparkle:deltaFrom="2.15.0" length="1536550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Dls9zrrIp/QCFvXDl5HOHb4ZiGV1JQM4UiptU2ZRaveMldhn0yMJBMg5vfg2wqxlBLS5/SYWaZ+HuXyJlmn0CQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.19.0-2.14.0.delta" sparkle:deltaFrom="2.14.0" length="1601342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tJ1y0TJ2jblxqWJJAjNybYZ19CGN4QtBPmKPR5CFzU4H62BnijqKnCD8CcBMSX2AZpc1Nlne8UZtlgaOHR8fBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.18.0</title>
             <pubDate>Sat, 29 Aug 2026 02:23:35 +0300</pubDate>
             <sparkle:version>2.18.0</sparkle:version>
@@ -17,13 +51,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.18.0.zip" length="6211790" type="application/octet-stream" sparkle:edSignature="h1KctemgRdH1aCmaG8c0D9/WLSTa28f8cl+agcanZ28fQdZ8QM/I487K5ZD38LhedhIjKSKhKdOXupW4WkbCAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.17.0.delta" sparkle:deltaFrom="2.17.0" length="689114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1PGrCRGhFXlO0bIIGPwQZR63++EwsUr0Va554AQnzduKCPxAZ9NMUoaDq9efchHwyMj4g215QhjnSpeTJ5kZBw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.16.0.delta" sparkle:deltaFrom="2.16.0" length="802074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wK3HwGIWj46Ml5BzHXa6Wh6yZFEwuQJRT2wqVOeDTaai2+XArjiAdaFRuoz/s5gNDghOdlVZriSeEI0PI4q6Dw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.15.0.delta" sparkle:deltaFrom="2.15.0" length="876722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TRmsaR9WJWYM+boCHel4wpglvhvT6Jf2s0xlqXDX4KeK5bIBRSIUpes4Fhse+IoMJ2P7TBYw2d5KVRaEhsW5AA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.14.0.delta" sparkle:deltaFrom="2.14.0" length="974858" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BJJTYsfwI5a7XcVVpI5cKCi7al6fQbUoS3wzessoZsaTQgR6bCMIcTQ0OR9sAM7wcgdoTIKwAUj7SQk2bnVfCg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.18.0-2.13.0.delta" sparkle:deltaFrom="2.13.0" length="1163562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OdJ/Z2h5Wf5qyhdgJSPYXnICuLs94Wg9VSXQN06/nNSx6rIOtAtdngTQeTW4Y7pMyYWMTpLQwg9qdQBrvtfsCQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.17.0</title>
