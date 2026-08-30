@@ -3,6 +3,47 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.21.0</title>
+            <pubDate>Sun, 30 Aug 2026 20:30:26 +0300</pubDate>
+            <sparkle:version>2.21.0</sparkle:version>
+            <sparkle:shortVersionString>2.21.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.21.0</h2>
+<p>Capture Previous Area re-shoots the last region you framed, in one action. Capture Area now drags in Snapline's own crosshair so the region can be remembered, the Editor asks before closing on unsaved work, and the Quick Access card's buttons finally say what they do.</p>
+
+<h3>Capture</h3>
+<ul>
+  <li><b>Capture Previous Area.</b> Directly under Capture Area in the status menu, and in Settings → Shortcuts (it ships unbound). It shoots the last region you framed at once — no selection pass, no countdown even with a sticky Self-Timer set — and from the menu it waits a beat for the menu to fade so it cannot land in the shot.</li>
+  <li><b>The region remembers its display.</b> It is stored against the display it was framed on, in that display's own coordinates, so rearranging your desktop keeps it valid. When it can't be shot the same way — that display isn't connected, its resolution changed, or you haven't used Capture Area yet — the menu row dims with the reason on it, the cheat sheet says the same, and the hotkey shows a short note rather than doing nothing. Reconnect the display and the action comes back on its own.</li>
+  <li><b>Capture Area uses Snapline's own crosshair</b> — the same selector the Self-Timer uses. The Screen Recording prompt, on a first run, now arrives before the drag rather than as it, so a framed selection is never lost to a dialog; invoking Capture Area again while the crosshair is up dismisses it. The system crosshair's extras — the magnifier loupe, Space to switch to window picking, the Option and Shift constraints — are not carried over; Space to move the selection while you drag is; Capture Window covers window picking outright.</li>
+</ul>
+
+<h3>Editor</h3>
+<ul>
+  <li><b>Closing asks before losing work.</b> Esc, ⌘W or the close button on a document with unsaved annotations, a crop, or Background and Combine changes now asks Save, Discard or Cancel, naming the screenshot and what would go ("2 annotations added and the crop changed"). Save runs the normal Done export and closes once the file has landed; a clean document closes at once, as before.</li>
+</ul>
+
+<h3>Quick Access card</h3>
+<ul>
+  <li><b>The buttons say what they do.</b> Rest the pointer on any cell and a small label names it — Pin, Convert to JPEG, Copy File, Save a copy, Convert to GIF, Clear all. A button that is refusing says why instead, and a focused button shows its tip too, so the keyboard has the same route. Tips never land in a capture or a recording.</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li>The feedback toast follows the OS theme instead of taking its tone from the desktop behind it.</li>
+  <li>The floating bars' glass casts a capsule-shaped shadow; the rectangular halo under the command bar over a light background is gone.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.21.0.zip" length="6976288" type="application/octet-stream" sparkle:edSignature="5zHy2gnlKV5QXbSONXrp9SQJ3o7vBjGfcOU4KqWotZlPIzi1OieIShOxGe8LxPUHZCdi8iG9gBFK4i2m91zYCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.21.0-2.20.0.delta" sparkle:deltaFrom="2.20.0" length="767110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WaJ7WCZQLSeIPW4jIZCVi8qcHv+/LyaFaguGlAe+PrtMGiGDQgGdyjNA0vQl5ZkVp0iZPsKYDEhL2x9GfbPwCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.21.0-2.19.0.delta" sparkle:deltaFrom="2.19.0" length="950490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D24XwJbF/drbf2RUeP3elOmY3/fjcPZ7fT6cJrcFDK5XIGZtOWmwiZB0Yr5+vYWB5438GiStkifwfFec+Bj/Cw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.21.0-2.18.0.delta" sparkle:deltaFrom="2.18.0" length="1504458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RKMP+We2Ub9CYnRKw2uSeleBH9sZ/TbzujQhxWXjnvin5EYVhY5ZF+HpKq9WlP/3INW6tI9vz0xTj97oI+R4Dg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.21.0-2.17.0.delta" sparkle:deltaFrom="2.17.0" length="1658094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M4Esi7I6oGnw6gQwskEXj+i/7V+qG2jYpm5jUM2dN7bNDT4PJUSMsFouBCBERIw9xz8lRVxRCfvoxlrLxn1qBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.21.0-2.16.0.delta" sparkle:deltaFrom="2.16.0" length="1717162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wFX194LbRLyLOjIhTSubGsPd9rKfspYiAVe5G9OhhT7oaBlN0T3bm78SFNaGj1eKL+QSuASBTtwiSz4qOEerDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.20.0</title>
             <pubDate>Sun, 30 Aug 2026 02:29:53 +0300</pubDate>
             <sparkle:version>2.20.0</sparkle:version>
@@ -39,13 +80,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.20.0.zip" length="6896557" type="application/octet-stream" sparkle:edSignature="g29r0YuB2is1pG30T+Bmu8hA8hnOk/lgeUunAhFUQJFL4V1fFS4nST+klO/rJLvTDohqNGMMdW4xLkwfuNgEDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.20.0-2.19.0.delta" sparkle:deltaFrom="2.19.0" length="768486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HXzfEZ/TjBegWlnPEbSvM0wpthpY/v1pJkUC8QfRVhoovug3aTN6dE+bBXeH642eGlMw9VpLF9rpcYm4maxwCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.20.0-2.18.0.delta" sparkle:deltaFrom="2.18.0" length="1352574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4aBGsHyBDeo3RKR0VqGXPJX+gphU8osnEmGSTObV9PAE3FG7GHvfXaDpB3RCiGUha9GEoSbeL5yG3IThZ3Y0Dg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.20.0-2.17.0.delta" sparkle:deltaFrom="2.17.0" length="1518630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hKfp0VPC3AZn6qJrI4d8jehDe8Vk+iMuZuEHpqVKzbWMRPI/ZofO9rvkxNawDfsZIa8pzykUxdWEqtolS6isCA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.20.0-2.16.0.delta" sparkle:deltaFrom="2.16.0" length="1588506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zuh481xS7Wm6PRPR3nRr4pnQ0DDCEEgZFtQ4RmpVjYWd1CERI0UUd2Tp6eEjGnq/JryJO/Udmuub7Azv+VwOBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.20.0-2.15.0.delta" sparkle:deltaFrom="2.15.0" length="1631290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CjVbQRvTJMaYRurcUpg3C34qVEzJeRSIJige5vJ3bJGTkUOM2WDgVSyeyvEBHjLxWhbVuea5uubFjSEDz83/AQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.19.0</title>
@@ -73,22 +107,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.19.0.zip" length="6844740" type="application/octet-stream" sparkle:edSignature="TMrCvm1cC8NRyE99LToWCgKnF/Xi3CZw4IfYRenaGLO4ButqdYrmFYPPYDH/b9NGoJucrjHtPrDuJNi83tDdDg=="/>
-        </item>
-        <item>
-            <title>2.18.0</title>
-            <pubDate>Sat, 29 Aug 2026 02:23:35 +0300</pubDate>
-            <sparkle:version>2.18.0</sparkle:version>
-            <sparkle:shortVersionString>2.18.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.18.0</h2>
-<ul>
-  <li><strong>Runs on macOS 14 Sonoma.</strong> The minimum system version is now macOS 14, where it was macOS 15. Everything works on 14 except Translation in the Text View, which needs macOS 15; on 14 the Text View simply shows no translation bar.</li>
-  <li><strong>Pixelate is the new default redaction style.</strong> New redactions in the editor and from Smart Redact are pixelated unless you have chosen a style. Solid is still one click away, and it remains the only style image analysis can't undo, so pick it for anything sensitive.</li>
-  <li><strong>QR and barcode detection is more robust.</strong> When Vision's default detector finds nothing in a capture, Snapline retries with the classic detector, so codes are still found on Macs where the newer detector comes up empty.</li>
-  <li>The recording bar now sits above the Dock instead of overlapping its icons.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.18.0.zip" length="6211790" type="application/octet-stream" sparkle:edSignature="h1KctemgRdH1aCmaG8c0D9/WLSTa28f8cl+agcanZ28fQdZ8QM/I487K5ZD38LhedhIjKSKhKdOXupW4WkbCAQ=="/>
         </item>
         <item>
             <title>2.17.0</title>
