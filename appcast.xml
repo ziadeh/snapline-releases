@@ -3,6 +3,60 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.23.0</title>
+            <pubDate>Thu, 03 Sep 2026 11:48:29 +0300</pubDate>
+            <sparkle:version>2.23.0</sparkle:version>
+            <sparkle:shortVersionString>2.23.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.23.0</h2>
+<p>A capture release. Capture Area and Capture Window are now one selector — press Space to switch between dragging a region and picking a window, in either direction. Region and full-display screenshots shoot through ScreenCaptureKit, so nothing hides and settles before a shot: the Self-Timer fires the instant it hits zero and Capture Area shoots on mouse-up. Any capture in History can be brought back as a floating Quick Access card, a window shot's shadow is your call, and a pinned window shot finally looks like a window.</p>
+
+<h3>Capture</h3>
+<ul>
+  <li><b>Space switches between area and window.</b> Capture Area opens in the crosshair and Capture Window opens in window picking; Space on its own flips between them, the way the system crosshair does, in both directions. In window mode the window under the pointer lights up in Snapline's accent with its title tagged above it, and a click takes the shot. Space held during a drag still moves the selection. The crosshair appears on the hotkey itself and the camera cursor on the Space press — no mouse move needed — and the selector stays with you across a ⌘-Tab.</li>
+  <li><b>No flicker before a shot.</b> Region and full-display screenshots capture through ScreenCaptureKit, with Snapline's own chrome left out of the frame rather than hidden first. The Capture Set pill stays up through the shots it counts, the countdown fires the instant it hits zero, and Capture Area shoots on mouse-up. The file is what it was: same pixels, same scale, same display profile.</li>
+  <li><b>The Self-Timer counts down on a window.</b> With a sticky Self-Timer set, Capture Window picks the window first; the accent frame follows it through the countdown and the shot fires at zero. A window that closes before then cancels with a note.</li>
+  <li><b>Include Window Shadow.</b> A new switch in Settings → General → Window captures, on by default so nothing changes unless you ask. Off, a window shot is the window alone, edge to edge, with its rounded corners transparent and no margin — for pasting into documents.</li>
+  <li><b>Smart Redact seeds the text index.</b> With Smart Redact on capture enabled, a capture that comes back clean is searchable at once: the redaction scan's reading becomes its text index entry, instead of a second full recognition pass queued behind whatever was ahead of it. Redacted captures are indexed from the flattened file, as before, so redacted text never enters the index.</li>
+</ul>
+
+<h3>Quick Access and History</h3>
+<ul>
+  <li><b>Show in Quick Access.</b> Any History tile — the hover strip or the context menu — brings that capture back as a floating card, exactly as a fresh capture's would appear. It stays on top while you work in another app and survives closing the History window. It is a summon, not a capture: nothing is copied, the Editor does not open, and the card shows even with the Quick Access overlay switched off. Summoning a card that is already up brings it forward instead of doubling it.</li>
+  <li><b>The tile's hover buttons are one frosted strip</b> in the frame's own style, sized to fit inside the Shelf's tile.</li>
+  <li><b>Cards and the Shelf stay out of each other's way.</b> The card column steps aside for the History Shelf, opening a capture or a pin from a card puts the Shelf away, and clicks aimed at the Shelf's cells no longer land on the card column's invisible runway.</li>
+</ul>
+
+<h3>Pinned windows</h3>
+<ul>
+  <li><b>A pinned window shot looks like a window.</b> Its own shadow over the desktop, a hairline on the window's edge at the window's own corner radius, and the hover toolbar on the window itself — no second shadow around the margin, no border cutting through the shadow.</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li>A Recording that ended early reports "cut short" once, not twice.</li>
+  <li>A capture that lands in the default folder because the custom storage folder is unreachable says so on that capture, instead of the notice going to an unrelated read and the next capture filing there silently. Scrolling Capture now reports the fallback too.</li>
+  <li>Opening a recording from its Quick Access card no longer leaves the History Shelf floating over the Trim Editor.</li>
+  <li>A new recording's preview frame is generated once and shared by the card, History, the Shelf and the status menu, and a finished GIF's thumbnail is ready before its card appears.</li>
+  <li>The Recording overlay's key-chord capsule no longer rebuilds its text layout on every frame.</li>
+</ul>
+
+<h3>Notes</h3>
+<ul>
+  <li><b>Screen Recording granted mid-session.</b> Region and full-display screenshots now share Recording's behavior: a permission granted while Snapline is running takes effect after a relaunch, and the dialog says so. Capture Window works right away.</li>
+  <li><b>The History index is versioned.</b> Fields a newer build adds now survive an older one. Versions before 2.23.0 cannot read the new file: on a downgrade, History appears empty, nothing is written, and a copy is parked beside the index as <code>history.unreadable.json</code>. Upgrading again restores everything; the parked copy can then be deleted.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.23.0.zip" length="7176894" type="application/octet-stream" sparkle:edSignature="NjxDEIgFiNg2y2htC/Det4epvJP12S3UH7brtdis9axhI/5rSPeQyiN9oRbLCKZQxtpSlsf+xK+N4G86PdiaAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.22.0.delta" sparkle:deltaFrom="2.22.0" length="1136310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jmd6RmcIpjZMn+9zj+Qr7Ma84GvlOgPZjNNXdyBrP5TToDqvTVCyZU9bUHkdsKA9MxyDkOechE006Q86EZ8/AQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.21.0.delta" sparkle:deltaFrom="2.21.0" length="1305790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7a02q91HJzl/d92xpzq+WtRdaTNe2FIoCxhhv5nWJfbHaKGqzohLByHiwsoyjtnXawxofcGUuL0FA2hPwi3lBw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.20.0.delta" sparkle:deltaFrom="2.20.0" length="1411822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Me2+rFXniGGgNUOcK26t/0+DmIBJIhOEVDQWAgqfuu6iXY+TZs9hZWKSKEjLlOEr0giYE0MrLQHSaGKtu++KBw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.19.0.delta" sparkle:deltaFrom="2.19.0" length="1506762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="06iJ24Lt9a0T4HxmzWiSdn+ZHFRQ2hPvHHIguiPBR3OWZ/1qNIFIdWCD4KP0N9Xd6ZX4h1tGnsNjfEQbWS1jDA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.18.0.delta" sparkle:deltaFrom="2.18.0" length="1981138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MrcQt2H/h3L/K9BIuKEptJPp6weRe8J306AOI8O+vxg0JHAPk7H+y/Oazb5FshxC6F6PLq2dxxjv4n59LDsUCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.22.0</title>
             <pubDate>Tue, 01 Sep 2026 18:53:49 +0300</pubDate>
             <sparkle:version>2.22.0</sparkle:version>
@@ -32,13 +86,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.22.0.zip" length="7049324" type="application/octet-stream" sparkle:edSignature="lvxy00JbsnYOmnpwyO4vJphq4MDAXU8qnq0igJ+JLcZd9BDLSj/Cundf0LTm2P3ttXVzSx49T6CeicBVbwy8Cg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.22.0-2.21.0.delta" sparkle:deltaFrom="2.21.0" length="757182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T4VuqpKwVIvXT6Uct7vBzoEGpp9+Lgi9g1dSwecc3aGmBqsC+furLOdKTm5uOrTCsSoe7Ln4tcOQYKn9sipfAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.22.0-2.20.0.delta" sparkle:deltaFrom="2.20.0" length="951274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="F1eXy6FKK2DWaFOGE8gNV66JwH1/8oCpWJtHHeUaN7EYL/V6wAAThZT3teqUt2pLPAzvyVshtZ2udqhahBemAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.22.0-2.19.0.delta" sparkle:deltaFrom="2.19.0" length="1107322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i3I55lC8I/fXbv7zxlYwUfDDLqSOUNccz/KeMuic2ltf8Ni9i8Fhk//7Xi1ubDs/DLuRIbj50AFktPkL5wAgDg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.22.0-2.18.0.delta" sparkle:deltaFrom="2.18.0" length="1663246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="82ZfXWWqbf6cAZfIF96aO980XYCoxg9ZpQ3xkFBQSUey61vt/NzkkAWAnG4elafiesQagfzA9RVyjuRwGQo/Bw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.22.0-2.17.0.delta" sparkle:deltaFrom="2.17.0" length="1801930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ETBC3Q9Ek1axiJEFY8QDuoLYqkYAs3caNyp3OYSV5BaU6UMDbHj66FD9SYZGJrJ5iSpQ0dKOx/hZkr0kLyEeBw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.21.0</title>
@@ -73,44 +120,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.21.0.zip" length="6976288" type="application/octet-stream" sparkle:edSignature="5zHy2gnlKV5QXbSONXrp9SQJ3o7vBjGfcOU4KqWotZlPIzi1OieIShOxGe8LxPUHZCdi8iG9gBFK4i2m91zYCA=="/>
-        </item>
-        <item>
-            <title>2.20.0</title>
-            <pubDate>Sun, 30 Aug 2026 02:29:53 +0300</pubDate>
-            <sparkle:version>2.20.0</sparkle:version>
-            <sparkle:shortVersionString>2.20.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.20.0</h2>
-<p>The Record Screen and Scrolling Capture overlay gets out of your way: the command bar follows what you select, the screen stays bright until you have picked something, and the cursor finally shows what it has been trying to say. The Editor reaches the capture's text, and the Quick Access card's menu and picker are tidied.</p>
-
-<h3>Record Screen and Scrolling Capture</h3>
-<ul>
-  <li><b>The command bar follows the selection.</b> Drag a region, pick a window or a display, and the bar moves to sit just below it, centered. When there is no room beneath it flips above; when there is no room either way — a near-full-height region, a maximized window, Full Screen — it tucks inside along the bottom edge. It never covers the Dock or the menu bar, and it stays centered under the selection even as the microphone and camera controls come and go. With nothing selected it rests bottom-center, as before — now truly centered, even with the Dock on one side.</li>
-  <li><b>The screen dims when you have chosen something, not before.</b> Setting up in the bar — mode, microphone, camera, overlays — happens over the live screen; the dim arrives with the selection, to frame it.</li>
-  <li><b>The cursor tells the truth.</b> The crosshair, the open hand over a selected region, the closed hand while you move it and the resize arrows on its handles now actually appear on screen, and the open hand shows the instant a drag settles.</li>
-  <li><b>Settings opens on top.</b> "Customize…" from the camera style menu used to open Settings underneath the overlay, unclickable. The overlay now stands down while Settings is up and comes back when it closes.</li>
-</ul>
-
-<h3>Editor</h3>
-<ul>
-  <li><b>View Text and Copy Text join the footer</b>, beside Copy and Save — the same two actions the card, History and the menu bar offer, addressed to the capture you are editing. The text is the capture's: an unsaved crop still copies the whole shot's words.</li>
-</ul>
-
-<h3>Quick Access card and History</h3>
-<ul>
-  <li><b>One right-click menu.</b> The card and the History tile share the same grouped menu and the same words: "Pin", "Copy Image" for a still and "Copy File" for a recording or GIF, and Star / Unstar on every kind of capture. History's menu gains the same icons.</li>
-  <li><b>The Convert picker reads in dark mode.</b> The current format's name no longer disappears into its highlight.</li>
-  <li><b>The card's frame is keyboard-navigable</b>, and "Use Keyboard on Latest Capture" in the status menu hands it the keyboard on purpose — the card never takes it on its own. Its toggles read as checkboxes to VoiceOver, and the on-state honours Increase Contrast.</li>
-  <li>The picture inside the hover frame wears a light frost so it reads as part of the card rather than a hole in it; the busy spinner stays while the pointer is away; "already compact" names the file's format.</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-  <li><b>Exports are the capture's size again.</b> Redact from the card, and Done in Annotate, rendered at the screen's Retina scale — an 808×600 capture came out 1616×1200, four times the pixels and no new detail. Every export now renders one pixel per point.</li>
-  <li>HEIC and WebP captures put their PNG rendition on the clipboard as a promise fulfilled at paste time, so copying is instant; the Redact toggle decodes off the main thread.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.20.0.zip" length="6896557" type="application/octet-stream" sparkle:edSignature="g29r0YuB2is1pG30T+Bmu8hA8hnOk/lgeUunAhFUQJFL4V1fFS4nST+klO/rJLvTDohqNGMMdW4xLkwfuNgEDA=="/>
         </item>
         <item>
             <title>2.17.0</title>
