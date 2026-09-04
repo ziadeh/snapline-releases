@@ -3,6 +3,60 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.24.0</title>
+            <pubDate>Fri, 04 Sep 2026 14:19:48 +0300</pubDate>
+            <sparkle:version>2.24.0</sparkle:version>
+            <sparkle:shortVersionString>2.24.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.24.0</h2>
+<p>An Editor release. The Editor's chrome is rebuilt from native parts — a tool rail down the left, the window's own toolbar above, and an Inspector on the right that names the active tool or the selected shape and holds every option, captioned. The stage zooms, several shapes select and move together, and every tool remembers the style you last gave it. Shapes gain opacity, fills, rounded corners, dashed lines, two-headed arrows and a Label text style. Capture Area cancels on a bare click, and a Smart Redact capture's card appears the instant the shot lands.</p>
+
+<h3>The Editor's chrome</h3>
+<ul>
+  <li><b>A tool rail, a toolbar and an Inspector.</b> The tools stand in a rail at the stage's leading edge, grouped by kind, each showing its letter. The toolbar is the window's own: Undo, Redo, Smart Redact, Copy, Pin to Screen, Save to File…, View Text, Copy Text, the Inspector and Done — one click each, no Export menu in between, and a narrow window overflows them into » instead of clipping Done. The window now goes down to 640pt wide, so a small capture no longer opens letterboxed.</li>
+  <li><b>The Inspector (⌥⌘I).</b> Its first section is titled by what it describes — the active tool, the selected shape, or the text you are typing — and holds that thing's style: colour swatches and the system colour panel, stroke width, and the per-tool options that used to hide in a row under the header or behind popovers. Beneath it, Background, Crop and Combine fold as sections of their own, each badged On while it applies; whether the Inspector is shown, and which sections are folded, carries from one editor to the next.</li>
+  <li><b>The status bar is readouts only</b> — image size, the zoom, the pointer's image coordinates — and the Drag me chip, which nothing can crowd again.</li>
+</ul>
+
+<h3>Zoom, selection and memory</h3>
+<ul>
+  <li><b>The stage zooms.</b> ⌘= ⌘− ⌘0, a trackpad pinch, ⌘-scroll or the status bar's zoom menu, from a quarter of Fit to 8×; 100 % is one image pixel per screen pixel. Pinch and wheel zoom around the pointer. Strokes keep their width whatever the zoom, so zooming in to place an arrowhead precisely does not make the arrow thinner.</li>
+  <li><b>Several shapes at once.</b> ⇧-click adds and removes, a drag on empty canvas rubber-bands every shape it touches, ⌘A takes all. A group moves, nudges, deletes and recolours together, each one undo step.</li>
+  <li><b>Duplicate, copy, paste, reorder.</b> ⌘D duplicates a step down and right (counters get fresh numbers). ⌘C ⌘X ⌘V carry shapes into any other editor. ⌘] and ⌘[ step the selection through the stacking order, ⌥⌘] and ⌥⌘[ take it to the front or back. All of it is in the right-click menu and the Inspector's selection section too.</li>
+  <li><b>Tools remember their style.</b> Colour, stroke and each tool's options are written down as you choose them and read back when you pick the tool again, in this editor and the next — so the Editor no longer opens with a red medium arrow whatever you were using a minute ago. A tool remembers only the fields it shows, so picking the arrow never rewrites the redact style or the measure unit.</li>
+  <li><b>The crop frame locks its proportions.</b> Free, 1:1, 4:3 and 16:9 in the Inspector's Crop section; a locked frame grows from its edges and never leaves the image.</li>
+</ul>
+
+<h3>Shapes</h3>
+<ul>
+  <li><b>Opacity</b> for every shape, applied to the whole shape at once so overlapping parts fade together.</li>
+  <li><b>Rectangles</b> can be outlined, solid or tinted, with rounded corners. <b>Arrows</b> can have a head at the end, at both ends, or none. Outlines, arrows and pen strokes can be <b>dashed</b>.</li>
+  <li><b>Text</b> gains a Label style — the words on a plate of their colour — and left, centre or right alignment.</li>
+  <li><b>Line and Filled Rectangle fold into Arrow and Rectangle.</b> L still picks a plain line (an arrow with no head) and F a solid rectangle, for that pick alone; A and R bring back the tool's own remembered heads and fill. Existing captures with lines and filled rectangles open unchanged and re-export pixel for pixel.</li>
+  <li>Every option restyles the selection in place, as one undo step, and the colour panel's live drag lands as one step too.</li>
+</ul>
+
+<h3>Capture</h3>
+<ul>
+  <li><b>A bare click cancels Capture Area</b>, like Esc — the way the system crosshair and Snapline before 2.21 behaved. In a Capture Set, getting the crosshair out of the way to set up the next shot is one click again instead of a reach for the keyboard.</li>
+  <li><b>The card lands before the Smart Redact pass.</b> With Smart Redact on capture, the shot's card appears the moment the shot is taken, marked as checking, and offers its actions once the pass is done — instead of nothing appearing until the scan has finished. The scan starts on the pixels in hand, before the file is even written.</li>
+</ul>
+
+<h3>Notes</h3>
+<ul>
+  <li><b>The History index is now version 2</b>, because a shape can now carry options an older build would misread. Versions before 2.24.0 cannot read the new file: on a downgrade, History appears empty, nothing is written, and a copy is parked beside the index as <code>history.unreadable.json</code>. Upgrading again restores everything.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.24.0.zip" length="7407630" type="application/octet-stream" sparkle:edSignature="9a6N8OHEcs216V03osEaaw7dxXSoYGsqQ+aWSTNRqiCnS6RKvcx//8t7QOhd/Jo28uMF0BlSUdTDMOrnzBL1Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.23.0.delta" sparkle:deltaFrom="2.23.0" length="1276374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ga0IYO8MxFl7GIDrz4cpMqf+dWY0Bvfq7PaiL+YWXE7nf7gNFV+JaZzIpLsRHptiyfDbXr3jMAqvS5nU7+0FAw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.22.0.delta" sparkle:deltaFrom="2.22.0" length="1680870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p/uImbbsY6u1i4Ylt6JM8Gh+vuNrZGPCzie6liMFxw1k4u6W/y6ch9Zm7zoYxa7XSIO2v4TojvxViBpENMe/CQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.21.0.delta" sparkle:deltaFrom="2.21.0" length="1712974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0/9Y/8oDm1xsjHGtHWuFTRdZbinbPTx+fDZQrWrRTdctLBKzsPR+T1rEFnlPM4lX/UclxdTMl1iHmRnEcnEaAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.20.0.delta" sparkle:deltaFrom="2.20.0" length="1810842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L0ReRlPFs7/S9fmfTT+QsHm7y6EcUi4ZV8VgjDLc7zi5Bukglw2MrZSMhMOi5DyjGUFjaoPY8p3bgScxIflQDQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.19.0.delta" sparkle:deltaFrom="2.19.0" length="1893718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t6fAHhQg4/mk5fqQteo1BJhQzvkDzPy3BJXVJb35UhWiX+Fm37HFfea+MOa8nTq8272MtUWOnD1VZP/4w7nnAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.23.0</title>
             <pubDate>Thu, 03 Sep 2026 11:48:29 +0300</pubDate>
             <sparkle:version>2.23.0</sparkle:version>
@@ -48,13 +102,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.23.0.zip" length="7176894" type="application/octet-stream" sparkle:edSignature="NjxDEIgFiNg2y2htC/Det4epvJP12S3UH7brtdis9axhI/5rSPeQyiN9oRbLCKZQxtpSlsf+xK+N4G86PdiaAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.22.0.delta" sparkle:deltaFrom="2.22.0" length="1136310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jmd6RmcIpjZMn+9zj+Qr7Ma84GvlOgPZjNNXdyBrP5TToDqvTVCyZU9bUHkdsKA9MxyDkOechE006Q86EZ8/AQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.21.0.delta" sparkle:deltaFrom="2.21.0" length="1305790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7a02q91HJzl/d92xpzq+WtRdaTNe2FIoCxhhv5nWJfbHaKGqzohLByHiwsoyjtnXawxofcGUuL0FA2hPwi3lBw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.20.0.delta" sparkle:deltaFrom="2.20.0" length="1411822" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Me2+rFXniGGgNUOcK26t/0+DmIBJIhOEVDQWAgqfuu6iXY+TZs9hZWKSKEjLlOEr0giYE0MrLQHSaGKtu++KBw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.19.0.delta" sparkle:deltaFrom="2.19.0" length="1506762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="06iJ24Lt9a0T4HxmzWiSdn+ZHFRQ2hPvHHIguiPBR3OWZ/1qNIFIdWCD4KP0N9Xd6ZX4h1tGnsNjfEQbWS1jDA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.23.0-2.18.0.delta" sparkle:deltaFrom="2.18.0" length="1981138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MrcQt2H/h3L/K9BIuKEptJPp6weRe8J306AOI8O+vxg0JHAPk7H+y/Oazb5FshxC6F6PLq2dxxjv4n59LDsUCg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.22.0</title>
@@ -86,40 +133,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.22.0.zip" length="7049324" type="application/octet-stream" sparkle:edSignature="lvxy00JbsnYOmnpwyO4vJphq4MDAXU8qnq0igJ+JLcZd9BDLSj/Cundf0LTm2P3ttXVzSx49T6CeicBVbwy8Cg=="/>
-        </item>
-        <item>
-            <title>2.21.0</title>
-            <pubDate>Sun, 30 Aug 2026 20:30:26 +0300</pubDate>
-            <sparkle:version>2.21.0</sparkle:version>
-            <sparkle:shortVersionString>2.21.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.21.0</h2>
-<p>Capture Previous Area re-shoots the last region you framed, in one action. Capture Area now drags in Snapline's own crosshair so the region can be remembered, the Editor asks before closing on unsaved work, and the Quick Access card's buttons finally say what they do.</p>
-
-<h3>Capture</h3>
-<ul>
-  <li><b>Capture Previous Area.</b> Directly under Capture Area in the status menu, and in Settings → Shortcuts (it ships unbound). It shoots the last region you framed at once — no selection pass, no countdown even with a sticky Self-Timer set — and from the menu it waits a beat for the menu to fade so it cannot land in the shot.</li>
-  <li><b>The region remembers its display.</b> It is stored against the display it was framed on, in that display's own coordinates, so rearranging your desktop keeps it valid. When it can't be shot the same way — that display isn't connected, its resolution changed, or you haven't used Capture Area yet — the menu row dims with the reason on it, the cheat sheet says the same, and the hotkey shows a short note rather than doing nothing. Reconnect the display and the action comes back on its own.</li>
-  <li><b>Capture Area uses Snapline's own crosshair</b> — the same selector the Self-Timer uses. The Screen Recording prompt, on a first run, now arrives before the drag rather than as it, so a framed selection is never lost to a dialog; invoking Capture Area again while the crosshair is up dismisses it. The system crosshair's extras — the magnifier loupe, Space to switch to window picking, the Option and Shift constraints — are not carried over; Space to move the selection while you drag is; Capture Window covers window picking outright.</li>
-</ul>
-
-<h3>Editor</h3>
-<ul>
-  <li><b>Closing asks before losing work.</b> Esc, ⌘W or the close button on a document with unsaved annotations, a crop, or Background and Combine changes now asks Save, Discard or Cancel, naming the screenshot and what would go ("2 annotations added and the crop changed"). Save runs the normal Done export and closes once the file has landed; a clean document closes at once, as before.</li>
-</ul>
-
-<h3>Quick Access card</h3>
-<ul>
-  <li><b>The buttons say what they do.</b> Rest the pointer on any cell and a small label names it — Pin, Convert to JPEG, Copy File, Save a copy, Convert to GIF, Clear all. A button that is refusing says why instead, and a focused button shows its tip too, so the keyboard has the same route. Tips never land in a capture or a recording.</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-  <li>The feedback toast follows the OS theme instead of taking its tone from the desktop behind it.</li>
-  <li>The floating bars' glass casts a capsule-shaped shadow; the rectangular halo under the command bar over a light background is gone.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.21.0.zip" length="6976288" type="application/octet-stream" sparkle:edSignature="5zHy2gnlKV5QXbSONXrp9SQJ3o7vBjGfcOU4KqWotZlPIzi1OieIShOxGe8LxPUHZCdi8iG9gBFK4i2m91zYCA=="/>
         </item>
         <item>
             <title>2.17.0</title>
