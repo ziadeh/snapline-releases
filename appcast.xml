@@ -3,6 +3,44 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.25.0</title>
+            <pubDate>Sat, 05 Sep 2026 00:20:19 +0300</pubDate>
+            <sparkle:version>2.25.0</sparkle:version>
+            <sparkle:shortVersionString>2.25.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.25.0</h2>
+<p>A GIF release. Convert to GIF opens an options window: size, frame rate, speed, dithering and looping, three presets, a preview through the GIF's own palette, and an estimate of the file's size and conversion time before you convert. The one-click conversion is still there for anyone who prefers it.</p>
+
+<h3>Convert to GIF</h3>
+<ul>
+  <li><b>Options before converting.</b> The GIF button on a recording's card, and Convert to GIF… on a History tile or in the Shelf, open a Convert to GIF window. Size is Full (every pixel of the recording), Half, or a custom width — never upscaled past the source. Frame rate is 10, 15, 20, 25 or 30 fps; speed 1×, 1.5× or 2×; Dither gradients smooths shading and photos; Loop forever, or play once and stop on the last frame. Convert is the default button, so the remembered options cost one keypress. A second Convert on the same recording brings the window that is already up to the front.</li>
+  <li><b>Three presets.</b> Chat (800 px, 10 fps — the GIF every earlier version made), Docs (half size, 15 fps) and Full (every pixel, 20 fps). Any other combination reads as Custom.</li>
+  <li><b>An estimate before the click.</b> The window reads the recording once, runs ten short stretches of it through the real encoder, and quotes the file's size — with a range when the range is wide enough to matter — and how long the conversion will take, updating as you change the options. Past 10 MB it says so: GitHub and most chat apps won't play a GIF that large inline. Convert stays enabled either way. The preview is a mid-clip frame through the palette the GIF will actually hold, and the caption gives the output size, frame count and running time.</li>
+  <li><b>One click again, if you like.</b> Untick "Show these options each time" and the GIF button converts straight away with the options you last used. Settings → Recording holds the same controls and turns the window back on.</li>
+  <li><b>Every frame rate keeps real time.</b> A GIF's frame delays are whole hundredths of a second, so 15 or 30 fps cannot be one fixed delay. Snapline sets each frame's delay so that any run of frames sums exactly; a 10 s clip stays 10 s at every rate.</li>
+  <li><b>Dithering that keeps the file small.</b> The dither is an ordered pattern keyed on the pixel's position, so a pixel that does not change between frames comes out the same in both and the still parts of a frame stay skipped, as before.</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li><b>A trimmed recording converts to its trimmed length.</b> A recording trimmed to the middle of a keyframe group keeps the frames before the cut in the file, and the conversion used to schedule those frames as well, stretching the GIF past the trim.</li>
+</ul>
+
+<h3>Notes</h3>
+<ul>
+  <li>The default GIF is byte for byte what 2.24 made: 800 px wide, 10 fps, looping, no dither. The 180 s limit on conversion is unchanged. Full size at 30 fps on a Retina recording can run to tens of megabytes — which is what the estimate is there to say before the click.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.25.0.zip" length="7559947" type="application/octet-stream" sparkle:edSignature="TSknlNFs8KwYSX0/kNnx3jxB9rlta3XlOA+u/8KxcWJVxwcdQCfryhfWJRqUvqXp78PienEa7U0e4n1AsdsjCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.24.0.delta" sparkle:deltaFrom="2.24.0" length="812534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CLkI1qBZGL7Hbr986VdSXFXEPnoexvMXOSxn6fkM/rHPxAXvljq2QR5XTnFQUrQtfGfmcm2JwQ0G5bnegptmBg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.23.0.delta" sparkle:deltaFrom="2.23.0" length="1458134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UiLk2Ixb5xyNC3zqgQG12u7Jk5vbE7m3AZ7XiQHy6IiOCGSMIYHGTgTR/XUjC9GZloutv+XShHGgAj46XGf9Cw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.22.0.delta" sparkle:deltaFrom="2.22.0" length="1849206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uaidCzZSmZcey1cffuf5Nq/AuIgB9Ahta/iL7p6drrHE3urlWHqJnAaRUjDFHkhiAR85f3T0NFLpGBjQapI4CQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.21.0.delta" sparkle:deltaFrom="2.21.0" length="1876570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YnB7LsluQ7wboMUBCuXgGnnydmPPLcdN3+0+8Zcg//0ZIZktL70SpWU1TkS1blja78gQM1/lKoMm230ew5v+Ag=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.20.0.delta" sparkle:deltaFrom="2.20.0" length="1971598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3QLVjwazMiaLqLi0Zc+xxU4He8OkvjbJy+qN6nIuTfvxx2sTUMMLUUWSqqsNPq2/EnJRz6VOJd1kuAZuMLLcDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.24.0</title>
             <pubDate>Fri, 04 Sep 2026 14:19:48 +0300</pubDate>
             <sparkle:version>2.24.0</sparkle:version>
@@ -48,13 +86,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.24.0.zip" length="7407630" type="application/octet-stream" sparkle:edSignature="9a6N8OHEcs216V03osEaaw7dxXSoYGsqQ+aWSTNRqiCnS6RKvcx//8t7QOhd/Jo28uMF0BlSUdTDMOrnzBL1Cw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.23.0.delta" sparkle:deltaFrom="2.23.0" length="1276374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ga0IYO8MxFl7GIDrz4cpMqf+dWY0Bvfq7PaiL+YWXE7nf7gNFV+JaZzIpLsRHptiyfDbXr3jMAqvS5nU7+0FAw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.22.0.delta" sparkle:deltaFrom="2.22.0" length="1680870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p/uImbbsY6u1i4Ylt6JM8Gh+vuNrZGPCzie6liMFxw1k4u6W/y6ch9Zm7zoYxa7XSIO2v4TojvxViBpENMe/CQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.21.0.delta" sparkle:deltaFrom="2.21.0" length="1712974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0/9Y/8oDm1xsjHGtHWuFTRdZbinbPTx+fDZQrWrRTdctLBKzsPR+T1rEFnlPM4lX/UclxdTMl1iHmRnEcnEaAg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.20.0.delta" sparkle:deltaFrom="2.20.0" length="1810842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L0ReRlPFs7/S9fmfTT+QsHm7y6EcUi4ZV8VgjDLc7zi5Bukglw2MrZSMhMOi5DyjGUFjaoPY8p3bgScxIflQDQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.24.0-2.19.0.delta" sparkle:deltaFrom="2.19.0" length="1893718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t6fAHhQg4/mk5fqQteo1BJhQzvkDzPy3BJXVJb35UhWiX+Fm37HFfea+MOa8nTq8272MtUWOnD1VZP/4w7nnAw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.23.0</title>
@@ -102,37 +133,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.23.0.zip" length="7176894" type="application/octet-stream" sparkle:edSignature="NjxDEIgFiNg2y2htC/Det4epvJP12S3UH7brtdis9axhI/5rSPeQyiN9oRbLCKZQxtpSlsf+xK+N4G86PdiaAw=="/>
-        </item>
-        <item>
-            <title>2.22.0</title>
-            <pubDate>Tue, 01 Sep 2026 18:53:49 +0300</pubDate>
-            <sparkle:version>2.22.0</sparkle:version>
-            <sparkle:shortVersionString>2.22.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.22.0</h2>
-<p>An editor release. The arrow is redrawn as Snapline's own Comet — curved with a drag, finished with an optional tail marker. Text gets a contrast outline that stays legible over anything. Every tool's options move to a row right under the toolbar, clicking selects what is actually drawn, and a shape you just drew stays live in your hands. Plus: a file deleted in Finder now takes its History entry with it.</p>
-
-<h3>Editor</h3>
-<ul>
-  <li><b>The Comet arrow.</b> A tapered ribbon that swells toward a sharp-tipped blade, in place of the stroked-line-and-triangle every markup tool draws. Drag the dot at its midpoint to curve it — drag back near straight and it snaps straight, and the bend survives moving and scaling. An optional tail marker (dot or ring, three sizes) marks the origin. The head keeps its size as you drag the arrow longer or shorter, and arrows in existing documents pick up the new look unchanged.</li>
-  <li><b>Text wears a contrast outline.</b> A rounded halo behind the glyphs — dark ink gets a light halo, light ink a dark one — so labels stay legible over busy screenshots. It replaces the old drop shadow, and the editor shows it live as you type, exactly as it will commit. An Outline / Plain toggle per text box turns it off for quiet backgrounds, and your choice seeds the next box. Existing text annotations adopt the new look the next time a document re-renders.</li>
-  <li><b>Tool options, where your eyes are.</b> Each tool's controls — redaction style, measure unit, text style, arrow tail, the eyedropper's copy format — now sit in a slim row directly beneath the tool buttons, beside a one-line usage hint, instead of hiding in the footer. The row is always there, so the canvas never jumps as tools change.</li>
-  <li><b>Clicking selects what is drawn.</b> A slanted arrow or line no longer selects from the empty corners of its bounding box, a highlighter stroke selects across its whole drawn ribbon, an ellipse sheds its box corners — and deselecting by clicking empty canvas works right next to a slanted shape. The hover cursor makes the same promise the click keeps.</li>
-  <li><b>Draw, then adjust.</b> A shape you just drew stays selected with its handles live, under whatever tool is active: grab an endpoint, the bend dot or a resize handle without a trip through the Select tool, or pick a color or style and it lands on the fresh shape directly. Counter badges work the same way.</li>
-  <li><b>Double-click places a textbox.</b> Anywhere on the canvas, whatever tool is active — and double-click on existing text still re-opens it. Finishing by keyboard (⌘⏎, or Esc) steps back to Select, so the next click adjusts the box you committed instead of opening another one.</li>
-</ul>
-
-<h3>History</h3>
-<ul>
-  <li><b>Deleted files leave History on their own.</b> Delete a capture's file in Finder — or from a cleanup script, or a synced folder tidied on another machine — and its History entry leaves within about a second, instead of lingering as a missing-image tile until the next launch. A disconnected external drive is still an outage, not a deletion: its entries stay, showing placeholders until the volume returns.</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-  <li>The buttons on the first Quick Access card after launch respond to the pointer immediately, without needing to leave the card and come back.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.22.0.zip" length="7049324" type="application/octet-stream" sparkle:edSignature="lvxy00JbsnYOmnpwyO4vJphq4MDAXU8qnq0igJ+JLcZd9BDLSj/Cundf0LTm2P3ttXVzSx49T6CeicBVbwy8Cg=="/>
         </item>
         <item>
             <title>2.17.0</title>
