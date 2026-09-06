@@ -3,6 +3,29 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.27.1</title>
+            <pubDate>Sun, 06 Sep 2026 23:14:29 +0300</pubDate>
+            <sparkle:version>2.27.1</sparkle:version>
+            <sparkle:shortVersionString>2.27.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.27.1</h2>
+<p>A fix for Tall Capture of a window.</p>
+
+<h3>Fixed</h3>
+<ul>
+  <li><b>A window's Tall Capture keeps its full width.</b> The finished stitch trimmed every edge column that stood still while you scrolled — meant for a window's chrome beside the pane — and a browser page's fixed sidebar and blank margin stand still too, so Safari lost its traffic lights, the left of its sidebar and the right of its page. A window now keeps its full width, as a region always did: a sticky sidebar is drawn once and its background carried down the stitch instead of being cut away.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.27.1.zip" length="7883126" type="application/octet-stream" sparkle:edSignature="8FoFr6JBYCBWuiwv4z/3X7/Cyfg8Z6sJXhlIHX+xfgRwowZH1g+Qs074S3l8V854GWuovhsS3Gk6mSS4xKQOAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="230782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8GUcF87cYctmrBr2HdrCjud4EaL5YB/3OlCvfSZ0u9C45l/WExijA1gtD43EraYj5xFlTMdv+kJx9u86ALChAQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1121398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EhC2lKdQ/XRdWsRwnT167kThkI1G3cTI2YS5IAlz+/PrvQLxpt8eC0bZ7RoeDush3S0V/4IZmsJ0uIEPoD7DBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.25.0.delta" sparkle:deltaFrom="2.25.0" length="1444434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dGu4bYlBDcLTQuXypp4L9Hix4lW3+3TYduu/koB5k02kRvbryh4n8+r+WENaw0VQjMdKb+xTQmAxgjPMVCjGCw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.24.0.delta" sparkle:deltaFrom="2.24.0" length="1621850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AwplmZTFXDlNx2uFjJr/LzdylJhe+2kZV2h9fn/060bHVNXOiDomxw1YX7Ahz3GxxZFPTuHqM8JPHVy9HLgCBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.23.0.delta" sparkle:deltaFrom="2.23.0" length="1860002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LxC1eqXQg6zkaxsp/Klc4Pm8/s7pkn9m1vWbsAd5o5zC/FcOBEumSjEIB6I0RwwpRN5/jfjbNzHUlUeqisR2DQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.27.0</title>
             <pubDate>Sun, 06 Sep 2026 19:26:04 +0300</pubDate>
             <sparkle:version>2.27.0</sparkle:version>
@@ -44,13 +67,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.27.0.zip" length="7883245" type="application/octet-stream" sparkle:edSignature="9QiyeDZLwmsmbBkAjGlEx8jEBhT2nc2qONkGIlk1EhGEcRT5USRXDxQQ7DA8i3BiBZYwQUF/sdLROUkK80k4Aw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.0-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1120226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q6bGmBN8nMFr3VMaRbBpk+IK6KxNqnjSIefYrAvAAycjYeGtPCDjkZk8/JS1Ul1DY1QRpOn6O+nd78bFok7JBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.0-2.25.0.delta" sparkle:deltaFrom="2.25.0" length="1445254" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0CYceXHfFQE16Gh4doLidRC9Snmkv0cDw6mBPPh4bpuexfhviTQVifbPaNqixUObeK+o3oM3I/MyWYMD8ILOAw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.0-2.24.0.delta" sparkle:deltaFrom="2.24.0" length="1623722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5IiMFSB/2Ixo0660MVNmIeVFOXrsQzHGeaReqc/BQbqz40tlG+e6iwO4Ju1tVFRThx+8aXQ8dr6C1/dcJAzpCg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.0-2.23.0.delta" sparkle:deltaFrom="2.23.0" length="1855250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GQXEkaB8zctH4yKwIbQFUfibdfYmNkD1vUailMeZzDyy1TcvT3arFLg01SCVgX06/5xJdfukiD32mBmQuB4CAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.0-2.22.0.delta" sparkle:deltaFrom="2.22.0" length="2195618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UnIZceFmcKDqe4zsOnn9lWsczXSI+06W/7vxU0AOKRbPcoS7GGcHOhBz3PPPvW93lJgm+FyLsLaDuoFPGzdlCQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.26.0</title>
@@ -99,37 +115,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.26.0.zip" length="7783181" type="application/octet-stream" sparkle:edSignature="Y98luOaZrIsk09gUe/gHYLEM47FMKHa+jviGvo/PqB2Byp33DjISSN1Rz9YPlGHvu9YzqceTfQrWi9seA69wBw=="/>
-        </item>
-        <item>
-            <title>2.25.0</title>
-            <pubDate>Sat, 05 Sep 2026 00:20:19 +0300</pubDate>
-            <sparkle:version>2.25.0</sparkle:version>
-            <sparkle:shortVersionString>2.25.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.25.0</h2>
-<p>A GIF release. Convert to GIF opens an options window: size, frame rate, speed, dithering and looping, three presets, a preview through the GIF's own palette, and an estimate of the file's size and conversion time before you convert. The one-click conversion is still there for anyone who prefers it.</p>
-
-<h3>Convert to GIF</h3>
-<ul>
-  <li><b>Options before converting.</b> The GIF button on a recording's card, and Convert to GIF… on a History tile or in the Shelf, open a Convert to GIF window. Size is Full (every pixel of the recording), Half, or a custom width — never upscaled past the source. Frame rate is 10, 15, 20, 25 or 30 fps; speed 1×, 1.5× or 2×; Dither gradients smooths shading and photos; Loop forever, or play once and stop on the last frame. Convert is the default button, so the remembered options cost one keypress. A second Convert on the same recording brings the window that is already up to the front.</li>
-  <li><b>Three presets.</b> Chat (800 px, 10 fps — the GIF every earlier version made), Docs (half size, 15 fps) and Full (every pixel, 20 fps). Any other combination reads as Custom.</li>
-  <li><b>An estimate before the click.</b> The window reads the recording once, runs ten short stretches of it through the real encoder, and quotes the file's size — with a range when the range is wide enough to matter — and how long the conversion will take, updating as you change the options. Past 10 MB it says so: GitHub and most chat apps won't play a GIF that large inline. Convert stays enabled either way. The preview is a mid-clip frame through the palette the GIF will actually hold, and the caption gives the output size, frame count and running time.</li>
-  <li><b>One click again, if you like.</b> Untick "Show these options each time" and the GIF button converts straight away with the options you last used. Settings → Recording holds the same controls and turns the window back on.</li>
-  <li><b>Every frame rate keeps real time.</b> A GIF's frame delays are whole hundredths of a second, so 15 or 30 fps cannot be one fixed delay. Snapline sets each frame's delay so that any run of frames sums exactly; a 10 s clip stays 10 s at every rate.</li>
-  <li><b>Dithering that keeps the file small.</b> The dither is an ordered pattern keyed on the pixel's position, so a pixel that does not change between frames comes out the same in both and the still parts of a frame stay skipped, as before.</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-  <li><b>A trimmed recording converts to its trimmed length.</b> A recording trimmed to the middle of a keyframe group keeps the frames before the cut in the file, and the conversion used to schedule those frames as well, stretching the GIF past the trim.</li>
-</ul>
-
-<h3>Notes</h3>
-<ul>
-  <li>The default GIF is byte for byte what 2.24 made: 800 px wide, 10 fps, looping, no dither. The 180 s limit on conversion is unchanged. Full size at 30 fps on a Retina recording can run to tens of megabytes — which is what the estimate is there to say before the click.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.25.0.zip" length="7559947" type="application/octet-stream" sparkle:edSignature="TSknlNFs8KwYSX0/kNnx3jxB9rlta3XlOA+u/8KxcWJVxwcdQCfryhfWJRqUvqXp78PienEa7U0e4n1AsdsjCQ=="/>
         </item>
         <item>
             <title>2.17.0</title>
