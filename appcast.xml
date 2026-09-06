@@ -3,6 +3,28 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.27.2</title>
+            <pubDate>Mon, 07 Sep 2026 01:00:05 +0300</pubDate>
+            <sparkle:version>2.27.2</sparkle:version>
+            <sparkle:shortVersionString>2.27.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Scrolling Capture stalls and breaks, fixed</h2>
+<ul>
+  <li><b>Lazy-loading pages:</b> Tall Capture could stall — the rail kept saying capturing while nothing new was appended, and the file sometimes ended at half the page. The matcher now checks the whole overlap between frames, not just the strip where lazy content resolves, so a placeholder turning into an image no longer reads as no motion.</li>
+  <li><b>Animated content mid-page:</b> a page with an animated block partway down the viewport could break the join outright. A row's match is now judged block by block, so a small moving region can no longer sink an otherwise-matching row.</li>
+  <li><b>Recovery:</b> a frame that lost its place mid-scroll could never find it again, and every later frame failed too. It now re-anchors against the picture already captured, accepted only on strong, unambiguous evidence.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.27.2.zip" length="7904050" type="application/octet-stream" sparkle:edSignature="OrLGV6r392npc8qMR1vlss3RAMRMmFigMAjPFyvcixW+tAtbdVpS5acNXmYI5mPVAAIrDe3h/Q2w/njkJNi4Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.27.1.delta" sparkle:deltaFrom="2.27.1" length="607558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nd45hDkNJakvZUv4NHY0COJY1ql22OxKXdrmKovr9hZ/vFFHifhlHMNCQtBA/gZZhpZCrx2m/6/8MB65NgecCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="612938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q7FfFeytVNwoOnSTRhkAxurr177cb1HJBZZb2+D27Dknf0do1BWdLc77sEJMHuiXqsYt4dTmPVu/i9W6Vvk6AQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1161710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZcUbt7iKde3n0w+Tr+9q1nBGjs88uLloPzyIOjHFPeEDiCARMzYr2tcLaquej+28QpWN1y9ykRmYJa0hrPU1BQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.25.0.delta" sparkle:deltaFrom="2.25.0" length="1486678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Hn6zRcvsN0m1mq/vDEIwf+J3l1xb3pcMEJup6hZnnx6TYLHmA8WyAWx/aK7EPfvLq4Mu7aBvGf7e65OIxS8wBg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.24.0.delta" sparkle:deltaFrom="2.24.0" length="1660338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G0nxuztaApbZUaNd9cDrDikujgFrO3X9qSL5VEzBf3jFaLywQOmqwi/j3wq+bAwG07A/RSch/Efk0wwFEo2cAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.27.1</title>
             <pubDate>Sun, 06 Sep 2026 23:14:29 +0300</pubDate>
             <sparkle:version>2.27.1</sparkle:version>
@@ -17,13 +39,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.27.1.zip" length="7883126" type="application/octet-stream" sparkle:edSignature="8FoFr6JBYCBWuiwv4z/3X7/Cyfg8Z6sJXhlIHX+xfgRwowZH1g+Qs074S3l8V854GWuovhsS3Gk6mSS4xKQOAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="230782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8GUcF87cYctmrBr2HdrCjud4EaL5YB/3OlCvfSZ0u9C45l/WExijA1gtD43EraYj5xFlTMdv+kJx9u86ALChAQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1121398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EhC2lKdQ/XRdWsRwnT167kThkI1G3cTI2YS5IAlz+/PrvQLxpt8eC0bZ7RoeDush3S0V/4IZmsJ0uIEPoD7DBQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.25.0.delta" sparkle:deltaFrom="2.25.0" length="1444434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dGu4bYlBDcLTQuXypp4L9Hix4lW3+3TYduu/koB5k02kRvbryh4n8+r+WENaw0VQjMdKb+xTQmAxgjPMVCjGCw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.24.0.delta" sparkle:deltaFrom="2.24.0" length="1621850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AwplmZTFXDlNx2uFjJr/LzdylJhe+2kZV2h9fn/060bHVNXOiDomxw1YX7Ahz3GxxZFPTuHqM8JPHVy9HLgCBQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.1-2.23.0.delta" sparkle:deltaFrom="2.23.0" length="1860002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LxC1eqXQg6zkaxsp/Klc4Pm8/s7pkn9m1vWbsAd5o5zC/FcOBEumSjEIB6I0RwwpRN5/jfjbNzHUlUeqisR2DQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.27.0</title>
@@ -67,54 +82,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.27.0.zip" length="7883245" type="application/octet-stream" sparkle:edSignature="9QiyeDZLwmsmbBkAjGlEx8jEBhT2nc2qONkGIlk1EhGEcRT5USRXDxQQ7DA8i3BiBZYwQUF/sdLROUkK80k4Aw=="/>
-        </item>
-        <item>
-            <title>2.26.0</title>
-            <pubDate>Sun, 06 Sep 2026 10:24:41 +0300</pubDate>
-            <sparkle:version>2.26.0</sparkle:version>
-            <sparkle:shortVersionString>2.26.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.26.0</h2>
-<p>A layers release. The Editor's canvas is now a stack of pictures: drop images onto a capture and each lands where you let go, as a layer you move, resize, hide, lock, rename and fade, with its annotations following it. The canvas grows to make room — around an anchor, around every layer, or by pulling the crop frame past the edge. The Editor's Combine section becomes Arrange, a command over the layers you already placed. A capture that never grew a second layer is untouched: same file, same export, same History entry.</p>
-
-<h3>Layers</h3>
-<ul>
-  <li><b>Drop images onto the canvas.</b> Each file becomes a layer centred where it was dropped — shrunk to fit when it is larger than the canvas — topmost and selected under the Select tool, so the first drag places it. Add Images… in the Inspector's Layers section does the same from an Open panel. A card from History and a file from anywhere both work, and nothing is copied or filed: the layer borrows the file where it lives.</li>
-  <li><b>Move, resize, reorder.</b> Drag a layer to move it; its eight handles resize it, ⇧ keeping the proportions. Arrow keys nudge a pixel, ⇧ ten. ⌘] and ⌘[ step it through the stack and ⌥⌘] and ⌥⌘[ take it to the top or bottom, as they do for shapes; the Layers list reorders by drag too. Every layer operation is one undo step with a name — Undo Move Layer, Undo Hide Layer — and ⌘Z after a move brings the picture back with its annotations.</li>
-  <li><b>Snap to guides.</b> A moved layer's edges and middle take hold of the canvas's edges and middle and of every other visible layer's; a resize pulls only the dragged edge. Each line the layer sits on draws as a guide while the button is down. ⌘-drag moves free of the guides.</li>
-  <li><b>The Layers list.</b> The Inspector's Layers section lists the stack topmost first, each with a thumbnail, its name, an eye and a lock; double-click or Return renames. The selected layer's opacity, visibility and lock sit at the top of the Inspector. A locked layer keeps its place and size while its annotations stay editable; a hidden one leaves the picture. ⌫ removes the selected layer with its annotations, and ⌘Z brings both back. The capture is the bottom layer and cannot be removed.</li>
-  <li><b>The capture is a layer too.</b> Once a second layer exists, a click on the capture selects it; selected, it moves, resizes and nudges like any layer, its annotations with it. A drag on the unselected capture is still the marquee it always was, so composing on top of a screenshot never drags the screenshot out from under the pointer.</li>
-  <li><b>Annotations belong to the layer they were drawn on</b> — the topmost picture under the shape — and move and scale with it, stroke and text size in proportion. A shape on empty canvas, or spanning two pictures, belongs to the canvas and stays put. Redaction, the eyedropper, Smart Redact, crop and every other tool work across the whole canvas, because the canvas is the image being edited.</li>
-</ul>
-
-<h3>The canvas</h3>
-<ul>
-  <li><b>Canvas Size… (⌥⌘C)</b> sets a width and height in pixels and holds the existing canvas to one of nine anchors; the new area takes the canvas colour. The new edge shows as an outline on the canvas and a diagram in the sheet as you type. <b>Reveal All (⌥⌘R)</b> grows the canvas to show every layer whole. Both live in the new Image menu and in the Inspector's Crop and Layers sections.</li>
-  <li><b>The crop frame grows the canvas.</b> In the Crop tool the frame can be dragged past the picture's edge into the room around it. Applying it grows the canvas to enclose the frame first — one undo step, Grow Canvas — and then crops to the frame inside it; pull both sides out and you have a wider document, not a wider document with a crop on it. Zoom out for more room.</li>
-  <li><b>Arrange.</b> The Combine composer's three layouts — side by side, stacked, grid — as a command over the stack, with a gutter and the canvas colour between. It positions the layers from their own sizes in stack order and never reorders the list. The canvas colour also fills empty canvas.</li>
-  <li><b>The status bar</b> shows the dragged layer's position and size for the length of the drag, notes a canvas's new size after a change, and says Updating… while a slow rebuild runs; exports wait for it.</li>
-  <li><b>The stage around the canvas.</b> A layer dragged past the canvas's edge keeps its outline and handles over the stage and can be grabbed, resized and right-clicked there. A click on the empty stage clears the selection, as a click on empty canvas does, and starts nothing.</li>
-</ul>
-
-<h3>Combine, in the Editor</h3>
-<ul>
-  <li><b>The Combine section becomes Layers.</b> A capture that stored a Combine arrangement opens with its tiling as layer frames, every annotation where it was, and its first save from this version writes the layers. The History grid's Combine — several captures into one new file — is unchanged.</li>
-  <li><b>What the stack can hold.</b> Up to 12 layers including the capture, and a canvas — or a set of source images — up to 64 million pixels; a drop, a resize or a canvas change past that is refused with a note and changes nothing. A layer whose file has gone shows a gray placeholder and, while visible, blocks export by name: hide or remove it to export. The Quick Access card's Redact toggle asks for the Editor on a layered capture, as it did for a combined one.</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-  <li><b>An image dragged over the Editor no longer stutters.</b> The drop surface reads the drag once when it enters instead of asking the pasteboard and the disk on every pointer move.</li>
-  <li><b>The Editor's matte shows in Light Mode.</b> The stage drew a white field behind the canvas, so a white capture had no visible edge; the grey matte now shows around the canvas in both appearances.</li>
-  <li><b>A crop dragged inward now takes on screen.</b> The canvas view draws unclipped so a layer's outline and handles past its edge can show over the stage, and the cropped-away picture painted on around the smaller canvas: the crop applied but looked like it never took.</li>
-</ul>
-
-<h3>Notes</h3>
-<ul>
-  <li><b>The History index is now version 3</b>, because an entry can carry layers and a canvas, and a shape can name the layer it belongs to. Versions before 2.26.0 cannot read the new file: on a downgrade, History appears empty, nothing is written, and a copy is parked beside the index as <code>history.unreadable.json</code>. Upgrading again restores everything.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.26.0.zip" length="7783181" type="application/octet-stream" sparkle:edSignature="Y98luOaZrIsk09gUe/gHYLEM47FMKHa+jviGvo/PqB2Byp33DjISSN1Rz9YPlGHvu9YzqceTfQrWi9seA69wBw=="/>
         </item>
         <item>
             <title>2.17.0</title>
