@@ -3,6 +3,61 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.26.0</title>
+            <pubDate>Sun, 06 Sep 2026 10:24:41 +0300</pubDate>
+            <sparkle:version>2.26.0</sparkle:version>
+            <sparkle:shortVersionString>2.26.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.26.0</h2>
+<p>A layers release. The Editor's canvas is now a stack of pictures: drop images onto a capture and each lands where you let go, as a layer you move, resize, hide, lock, rename and fade, with its annotations following it. The canvas grows to make room — around an anchor, around every layer, or by pulling the crop frame past the edge. The Editor's Combine section becomes Arrange, a command over the layers you already placed. A capture that never grew a second layer is untouched: same file, same export, same History entry.</p>
+
+<h3>Layers</h3>
+<ul>
+  <li><b>Drop images onto the canvas.</b> Each file becomes a layer centred where it was dropped — shrunk to fit when it is larger than the canvas — topmost and selected under the Select tool, so the first drag places it. Add Images… in the Inspector's Layers section does the same from an Open panel. A card from History and a file from anywhere both work, and nothing is copied or filed: the layer borrows the file where it lives.</li>
+  <li><b>Move, resize, reorder.</b> Drag a layer to move it; its eight handles resize it, ⇧ keeping the proportions. Arrow keys nudge a pixel, ⇧ ten. ⌘] and ⌘[ step it through the stack and ⌥⌘] and ⌥⌘[ take it to the top or bottom, as they do for shapes; the Layers list reorders by drag too. Every layer operation is one undo step with a name — Undo Move Layer, Undo Hide Layer — and ⌘Z after a move brings the picture back with its annotations.</li>
+  <li><b>Snap to guides.</b> A moved layer's edges and middle take hold of the canvas's edges and middle and of every other visible layer's; a resize pulls only the dragged edge. Each line the layer sits on draws as a guide while the button is down. ⌘-drag moves free of the guides.</li>
+  <li><b>The Layers list.</b> The Inspector's Layers section lists the stack topmost first, each with a thumbnail, its name, an eye and a lock; double-click or Return renames. The selected layer's opacity, visibility and lock sit at the top of the Inspector. A locked layer keeps its place and size while its annotations stay editable; a hidden one leaves the picture. ⌫ removes the selected layer with its annotations, and ⌘Z brings both back. The capture is the bottom layer and cannot be removed.</li>
+  <li><b>The capture is a layer too.</b> Once a second layer exists, a click on the capture selects it; selected, it moves, resizes and nudges like any layer, its annotations with it. A drag on the unselected capture is still the marquee it always was, so composing on top of a screenshot never drags the screenshot out from under the pointer.</li>
+  <li><b>Annotations belong to the layer they were drawn on</b> — the topmost picture under the shape — and move and scale with it, stroke and text size in proportion. A shape on empty canvas, or spanning two pictures, belongs to the canvas and stays put. Redaction, the eyedropper, Smart Redact, crop and every other tool work across the whole canvas, because the canvas is the image being edited.</li>
+</ul>
+
+<h3>The canvas</h3>
+<ul>
+  <li><b>Canvas Size… (⌥⌘C)</b> sets a width and height in pixels and holds the existing canvas to one of nine anchors; the new area takes the canvas colour. The new edge shows as an outline on the canvas and a diagram in the sheet as you type. <b>Reveal All (⌥⌘R)</b> grows the canvas to show every layer whole. Both live in the new Image menu and in the Inspector's Crop and Layers sections.</li>
+  <li><b>The crop frame grows the canvas.</b> In the Crop tool the frame can be dragged past the picture's edge into the room around it. Applying it grows the canvas to enclose the frame first — one undo step, Grow Canvas — and then crops to the frame inside it; pull both sides out and you have a wider document, not a wider document with a crop on it. Zoom out for more room.</li>
+  <li><b>Arrange.</b> The Combine composer's three layouts — side by side, stacked, grid — as a command over the stack, with a gutter and the canvas colour between. It positions the layers from their own sizes in stack order and never reorders the list. The canvas colour also fills empty canvas.</li>
+  <li><b>The status bar</b> shows the dragged layer's position and size for the length of the drag, notes a canvas's new size after a change, and says Updating… while a slow rebuild runs; exports wait for it.</li>
+  <li><b>The stage around the canvas.</b> A layer dragged past the canvas's edge keeps its outline and handles over the stage and can be grabbed, resized and right-clicked there. A click on the empty stage clears the selection, as a click on empty canvas does, and starts nothing.</li>
+</ul>
+
+<h3>Combine, in the Editor</h3>
+<ul>
+  <li><b>The Combine section becomes Layers.</b> A capture that stored a Combine arrangement opens with its tiling as layer frames, every annotation where it was, and its first save from this version writes the layers. The History grid's Combine — several captures into one new file — is unchanged.</li>
+  <li><b>What the stack can hold.</b> Up to 12 layers including the capture, and a canvas — or a set of source images — up to 64 million pixels; a drop, a resize or a canvas change past that is refused with a note and changes nothing. A layer whose file has gone shows a gray placeholder and, while visible, blocks export by name: hide or remove it to export. The Quick Access card's Redact toggle asks for the Editor on a layered capture, as it did for a combined one.</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li><b>An image dragged over the Editor no longer stutters.</b> The drop surface reads the drag once when it enters instead of asking the pasteboard and the disk on every pointer move.</li>
+  <li><b>The Editor's matte shows in Light Mode.</b> The stage drew a white field behind the canvas, so a white capture had no visible edge; the grey matte now shows around the canvas in both appearances.</li>
+  <li><b>A crop dragged inward now takes on screen.</b> The canvas view draws unclipped so a layer's outline and handles past its edge can show over the stage, and the cropped-away picture painted on around the smaller canvas: the crop applied but looked like it never took.</li>
+</ul>
+
+<h3>Notes</h3>
+<ul>
+  <li><b>The History index is now version 3</b>, because an entry can carry layers and a canvas, and a shape can name the layer it belongs to. Versions before 2.26.0 cannot read the new file: on a downgrade, History appears empty, nothing is written, and a copy is parked beside the index as <code>history.unreadable.json</code>. Upgrading again restores everything.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.26.0.zip" length="7783181" type="application/octet-stream" sparkle:edSignature="Y98luOaZrIsk09gUe/gHYLEM47FMKHa+jviGvo/PqB2Byp33DjISSN1Rz9YPlGHvu9YzqceTfQrWi9seA69wBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.26.0-2.25.0.delta" sparkle:deltaFrom="2.25.0" length="1239282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uy0OtYn6P3w47bepb20ms3cjDotqSsUkISx1LgTypXtX1rwaXx9H6pwUip0eIMYZDAOGKEKnoVn5njlKL06xCw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.26.0-2.24.0.delta" sparkle:deltaFrom="2.24.0" length="1417670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5p52QlHitInWym00CPqSGh5uhMaJ9SvXfs872KX3rn7SFqRcvgS1aGz9eIF18xtRZmikMdhP17LyieK7WDXbCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.26.0-2.23.0.delta" sparkle:deltaFrom="2.23.0" length="1781778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IX1F0A+k2TLL076YK1OfV8z4W9FEddam+kdE8daItE8YYwajRyhHctZS8PJ7VicatwvYVDv9Wa1fUQPIcKQ+Cw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.26.0-2.22.0.delta" sparkle:deltaFrom="2.22.0" length="2121590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Nny4jCqlvSoxO+DdFaDeMES58Ox4RcB+gdy89xHGCkSomDcR5mNNXzqj35eM9BB6NyQ2w9QbIav9Ot1AUA6NAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.26.0-2.21.0.delta" sparkle:deltaFrom="2.21.0" length="2150830" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Xx/XNjsjBy4l7P3YSXQfz5h7pqLSbiO2/ZvSieTG+zianaJWmxksTrl7kNqb0zQtfDWQ4Bg8G2cr9yb6YN/BBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.25.0</title>
             <pubDate>Sat, 05 Sep 2026 00:20:19 +0300</pubDate>
             <sparkle:version>2.25.0</sparkle:version>
@@ -32,13 +87,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.25.0.zip" length="7559947" type="application/octet-stream" sparkle:edSignature="TSknlNFs8KwYSX0/kNnx3jxB9rlta3XlOA+u/8KxcWJVxwcdQCfryhfWJRqUvqXp78PienEa7U0e4n1AsdsjCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.24.0.delta" sparkle:deltaFrom="2.24.0" length="812534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CLkI1qBZGL7Hbr986VdSXFXEPnoexvMXOSxn6fkM/rHPxAXvljq2QR5XTnFQUrQtfGfmcm2JwQ0G5bnegptmBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.23.0.delta" sparkle:deltaFrom="2.23.0" length="1458134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UiLk2Ixb5xyNC3zqgQG12u7Jk5vbE7m3AZ7XiQHy6IiOCGSMIYHGTgTR/XUjC9GZloutv+XShHGgAj46XGf9Cw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.22.0.delta" sparkle:deltaFrom="2.22.0" length="1849206" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uaidCzZSmZcey1cffuf5Nq/AuIgB9Ahta/iL7p6drrHE3urlWHqJnAaRUjDFHkhiAR85f3T0NFLpGBjQapI4CQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.21.0.delta" sparkle:deltaFrom="2.21.0" length="1876570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YnB7LsluQ7wboMUBCuXgGnnydmPPLcdN3+0+8Zcg//0ZIZktL70SpWU1TkS1blja78gQM1/lKoMm230ew5v+Ag=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.25.0-2.20.0.delta" sparkle:deltaFrom="2.20.0" length="1971598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3QLVjwazMiaLqLi0Zc+xxU4He8OkvjbJy+qN6nIuTfvxx2sTUMMLUUWSqqsNPq2/EnJRz6VOJd1kuAZuMLLcDw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.24.0</title>
@@ -86,53 +134,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.24.0.zip" length="7407630" type="application/octet-stream" sparkle:edSignature="9a6N8OHEcs216V03osEaaw7dxXSoYGsqQ+aWSTNRqiCnS6RKvcx//8t7QOhd/Jo28uMF0BlSUdTDMOrnzBL1Cw=="/>
-        </item>
-        <item>
-            <title>2.23.0</title>
-            <pubDate>Thu, 03 Sep 2026 11:48:29 +0300</pubDate>
-            <sparkle:version>2.23.0</sparkle:version>
-            <sparkle:shortVersionString>2.23.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.23.0</h2>
-<p>A capture release. Capture Area and Capture Window are now one selector — press Space to switch between dragging a region and picking a window, in either direction. Region and full-display screenshots shoot through ScreenCaptureKit, so nothing hides and settles before a shot: the Self-Timer fires the instant it hits zero and Capture Area shoots on mouse-up. Any capture in History can be brought back as a floating Quick Access card, a window shot's shadow is your call, and a pinned window shot finally looks like a window.</p>
-
-<h3>Capture</h3>
-<ul>
-  <li><b>Space switches between area and window.</b> Capture Area opens in the crosshair and Capture Window opens in window picking; Space on its own flips between them, the way the system crosshair does, in both directions. In window mode the window under the pointer lights up in Snapline's accent with its title tagged above it, and a click takes the shot. Space held during a drag still moves the selection. The crosshair appears on the hotkey itself and the camera cursor on the Space press — no mouse move needed — and the selector stays with you across a ⌘-Tab.</li>
-  <li><b>No flicker before a shot.</b> Region and full-display screenshots capture through ScreenCaptureKit, with Snapline's own chrome left out of the frame rather than hidden first. The Capture Set pill stays up through the shots it counts, the countdown fires the instant it hits zero, and Capture Area shoots on mouse-up. The file is what it was: same pixels, same scale, same display profile.</li>
-  <li><b>The Self-Timer counts down on a window.</b> With a sticky Self-Timer set, Capture Window picks the window first; the accent frame follows it through the countdown and the shot fires at zero. A window that closes before then cancels with a note.</li>
-  <li><b>Include Window Shadow.</b> A new switch in Settings → General → Window captures, on by default so nothing changes unless you ask. Off, a window shot is the window alone, edge to edge, with its rounded corners transparent and no margin — for pasting into documents.</li>
-  <li><b>Smart Redact seeds the text index.</b> With Smart Redact on capture enabled, a capture that comes back clean is searchable at once: the redaction scan's reading becomes its text index entry, instead of a second full recognition pass queued behind whatever was ahead of it. Redacted captures are indexed from the flattened file, as before, so redacted text never enters the index.</li>
-</ul>
-
-<h3>Quick Access and History</h3>
-<ul>
-  <li><b>Show in Quick Access.</b> Any History tile — the hover strip or the context menu — brings that capture back as a floating card, exactly as a fresh capture's would appear. It stays on top while you work in another app and survives closing the History window. It is a summon, not a capture: nothing is copied, the Editor does not open, and the card shows even with the Quick Access overlay switched off. Summoning a card that is already up brings it forward instead of doubling it.</li>
-  <li><b>The tile's hover buttons are one frosted strip</b> in the frame's own style, sized to fit inside the Shelf's tile.</li>
-  <li><b>Cards and the Shelf stay out of each other's way.</b> The card column steps aside for the History Shelf, opening a capture or a pin from a card puts the Shelf away, and clicks aimed at the Shelf's cells no longer land on the card column's invisible runway.</li>
-</ul>
-
-<h3>Pinned windows</h3>
-<ul>
-  <li><b>A pinned window shot looks like a window.</b> Its own shadow over the desktop, a hairline on the window's edge at the window's own corner radius, and the hover toolbar on the window itself — no second shadow around the margin, no border cutting through the shadow.</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-  <li>A Recording that ended early reports "cut short" once, not twice.</li>
-  <li>A capture that lands in the default folder because the custom storage folder is unreachable says so on that capture, instead of the notice going to an unrelated read and the next capture filing there silently. Scrolling Capture now reports the fallback too.</li>
-  <li>Opening a recording from its Quick Access card no longer leaves the History Shelf floating over the Trim Editor.</li>
-  <li>A new recording's preview frame is generated once and shared by the card, History, the Shelf and the status menu, and a finished GIF's thumbnail is ready before its card appears.</li>
-  <li>The Recording overlay's key-chord capsule no longer rebuilds its text layout on every frame.</li>
-</ul>
-
-<h3>Notes</h3>
-<ul>
-  <li><b>Screen Recording granted mid-session.</b> Region and full-display screenshots now share Recording's behavior: a permission granted while Snapline is running takes effect after a relaunch, and the dialog says so. Capture Window works right away.</li>
-  <li><b>The History index is versioned.</b> Fields a newer build adds now survive an older one. Versions before 2.23.0 cannot read the new file: on a downgrade, History appears empty, nothing is written, and a copy is parked beside the index as <code>history.unreadable.json</code>. Upgrading again restores everything; the parked copy can then be deleted.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.23.0.zip" length="7176894" type="application/octet-stream" sparkle:edSignature="NjxDEIgFiNg2y2htC/Det4epvJP12S3UH7brtdis9axhI/5rSPeQyiN9oRbLCKZQxtpSlsf+xK+N4G86PdiaAw=="/>
         </item>
         <item>
             <title>2.17.0</title>
