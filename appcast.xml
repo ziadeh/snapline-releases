@@ -3,6 +3,29 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.28.0</title>
+            <pubDate>Mon, 07 Sep 2026 02:40:05 +0300</pubDate>
+            <sparkle:version>2.28.0</sparkle:version>
+            <sparkle:shortVersionString>2.28.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.28.0</h2>
+<p>6 September 2026</p>
+<ul>
+  <li><strong>More reliable Tall Capture</strong>: Fixed captures stalling or ending halfway down pages with lazy-loading images or animated content. Matching now tolerates localized changes and recovers its position after a failed join. Repeated recoveries can keep extending the capture, including on pages with fixed bottom bars.</li>
+  <li><strong>Full-width window captures</strong>: Fixed window captures losing their sidebars, margins or window controls. Tall Capture keeps the window’s full width and draws a fixed sidebar once, extending its background below it.</li>
+  <li><strong>Cleaner sidebars</strong>: Fixed selected-item backgrounds and icon colors extending down long captures. Sidebar detection also handles edges that fall between matching blocks and continues working after a recovered join.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.28.0.zip" length="7907636" type="application/octet-stream" sparkle:edSignature="P+t/+E6WwPcO4Q+chBnZz3Snlsb9oEsH0ouj9gfr16m5UzKwLzKzNpOT2VUqXzaKbtbR39cSnmlhCMVnwJDYCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.27.2.delta" sparkle:deltaFrom="2.27.2" length="510306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kvJ57MOQ6d0ME6GR72O41dQVz/zjckS6i6YE3rZUgECiRttS5t9Xo7NXXejVGldLkGnh5gYKfgvNDrbbIkIvDQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.27.1.delta" sparkle:deltaFrom="2.27.1" length="646466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GxaTwhDMOeA5iW9S+PsDzAJ2hu7gQBXjmGGlM2zl2ztO/T36K9+ovv+/qqakgcA6Yq6wo+Ij/63xPeF3OHM6AA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="645222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7jFiRWi/WcMBxAm92t4PrsZvpNCufvxXAdQlV6Ge9J80bqKpetiWNG0NZE4z164yHSWUP4gxT0GCqTkNWD9KDA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1174998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IoqDiejTvUS+F3Uc77fN91CQeHrj67JKP7tmkfDyX9cUUrP66pc9NMKwOTMiZnLgsL3yGtjVIGnI470V3cK/BQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.25.0.delta" sparkle:deltaFrom="2.25.0" length="1494122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+/+uZ+X5Jk0K/6laww7LqgmAzWzv/yU5dmJz8o/k++oaia2y7J+cLt/9WomhaCmnAU5BITCcT9GTiRblQzv2Aw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.27.2</title>
             <pubDate>Mon, 07 Sep 2026 01:00:05 +0300</pubDate>
             <sparkle:version>2.27.2</sparkle:version>
@@ -16,13 +39,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.27.2.zip" length="7904050" type="application/octet-stream" sparkle:edSignature="OrLGV6r392npc8qMR1vlss3RAMRMmFigMAjPFyvcixW+tAtbdVpS5acNXmYI5mPVAAIrDe3h/Q2w/njkJNi4Cw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.27.1.delta" sparkle:deltaFrom="2.27.1" length="607558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nd45hDkNJakvZUv4NHY0COJY1ql22OxKXdrmKovr9hZ/vFFHifhlHMNCQtBA/gZZhpZCrx2m/6/8MB65NgecCg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="612938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q7FfFeytVNwoOnSTRhkAxurr177cb1HJBZZb2+D27Dknf0do1BWdLc77sEJMHuiXqsYt4dTmPVu/i9W6Vvk6AQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1161710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZcUbt7iKde3n0w+Tr+9q1nBGjs88uLloPzyIOjHFPeEDiCARMzYr2tcLaquej+28QpWN1y9ykRmYJa0hrPU1BQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.25.0.delta" sparkle:deltaFrom="2.25.0" length="1486678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Hn6zRcvsN0m1mq/vDEIwf+J3l1xb3pcMEJup6hZnnx6TYLHmA8WyAWx/aK7EPfvLq4Mu7aBvGf7e65OIxS8wBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.27.2-2.24.0.delta" sparkle:deltaFrom="2.24.0" length="1660338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G0nxuztaApbZUaNd9cDrDikujgFrO3X9qSL5VEzBf3jFaLywQOmqwi/j3wq+bAwG07A/RSch/Efk0wwFEo2cAQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.27.1</title>
@@ -39,49 +55,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.27.1.zip" length="7883126" type="application/octet-stream" sparkle:edSignature="8FoFr6JBYCBWuiwv4z/3X7/Cyfg8Z6sJXhlIHX+xfgRwowZH1g+Qs074S3l8V854GWuovhsS3Gk6mSS4xKQOAg=="/>
-        </item>
-        <item>
-            <title>2.27.0</title>
-            <pubDate>Sun, 06 Sep 2026 19:26:04 +0300</pubDate>
-            <sparkle:version>2.27.0</sparkle:version>
-            <sparkle:shortVersionString>2.27.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.27.0</h2>
-<p>Two new annotation tools and a border for layers. Polygon draws triangles, stars and everything between from two numbers, with the seven named shapes a click away; Emoji stamps a glyph. A layer in the Editor's stack can now carry a border, and the Layers list is easier to work in.</p>
-
-<h3>Polygons and stars</h3>
-<ul>
-  <li><b>A new Polygon tool (G)</b> draws a polygon that fills the box you drag, said in two numbers: Sides, 3 to 12, and a Star slider that pulls the points in. One tool is therefore triangle, diamond, pentagon, hexagon, star and burst, and the Inspector names the shape you have. ⇧ while drawing squares the frame, and the rail button's glyph always shows the shape the next drag will put down.</li>
-  <li><b>Shape presets.</b> The seven named shapes are offered by name: a Shape row in the Inspector above Sides and Star, a right-click on the rail's G button, or a press-and-hold on it. Applying one sets both numbers in one undo step and reshapes any selected polygons in place. The stepper and slider stay for fine-tuning.</li>
-  <li><b>It styles like a rectangle</b>: colour, stroke width, opacity, a solid or dashed outline, and fill as none, solid, or a tint under the stroke. No corner radius and no rotation — a triangle points up.</li>
-</ul>
-
-<h3>Emoji stickers</h3>
-<ul>
-  <li><b>A new Emoji tool (J)</b> stamps a glyph with a click, sized by the stroke picker and resized afterwards by its corner handles. Pick from a grid of twenty-four in the Inspector, or type, paste, or choose any glyph from the system's Character Viewer. Picking another glyph swaps a selected sticker in place. A sticker takes opacity but no colour: the glyph carries its own.</li>
-  <li><b>Both are ordinary shapes</b>: selected, moved, nudged, duplicated, reordered, deleted, and re-edited a week later, and each remembers its style between editors like every other tool.</li>
-</ul>
-
-<h3>Layers</h3>
-<ul>
-  <li><b>Layer borders.</b> With a layer selected, the Inspector's Stroke row — None, Thin, Medium, Thick — gives it a border, and a Color row appears once there is one: the palette, the eyedropper's sampled colours, or the system colour panel. The border draws just inside the layer's frame, so the frame stays the layer's whole footprint; it moves and resizes with the layer, fades with its opacity, and is baked into the export. Each change is one undo step.</li>
-  <li><b>The Layers list.</b> A click on a layer's name selects it, as a click on its thumbnail did. Show, hide and lock live in the row alone — its eye and lock, its menu, and the canvas's — so the Inspector no longer repeats them as switches, and a selected layer's header names it on one line.</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-  <li><b>A counter badge placed while Opacity was below full</b> came out solid; stamps take the opacity now, as the Inspector said they would.</li>
-  <li><b>The Editor's window floor is taller</b>, so the longer tool rail always shows every tool rather than cutting the last one off on a small capture.</li>
-  <li><b>Background's rounded corners with a shadow</b> drew a black wedge into each corner of the preview at any zoom but 100 %: the canvas rounded on one arc and its shadow on another. Both now round on the canvas's own pixels. The exported file was never wrong.</li>
-</ul>
-
-<h3>Notes</h3>
-<ul>
-  <li><b>The History index is now version 4</b>, because a shape can be a polygon or an emoji. Versions before 2.27.0 cannot read the new file: on a downgrade, History appears empty and nothing is written. Upgrading again restores everything.</li>
-  <li><b>Privacy policy.</b> The trial record Snapline's server keeps now also stores the two-letter country Cloudflare derived from the connection — a count of countries, nothing finer, never the IP address. The app sends nothing new and is told nothing.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.27.0.zip" length="7883245" type="application/octet-stream" sparkle:edSignature="9QiyeDZLwmsmbBkAjGlEx8jEBhT2nc2qONkGIlk1EhGEcRT5USRXDxQQ7DA8i3BiBZYwQUF/sdLROUkK80k4Aw=="/>
         </item>
         <item>
             <title>2.17.0</title>
