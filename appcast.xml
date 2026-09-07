@@ -3,6 +3,28 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.29.0</title>
+            <pubDate>Mon, 07 Sep 2026 21:41:22 +0300</pubDate>
+            <sparkle:version>2.29.0</sparkle:version>
+            <sparkle:shortVersionString>2.29.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.29.0</h2>
+<p>7 September 2026</p>
+<ul>
+  <li><strong>Licensing improvements</strong>: Activation, trials and the License settings pane are more reliable. A paid license keeps working offline as before; a trial now needs a brief moment online every few days.</li>
+  <li><strong>Reset Activations</strong>: If a Mac you no longer use still holds a seat, the activation window can free all seats and activate here.</li>
+  <li><strong>Under the hood</strong>: Stability and reliability fixes.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.29.0.zip" length="7973110" type="application/octet-stream" sparkle:edSignature="ODFFkmBbQH/FtnGmD2ErGy/H0rBuFUIT6ILUuma9TFl5SW2nwanKnHC76bG8KmiaX2tYA7vrPPxLFHyrfuRiCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.29.0-2.27.2.delta" sparkle:deltaFrom="2.27.2" length="843662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="owfIUSjiM5cdXAKYjW9d9IVvDRTeeI8DqEM2wn47Dwy68ZV2+Nf9x2GKL9WtiQktuTHjuOjnRNEkDnIbKRXWCQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.29.0-2.27.1.delta" sparkle:deltaFrom="2.27.1" length="868602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4kKOTiAFN8y7/TKB20EvczZtbjMu706IVYm72fV2/8XG9z0QhOnJcD/5bHNkLBR2UOUILhVwCv2+KNw9T1KnDw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.29.0-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="868470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l3/5gTmLAZhffIkrrmpHSWc0GcnEr/X8QtieSVx2zCPivwpzDzbqCV66RTD31AqjRu+9OYVGENO5tDWaE4JACw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.29.0-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1325342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QafghpxflDqQrjq7Dx7vKcL9+KHpZktshCWiVGIk9nKg1ylSVoq5vYuAkvcuCtJmbLCq9PHqMLqbVgFpuUxuDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.28.0</title>
             <pubDate>Mon, 07 Sep 2026 02:40:05 +0300</pubDate>
             <sparkle:version>2.28.0</sparkle:version>
@@ -17,13 +39,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.28.0.zip" length="7907636" type="application/octet-stream" sparkle:edSignature="P+t/+E6WwPcO4Q+chBnZz3Snlsb9oEsH0ouj9gfr16m5UzKwLzKzNpOT2VUqXzaKbtbR39cSnmlhCMVnwJDYCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.27.2.delta" sparkle:deltaFrom="2.27.2" length="510306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kvJ57MOQ6d0ME6GR72O41dQVz/zjckS6i6YE3rZUgECiRttS5t9Xo7NXXejVGldLkGnh5gYKfgvNDrbbIkIvDQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.27.1.delta" sparkle:deltaFrom="2.27.1" length="646466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GxaTwhDMOeA5iW9S+PsDzAJ2hu7gQBXjmGGlM2zl2ztO/T36K9+ovv+/qqakgcA6Yq6wo+Ij/63xPeF3OHM6AA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="645222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7jFiRWi/WcMBxAm92t4PrsZvpNCufvxXAdQlV6Ge9J80bqKpetiWNG0NZE4z164yHSWUP4gxT0GCqTkNWD9KDA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1174998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IoqDiejTvUS+F3Uc77fN91CQeHrj67JKP7tmkfDyX9cUUrP66pc9NMKwOTMiZnLgsL3yGtjVIGnI470V3cK/BQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.28.0-2.25.0.delta" sparkle:deltaFrom="2.25.0" length="1494122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+/+uZ+X5Jk0K/6laww7LqgmAzWzv/yU5dmJz8o/k++oaia2y7J+cLt/9WomhaCmnAU5BITCcT9GTiRblQzv2Aw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.27.2</title>
@@ -39,22 +54,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.27.2.zip" length="7904050" type="application/octet-stream" sparkle:edSignature="OrLGV6r392npc8qMR1vlss3RAMRMmFigMAjPFyvcixW+tAtbdVpS5acNXmYI5mPVAAIrDe3h/Q2w/njkJNi4Cw=="/>
-        </item>
-        <item>
-            <title>2.27.1</title>
-            <pubDate>Sun, 06 Sep 2026 23:14:29 +0300</pubDate>
-            <sparkle:version>2.27.1</sparkle:version>
-            <sparkle:shortVersionString>2.27.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.27.1</h2>
-<p>A fix for Tall Capture of a window.</p>
-
-<h3>Fixed</h3>
-<ul>
-  <li><b>A window's Tall Capture keeps its full width.</b> The finished stitch trimmed every edge column that stood still while you scrolled — meant for a window's chrome beside the pane — and a browser page's fixed sidebar and blank margin stand still too, so Safari lost its traffic lights, the left of its sidebar and the right of its page. A window now keeps its full width, as a region always did: a sticky sidebar is drawn once and its background carried down the stitch instead of being cut away.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.27.1.zip" length="7883126" type="application/octet-stream" sparkle:edSignature="8FoFr6JBYCBWuiwv4z/3X7/Cyfg8Z6sJXhlIHX+xfgRwowZH1g+Qs074S3l8V854GWuovhsS3Gk6mSS4xKQOAg=="/>
         </item>
         <item>
             <title>2.17.0</title>
