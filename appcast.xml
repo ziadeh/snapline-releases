@@ -3,6 +3,30 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.30.0</title>
+            <pubDate>Tue, 08 Sep 2026 17:50:23 +0300</pubDate>
+            <sparkle:version>2.30.0</sparkle:version>
+            <sparkle:shortVersionString>2.30.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.30.0</h2>
+<p>8 September 2026</p>
+<ul>
+  <li><strong>Open from Clipboard</strong>: Annotate an image you copied from a browser, Slack, Figma or Messages without saving it first. Choose Open from Clipboard in the menu bar, press ⌃⌘V anywhere, or press ⌘V on the History shelf; while the clipboard holds an image, the shelf also offers a Paste from clipboard tile. The image becomes an ordinary capture: History, the Editor, text recognition, pinning and export all apply. The clipboard is read only when you ask and is never watched.</li>
+  <li><strong>Done copies your annotations</strong>: Done in the Editor now saves the marked-up capture and puts it on the clipboard, ready to paste. Turn it off under Settings → General → After annotating.</li>
+  <li><strong>Camera bubble in window recordings</strong>: The camera bubble is no longer disabled for window recordings. It is composited over the recorded window, and its preview follows the window as you move it.</li>
+  <li><strong>Help</strong>: The feature tour now covers trim, GIF options, polygons, emoji stickers and Layers.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.30.0.zip" length="8035464" type="application/octet-stream" sparkle:edSignature="e0WH+85uo7moYeRXklaH8RcofYV8dU5CRDwyX2B4ETlJKp0L47CEnKPuyvB9ZQUH/eMKuXVClEdsX4aaMCXMBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.30.0-2.29.0.delta" sparkle:deltaFrom="2.29.0" length="887642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AOT7oaDfwu7D9mCYyCsdkR1RnMhnnt+lAiwwCx2hHSwmS/Rz11Xq7ItqvOfvhOLwqKLNT+F49PQtFHIKZzvbDg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.30.0-2.28.0.delta" sparkle:deltaFrom="2.28.0" length="1049414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sc2eWm8ltDnBuAcQjISg2XCpktx+vU/goeRbTgjlGFx7hilEsM/hTw7iOt1Vl6KbMuqO4patiGdJxyrYdIhUCA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.30.0-2.27.2.delta" sparkle:deltaFrom="2.27.2" length="1068250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rOnLygg+GHIChbletx4ZrN6uVWCWPKMnXkegIEEZ1GHB56xXub6dyyRBSHx8ysfGlZoD8D9BtZShMBgbPPxbAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.30.0-2.27.1.delta" sparkle:deltaFrom="2.27.1" length="1093946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oZx+zyFMkQKl5TQnXeQu31SkcbGQeFqovFpTJ9EYErylicN+vxXZauhBFO41laGB1XHuPVZ9QYre3nndNNdbAw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.30.0-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="1093046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Wf5cEItfYN/i3ERaAL8RL8oUSIfEs0ucEMBdb6y0acWdjaAOUHoXynGO1Czin6WIY5gD9SuK1a3Xy+ctEjGuAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.29.0</title>
             <pubDate>Mon, 07 Sep 2026 21:41:22 +0300</pubDate>
             <sparkle:version>2.29.0</sparkle:version>
@@ -17,12 +41,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.29.0.zip" length="7973110" type="application/octet-stream" sparkle:edSignature="ODFFkmBbQH/FtnGmD2ErGy/H0rBuFUIT6ILUuma9TFl5SW2nwanKnHC76bG8KmiaX2tYA7vrPPxLFHyrfuRiCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.29.0-2.27.2.delta" sparkle:deltaFrom="2.27.2" length="843662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="owfIUSjiM5cdXAKYjW9d9IVvDRTeeI8DqEM2wn47Dwy68ZV2+Nf9x2GKL9WtiQktuTHjuOjnRNEkDnIbKRXWCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.29.0-2.27.1.delta" sparkle:deltaFrom="2.27.1" length="868602" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4kKOTiAFN8y7/TKB20EvczZtbjMu706IVYm72fV2/8XG9z0QhOnJcD/5bHNkLBR2UOUILhVwCv2+KNw9T1KnDw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.29.0-2.27.0.delta" sparkle:deltaFrom="2.27.0" length="868470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l3/5gTmLAZhffIkrrmpHSWc0GcnEr/X8QtieSVx2zCPivwpzDzbqCV66RTD31AqjRu+9OYVGENO5tDWaE4JACw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.29.0-2.26.0.delta" sparkle:deltaFrom="2.26.0" length="1325342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QafghpxflDqQrjq7Dx7vKcL9+KHpZktshCWiVGIk9nKg1ylSVoq5vYuAkvcuCtJmbLCq9PHqMLqbVgFpuUxuDA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.28.0</title>
@@ -39,21 +57,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.28.0.zip" length="7907636" type="application/octet-stream" sparkle:edSignature="P+t/+E6WwPcO4Q+chBnZz3Snlsb9oEsH0ouj9gfr16m5UzKwLzKzNpOT2VUqXzaKbtbR39cSnmlhCMVnwJDYCw=="/>
-        </item>
-        <item>
-            <title>2.27.2</title>
-            <pubDate>Mon, 07 Sep 2026 01:00:05 +0300</pubDate>
-            <sparkle:version>2.27.2</sparkle:version>
-            <sparkle:shortVersionString>2.27.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Scrolling Capture stalls and breaks, fixed</h2>
-<ul>
-  <li><b>Lazy-loading pages:</b> Tall Capture could stall — the rail kept saying capturing while nothing new was appended, and the file sometimes ended at half the page. The matcher now checks the whole overlap between frames, not just the strip where lazy content resolves, so a placeholder turning into an image no longer reads as no motion.</li>
-  <li><b>Animated content mid-page:</b> a page with an animated block partway down the viewport could break the join outright. A row's match is now judged block by block, so a small moving region can no longer sink an otherwise-matching row.</li>
-  <li><b>Recovery:</b> a frame that lost its place mid-scroll could never find it again, and every later frame failed too. It now re-anchors against the picture already captured, accepted only on strong, unambiguous evidence.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.27.2.zip" length="7904050" type="application/octet-stream" sparkle:edSignature="OrLGV6r392npc8qMR1vlss3RAMRMmFigMAjPFyvcixW+tAtbdVpS5acNXmYI5mPVAAIrDe3h/Q2w/njkJNi4Cw=="/>
         </item>
         <item>
             <title>2.17.0</title>
