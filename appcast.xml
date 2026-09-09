@@ -15,6 +15,7 @@
   <li><strong>Camera bubble</strong>: Shape and border style moved onto the bubble itself. Hover it and three badges appear on its rim beside the resize handle: one flips between circle and rectangle, one shows the current border style and opens the presets menu, with Customize… leading to the full editor in Settings. Picking a camera from the bar turns the bubble on and swaps a live preview in place. The badges are off once recording starts; resizing still works mid-take.</li>
   <li><strong>Region selection</strong>: The size readout now appears only while you are drawing or resizing a region and steps aside once the size is settled, in Record Screen and Scrolling Capture alike.</li>
   <li><strong>Fixes</strong>: The pointer is an arrow over the Record Screen bar again, including its gaps and disabled controls, and switching modes no longer replaces the cursor another window had set.</li>
+  <li><strong>Export location</strong>: In Settings → General, the export folder's path under Export location is now a link: click it, or the folder button beside it, to open that folder in Finder. If a custom folder is no longer reachable, the built-in one opens instead, as captures already fall back to it.</li>
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.31.0.zip" length="8069605" type="application/octet-stream" sparkle:edSignature="zVuhnAr/RJr6/0p+2t+V6LupA50APA3CIEa8W4+7oHRXs56FVJhRbbM5vRF2cQRJJJwOGtRpeWh+PCF9SBRNBQ=="/>
