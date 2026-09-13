@@ -3,6 +3,37 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.34.1</title>
+            <pubDate>Sun, 13 Sep 2026 17:35:07 +0300</pubDate>
+            <sparkle:version>2.34.1</sparkle:version>
+            <sparkle:shortVersionString>2.34.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.34.1</h2>
+<p>13 September 2026 · A fix for a crash in Settings → Shortcuts. It follows 2.34.0 on the same day, so that release's notes are repeated below.</p>
+
+<h3>Fixed</h3>
+<ul>
+  <li><strong>Clicking a shortcut row no longer quits the app.</strong> On some Macs, clicking Capture — or any row — in Settings → Shortcuts to record a new chord took the whole app down, and the eyedropper's value label could go the same way. The labels' typeface tripped a fault inside macOS's text engine that no app can recover from. Both now draw with the system font, the one menus print shortcuts in, with digits kept aligned, so a chord and a hex value read as they did.</li>
+</ul>
+
+<h3>New in 2.34.0, released earlier today</h3>
+<ul>
+  <li><strong>Live zoom</strong>: Press ⌥⌘Z mid-recording and the take pushes in to 2× on whatever the pointer is over, eased in over a third of a second; press it again to come back out. The framing then follows the pointer, moving only once it nears the edge of what is on screen, so nothing jitters or drifts. While you are zoomed, a yellow guide on the recording's boundary marks exactly what is being filmed, with the magnification beside it — the guide is Snapline's own chrome and never lands in the movie. Region, window and whole-display takes all zoom. The zoom button sits on the floating recording control beside Stop and Pause, and Zoom In / Zoom Out is in the menu bar as well.</li>
+  <li><strong>Zoomed in the frames, so everything downstream keeps it</strong>: The zoom is composited into the recorded frames rather than applied afterwards, so a trim, a Convert to GIF and a share all carry it, with nothing to re-export. It cannot be removed from a finished recording — one more press takes it back while the take is still running. Click rings scale and stay put with the content they ring; the keystroke capsule and the camera bubble hold their size and position through a zoom.</li>
+  <li><strong>⌥⌘Z belongs to your other apps between takes</strong>: The zoom chord is held only while a recording is running and given back the moment it ends, so ⌥⌘Z stays Step Backward in Photoshop, Illustrator and After Effects the rest of the time. It is rebindable in Settings → Shortcuts like every other chord, and Snapline's own record and zoom chords are kept out of the keystroke capsule so they never flash in the movie.</li>
+  <li><strong>Help</strong>: The feature tour names the live zoom and the floating recording controls, and the Help window fits a 13-inch display again on both tabs.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.34.1.zip" length="8378742" type="application/octet-stream" sparkle:edSignature="3Irp3ou8Z1osTWxTt7Ib1TDKEIX8ZLOvlnoNnjBKBL4zVtDKcUcokyQK7BlhZZzb3CiIQbfRBGryKgTH+Qu4BA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="440538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="azF/yCnmTWQJshEZ8YQRVP58NDBB3b9rS3uIuP009pRw0iIDti4l+6VlIxSDs3fYCNHjS6408BD3VHA3eRPiAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="1052838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RDkBEU8/pdqGv6UlTQ6MpV6Qqa4ctUinwFWx1n7EJPtNWkc4nZ6/vwBcw9X0aMeE7RWM6oArhNYDRb7GymSbCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.32.0.delta" sparkle:deltaFrom="2.32.0" length="1168854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cV9B1dhInYPPeh7Ihm5vafZ65xpadgulMDD6DsvqIsyW9MC6qx8Isv0MYp6n5QNR/qNNXX2JebqhUDHSruDrDw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.31.0.delta" sparkle:deltaFrom="2.31.0" length="1805898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+6hwhLU3Lv4QhI+ZWZM9ORM7C6z5ZiPBZvlyUXEXFRhuWVedxRx0+C4loj9hplkancN15fSt1atdFpWqIOQoBg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.30.0.delta" sparkle:deltaFrom="2.30.0" length="1861262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7iEYbbwsC0PAdVI3LEkq8Nj6hcWI3Z5SAaR67T+ignrt2qlbEbiAqLLTej4aAxwuSh1QPtveqFCynO9sSWf6BA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.34.0</title>
             <pubDate>Sun, 13 Sep 2026 14:01:27 +0300</pubDate>
             <sparkle:version>2.34.0</sparkle:version>
@@ -18,13 +49,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.34.0.zip" length="8378283" type="application/octet-stream" sparkle:edSignature="99tgNCHdXxdZnCD772MVvrYMAYW12RldB2O2NdcLZLuRAX2Yc/F++rF++no60rrhfHi+UMkZORIY51TEQzkvAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.0-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="1055158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Zt/zOf25lIGSa+9umoQkym/cZry+YnkYb4TsB7CoEQFpMXJc9n/fT4ObFL3ai1wEY9xxTwutJCM8q7rVijsMAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.0-2.32.0.delta" sparkle:deltaFrom="2.32.0" length="1173050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PjPp+5+F4XDem2seUGdKKh6hfU8zUP0t6LrWSwCSVxn6FIRjNAjDxrb7yK8ctnRkLpmmWyIOmRaURjtGRoDlAQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.0-2.31.0.delta" sparkle:deltaFrom="2.31.0" length="1804110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y3c6mbGSBGj6AVQZ/4YYm5NWu9DFaExs42nKXgc+a1YAz9LmQaZW59VmDsRMxkGiGgf89wygE+aPV5uM0k0PCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.0-2.30.0.delta" sparkle:deltaFrom="2.30.0" length="1863834" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qnEhsGmFhGiGicOwas42MBooYA0sxTT76ti+lDLjGgdOKyJFn9SEwGkd8qgSdM6dod80O8Pgne19ny4odqRNCA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.0-2.29.0.delta" sparkle:deltaFrom="2.29.0" length="1953554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l7KEGf2tDpmpbrhl9Z8pZPrHaczHdeR1njWdtJibBpBUf9UHsTl1W+BjKzrZctlUzbLhJjZVlbkiKPSe9mt/CQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.33.0</title>
@@ -41,30 +65,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.33.0.zip" length="8313424" type="application/octet-stream" sparkle:edSignature="NbbzZ/j/aXl4jvmNjfjCrcDyH589lkrcvY1NAU/avmkCBFF2gaz7xruBxqE849G4NCXpi91dOkPFLn9BRFYjDw=="/>
-        </item>
-        <item>
-            <title>2.32.0</title>
-            <pubDate>Fri, 11 Sep 2026 00:21:16 +0300</pubDate>
-            <sparkle:version>2.32.0</sparkle:version>
-            <sparkle:shortVersionString>2.32.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.32.0</h2>
-<p>11 September 2026</p>
-<ul>
-  <li><strong>Redaction</strong>: Blur and pixelate boxes are fully opaque everywhere, including over a window's drop shadow, a transparent region, and the box's own edges — and the box is solid while you are still dragging it out. Nothing of what is underneath survives into the export.</li>
-  <li><strong>Exports keep the capture's density and colour</strong>: PNG, JPEG, HEIC and WebP exports now carry the Retina density and the display's colour profile they were captured with, so a P3 screenshot stays P3 and prints at the right size. Backgrounds are drawn in the same space.</li>
-  <li><strong>Quick Access cards</strong>: Star works on recording and GIF cards. A card whose file was deleted retires instead of offering a dead drag. Escape after Use Keyboard on Latest Capture hands the keyboard back to the app you were in. The card panel is excluded from your own captures, and a lone “Checking…” card can be dismissed and times out on its own.</li>
-  <li><strong>Pinned windows</strong>: Dragging a pin no longer steals keyboard focus from the app behind it; click a pin and Escape or ⌘W closes it. A pressed pin comes to the front. Pins are capped at eight.</li>
-  <li><strong>Editor</strong>: Undo with a text box open no longer inserts a phantom step, and arrow-key nudges make one undo step per burst. Closing the editor cancels its background work. Opening a capture no longer claims unsaved changes. Double-click places no text box in the crop or eyedropper tools, and Smart Redact leaves the crop tool alone. Layer sliders scrub more smoothly, oversized backgrounds and layers are refused with a reason, and the canvas is readable by VoiceOver.</li>
-  <li><strong>Recording</strong>: In a window recording, the camera bubble is recorded where you moved it. Taking a still during a recording keeps the desktop icons hidden. Display changes mid-take keep click highlights in place, and a keystroke or click overlay the system refuses is announced instead of silently missing.</li>
-  <li><strong>Scrolling Capture</strong>: Finishing a tall capture uses about a third of the memory it did, and quitting while it is being saved waits for the file.</li>
-  <li><strong>History</strong>: Deleting many captures, retention and export run in the background with progress and a Cancel button. Undo after a bulk delete restores everything, even if you started a second delete meanwhile. Deleting a starred capture from the status menu asks first and offers Undo Delete.</li>
-  <li><strong>Capture-time Smart Redact</strong>: The unredacted shot stays out of your screenshots folder while the pass runs, and a capture interrupted mid-pass is recovered at next launch, redacted.</li>
-  <li><strong>Settings</strong>: Return in the Reset All Settings dialog cancels instead of resetting. The shortcut recorder disarms when its window loses focus. The Advanced pane's Grant Access row matches onboarding.</li>
-  <li><strong>Licensing</strong>: A renewal extends your existing license — no new key to paste; the app picks up the longer window on its next check. Deactivate on a Mac that only holds a receipt no longer burns the seat, and Return activates from the activation window.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.32.0.zip" length="8240373" type="application/octet-stream" sparkle:edSignature="sSsNZ0nwTT/JmEeO0yGHIBOYVddHiwsdm/p0ti115QUPkxHqGShRLNqzn+bMZ+qTQyPVTY6x3ZvFNXkb/PmlCQ=="/>
         </item>
         <item>
             <title>2.17.0</title>
