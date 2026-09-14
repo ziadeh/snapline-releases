@@ -3,6 +3,32 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.35.0</title>
+            <pubDate>Mon, 14 Sep 2026 18:16:52 +0300</pubDate>
+            <sparkle:version>2.35.0</sparkle:version>
+            <sparkle:shortVersionString>2.35.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.35.0</h2>
+<p>14 September 2026</p>
+<ul>
+  <li><strong>Collections</strong>: Group captures by project. The History window gains a sidebar with All Captures, Starred and one row per Collection, each wearing a four-thumbnail cover, plus an overview page of cover cards. A Collection is a label, not a folder: a capture can sit in several, and the file on disk never moves. Anything in a Collection is kept — exempt from auto-delete like a starred capture — and deleting a Collection deletes no capture. Drag tiles onto a sidebar row or a cover card to add them, or use Add to Collection ▸ on a tile's menu. Inside a Collection, ⌫ and the hover ✕ mean Remove from Collection; Move to Trash stays in the menu.</li>
+  <li><strong>Custom order, and a project view</strong>: Each Collection opens on a project header with its cover, a note, and a Newest | Custom order. Custom order reorders by drag and carries through Quick Look, Export (numbered names) and Combine, so a walkthrough exports in the order you arranged it.</li>
+  <li><strong>File new captures as they land</strong>: Choose File New Captures Into ▸ from the menu bar and every capture — stills, scrolling captures, recordings, GIFs, imports and Combine output — joins that Collection the moment it is saved. A dot on the status icon and a chip on the Quick Access card say filing is on, with a one-click way back out. A GIF inherits its recording's Collections; a Combine result the union of its sources'.</li>
+  <li><strong>Screenshots | Recordings | GIFs</strong>: A chip row above the History grid narrows any view to one medium, with a count per chip, and stays put as you move between All Captures, Starred and Collections. Starred moves into the sidebar, and the History toolbar now draws over the grid so tiles never show through its buttons.</li>
+  <li><strong>Updates no longer wait for a quit that never comes</strong>: A menu-bar app is never quit, so with "Automatically download and install updates" on, Sparkle could hold a downloaded update for up to a week and then offer one the feed had already superseded. An update found by a scheduled check is now announced in the status menu — "Snapline X is available…" — and, when automatic install is on, installs itself the first time the app is quiet: no capture running, nothing being filed, no window or pin on screen. Until then the row reads "Install Snapline X and Relaunch", for whenever you would rather not wait. A recording still finalizes before the relaunch.</li>
+  <li><strong>Help</strong>: The feature tour lists Collections.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.35.0.zip" length="8764685" type="application/octet-stream" sparkle:edSignature="DCpV04Gm+iPoRtBAti6qqZAj3SfBhmgOsmL+YNSQl4yZ+AuwRfrs3kWixACQkTPaCCJPCGkzxNP8kyAaaFFmAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="1453046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zlRHzeueJi+r+VY+qlhg7iX6k7FKA9P9amBbsz+whJWCn76Wt/7lyHR2g+9NwlukqxTGlVP0NQ0kpkW6PMWXAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="1454190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f8Y3nGETK5KvY9au74hqMLGg73Wd6liHT44mDxRfJUi/WhwRH7M5JUaooKmQ5dyeCNG8bK0aR2gaOfPLkMU/Aw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="1661778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hi20V7qmz0vBFcUfsXh1E01/lsJqz4ioLrQYyQc5TDaH5yG5Nlr+1HLIDG56mKaayPWv74PMUk78FtO8QzrPDg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.32.0.delta" sparkle:deltaFrom="2.32.0" length="1744182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lFFw/FJ2nmfP3w1kUvqusAuUZZSgrrCTotdNxMUopE81pOt79fPB+K7IvY1bxmlfBSebj3SSoNaMCua4CKq5Dg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.31.0.delta" sparkle:deltaFrom="2.31.0" length="2253574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L+8tvzrrbe6MFrFXPNYQYAytT/dJZtzjAyo4p5RRPiowEahkUKTFxwT2xHDzq6vuYtQ97XRGtUQIS910fv8WAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.34.1</title>
             <pubDate>Sun, 13 Sep 2026 17:35:07 +0300</pubDate>
             <sparkle:version>2.34.1</sparkle:version>
@@ -25,13 +51,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.34.1.zip" length="8378742" type="application/octet-stream" sparkle:edSignature="3Irp3ou8Z1osTWxTt7Ib1TDKEIX8ZLOvlnoNnjBKBL4zVtDKcUcokyQK7BlhZZzb3CiIQbfRBGryKgTH+Qu4BA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="440538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="azF/yCnmTWQJshEZ8YQRVP58NDBB3b9rS3uIuP009pRw0iIDti4l+6VlIxSDs3fYCNHjS6408BD3VHA3eRPiAg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="1052838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RDkBEU8/pdqGv6UlTQ6MpV6Qqa4ctUinwFWx1n7EJPtNWkc4nZ6/vwBcw9X0aMeE7RWM6oArhNYDRb7GymSbCg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.32.0.delta" sparkle:deltaFrom="2.32.0" length="1168854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cV9B1dhInYPPeh7Ihm5vafZ65xpadgulMDD6DsvqIsyW9MC6qx8Isv0MYp6n5QNR/qNNXX2JebqhUDHSruDrDw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.31.0.delta" sparkle:deltaFrom="2.31.0" length="1805898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+6hwhLU3Lv4QhI+ZWZM9ORM7C6z5ZiPBZvlyUXEXFRhuWVedxRx0+C4loj9hplkancN15fSt1atdFpWqIOQoBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.34.1-2.30.0.delta" sparkle:deltaFrom="2.30.0" length="1861262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7iEYbbwsC0PAdVI3LEkq8Nj6hcWI3Z5SAaR67T+ignrt2qlbEbiAqLLTej4aAxwuSh1QPtveqFCynO9sSWf6BA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.34.0</title>
@@ -49,22 +68,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.34.0.zip" length="8378283" type="application/octet-stream" sparkle:edSignature="99tgNCHdXxdZnCD772MVvrYMAYW12RldB2O2NdcLZLuRAX2Yc/F++rF++no60rrhfHi+UMkZORIY51TEQzkvAw=="/>
-        </item>
-        <item>
-            <title>2.33.0</title>
-            <pubDate>Sat, 12 Sep 2026 13:08:21 +0300</pubDate>
-            <sparkle:version>2.33.0</sparkle:version>
-            <sparkle:shortVersionString>2.33.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.33.0</h2>
-<p>12 September 2026</p>
-<ul>
-  <li><strong>Floating recording controls</strong>: Every recording now has its own control, mounted right beside the recorded area the moment frames start: Stop, Pause/Resume and the running time, a hairline, then switches for Highlight Clicks, Show Keystrokes and Camera, and a chevron that collapses it to a small red dot with the time. It floats above full-screen apps and follows you across Spaces, and it never shows up in the recording or in a screenshot. Two styles under Settings → Recording: the Pill, a capsule that sits above the recorded area and can be dragged anywhere on the screen, or the Edge tab, a strip docked to the left or right screen edge that snaps to the nearer edge when you let go. Hide Recording Controls in the menu bar hides it for the current take only; the menu bar's own stop control is unchanged.</li>
-  <li><strong>Change overlays mid-take</strong>: Highlight Clicks and Show Keystrokes can be switched on or off while a recording is running, from the floating control or from Settings → Recording, and the camera bubble can be shown or hidden during a display or region recording. Nothing prompts for a permission mid-take; a switch that would need one waits for the next recording.</li>
-  <li><strong>Recordings no longer stop on their own</strong>: Some takes ended by themselves at 5, 10 or 15 seconds with nothing pressed: the movie writer was refusing a fragment of the file every so often, and Snapline saved what it had. Recordings are now encoded without frame reordering, which removes the failure. Files are a few percent larger and the last frame lands sooner after you stop.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.33.0.zip" length="8313424" type="application/octet-stream" sparkle:edSignature="NbbzZ/j/aXl4jvmNjfjCrcDyH589lkrcvY1NAU/avmkCBFF2gaz7xruBxqE849G4NCXpi91dOkPFLn9BRFYjDw=="/>
         </item>
         <item>
             <title>2.17.0</title>
