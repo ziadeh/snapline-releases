@@ -3,6 +3,40 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.36.0</title>
+            <pubDate>Tue, 15 Sep 2026 22:33:35 +0300</pubDate>
+            <sparkle:version>2.36.0</sparkle:version>
+            <sparkle:shortVersionString>2.36.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.36.0</h2>
+<p>15 September 2026 · GIFs play in Snapline, a GIF can be re-cut from its recording, Convert to GIF moves into the Trim Editor, and recording and GIF cards get the still card's frame.</p>
+
+<h3>New</h3>
+<ul>
+  <li><strong>GIFs play in Snapline.</strong> Play on a GIF's card or tile opens it in a player of its own, with a frame scrubber and a counter that reads position over total in frames and in seconds ("119 / 239 · 11.8 / 23.9 s"), so the seconds can never be mistaken for the GIF's length. The GIF's own actions sit beside it.</li>
+  <li><strong>Adjust GIF.</strong> A GIF remembers the recording it was converted from. "Adjust GIF…" reopens the Trim Editor on that recording, seeded with the GIF's crop and range, and Replace GIF writes a new GIF in its place: same History entry, same file name. The export runs beside the original and is swapped in only when it succeeds, so a cancel or a failure leaves the GIF you had untouched.</li>
+  <li><strong>Convert to GIF, in one window.</strong> The GIF options no longer have a window of their own. Convert to GIF… opens the Trim Editor with a crop layer over the player, the range on the scrubber, and the presets, size, frame rate, speed, dither and loop controls under it with the live size estimate. Convert is the footer's single click; progress stays on the card's pill or the History tile as before. "Show these options each time" still turns the card's GIF button into a one-click conversion with the remembered options.</li>
+  <li><strong>Recording and GIF cards wear the still card's frame.</strong> The frosted frame the still card shows on hover now surrounds recordings and GIFs too. A recording card carries Star and Reveal in Finder down the left, dismiss, Copy and Save on the right, and Play and GIF across the bottom band; GIF reads Cancel while a conversion runs. The caption reads length over size and format. A GIF card carries Play across the band and leads its caption with the loop length. Recording cards are keyboard-navigable now.</li>
+  <li><strong>One editor per recording.</strong> A Trim window and a Convert or Adjust window never open side by side on the same recording; asking for the second brings the first forward. A conversion the app refuses now says why in the feedback bubble, and the options lock while an export is running.</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li><strong>Flipping a GIF option could quit the app.</strong> Changing Dither gradients, or any option, while the size estimate was still reading the recording could take Snapline down, and Cancel mid-conversion could do the same. The reader is now stopped only by the thread that owns it.</li>
+  <li><strong>Live zoom follows the cursor on display and region takes.</strong> With Highlight Clicks off, a zoom on a display or region recording landed where you pressed and never panned. It follows the pointer now, as window recordings always did.</li>
+  <li><strong>Recording controls readable in Light Mode.</strong> The floating pill and its edge tab draw white on dark glass, and under Light Mode the glass went near-white over a light desktop. The panel is pinned to dark now, collapsed timer included.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.36.0.zip" length="8937576" type="application/octet-stream" sparkle:edSignature="lnCydOJv6zOO8YokNRki8ohAPQfIn6XA0e7Mhw+SacBv8oQK6F+Ms70S/hs+CdgbDMweOF0UyEGuqPhO9BXBCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.35.0.delta" sparkle:deltaFrom="2.35.0" length="1310366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MVRU/Ja/JyMDgjbU15hQpNMcWegztGsOWLXV3CtmUKfGxXtz0PROBppxUIZ9ecwfhrKxfuXmHDnsJemwDaUJDg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="1806554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5VXRIXP/XuDbo4hSaUFoEM9u6nLlVl1Ugro2kwpMRWRpHaS3G4olwb2vqG3X+2T7ge52G2ImfMmMMbTmd41+CA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="1809886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L2djX/cjzPG2IGBBh4Onr5LOJIhE7UmzcJDeTr5ZnU9ht5Lr9ZGZarMuSlxYkVuhRwrlOqjO1j9UIXwQtmzSDA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="1992306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uIH5DZ6auQbG3BVU65bRenzWmm9rWnjyeTYdGL+x6kV7b4K+YzkjYIpNiViq2E398CpT2uBJAndreXCxJHNIBA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.32.0.delta" sparkle:deltaFrom="2.32.0" length="2061242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="e5phPFf+hkKwvAouBgjEuttMOAciFeCy90ubj3KadmeDMfJ0NVlxybxWMq2rSy7DMndmCwy1FekB1UpPBAFAAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.35.0</title>
             <pubDate>Mon, 14 Sep 2026 18:16:52 +0300</pubDate>
             <sparkle:version>2.35.0</sparkle:version>
@@ -20,13 +54,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.35.0.zip" length="8764685" type="application/octet-stream" sparkle:edSignature="DCpV04Gm+iPoRtBAti6qqZAj3SfBhmgOsmL+YNSQl4yZ+AuwRfrs3kWixACQkTPaCCJPCGkzxNP8kyAaaFFmAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="1453046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zlRHzeueJi+r+VY+qlhg7iX6k7FKA9P9amBbsz+whJWCn76Wt/7lyHR2g+9NwlukqxTGlVP0NQ0kpkW6PMWXAg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="1454190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f8Y3nGETK5KvY9au74hqMLGg73Wd6liHT44mDxRfJUi/WhwRH7M5JUaooKmQ5dyeCNG8bK0aR2gaOfPLkMU/Aw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="1661778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hi20V7qmz0vBFcUfsXh1E01/lsJqz4ioLrQYyQc5TDaH5yG5Nlr+1HLIDG56mKaayPWv74PMUk78FtO8QzrPDg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.32.0.delta" sparkle:deltaFrom="2.32.0" length="1744182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lFFw/FJ2nmfP3w1kUvqusAuUZZSgrrCTotdNxMUopE81pOt79fPB+K7IvY1bxmlfBSebj3SSoNaMCua4CKq5Dg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.35.0-2.31.0.delta" sparkle:deltaFrom="2.31.0" length="2253574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L+8tvzrrbe6MFrFXPNYQYAytT/dJZtzjAyo4p5RRPiowEahkUKTFxwT2xHDzq6vuYtQ97XRGtUQIS910fv8WAQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.34.1</title>
@@ -51,23 +78,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.34.1.zip" length="8378742" type="application/octet-stream" sparkle:edSignature="3Irp3ou8Z1osTWxTt7Ib1TDKEIX8ZLOvlnoNnjBKBL4zVtDKcUcokyQK7BlhZZzb3CiIQbfRBGryKgTH+Qu4BA=="/>
-        </item>
-        <item>
-            <title>2.34.0</title>
-            <pubDate>Sun, 13 Sep 2026 14:01:27 +0300</pubDate>
-            <sparkle:version>2.34.0</sparkle:version>
-            <sparkle:shortVersionString>2.34.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.34.0</h2>
-<p>13 September 2026</p>
-<ul>
-  <li><strong>Live zoom</strong>: Press ⌥⌘Z mid-recording and the take pushes in to 2× on whatever the pointer is over, eased in over a third of a second; press it again to come back out. The framing then follows the pointer, moving only once it nears the edge of what is on screen, so nothing jitters or drifts. While you are zoomed, a yellow guide on the recording's boundary marks exactly what is being filmed, with the magnification beside it — the guide is Snapline's own chrome and never lands in the movie. Region, window and whole-display takes all zoom. The zoom button sits on the floating recording control beside Stop and Pause, and Zoom In / Zoom Out is in the menu bar as well.</li>
-  <li><strong>Zoomed in the frames, so everything downstream keeps it</strong>: The zoom is composited into the recorded frames rather than applied afterwards, so a trim, a Convert to GIF and a share all carry it, with nothing to re-export. It cannot be removed from a finished recording — one more press takes it back while the take is still running. Click rings scale and stay put with the content they ring; the keystroke capsule and the camera bubble hold their size and position through a zoom.</li>
-  <li><strong>⌥⌘Z belongs to your other apps between takes</strong>: The zoom chord is held only while a recording is running and given back the moment it ends, so ⌥⌘Z stays Step Backward in Photoshop, Illustrator and After Effects the rest of the time. It is rebindable in Settings → Shortcuts like every other chord, and Snapline's own record and zoom chords are kept out of the keystroke capsule so they never flash in the movie.</li>
-  <li><strong>Help</strong>: The feature tour names the live zoom and the floating recording controls, and the Help window fits a 13-inch display again on both tabs.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.34.0.zip" length="8378283" type="application/octet-stream" sparkle:edSignature="99tgNCHdXxdZnCD772MVvrYMAYW12RldB2O2NdcLZLuRAX2Yc/F++rF++no60rrhfHi+UMkZORIY51TEQzkvAw=="/>
         </item>
         <item>
             <title>2.17.0</title>
