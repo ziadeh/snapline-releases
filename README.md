@@ -29,7 +29,7 @@ Website: **https://snap-line.app** · Support: support@snap-line.app
 - **Download:** [Snapline.dmg (latest)](https://github.com/ziadeh/snapline-releases/releases/latest/download/Snapline.dmg)
 - **Homebrew:** `brew install ziadeh/tap/snapline` — the cask in
   [ziadeh/homebrew-tap](https://github.com/ziadeh/homebrew-tap) installs the
-  same DMG and is bumped with every stable release.
+  same signed and notarized build and is bumped with every stable release.
 - **Prices are localized** and shown at checkout: https://snap-line.app/buy/ —
   a quoted figure would be wrong in most currencies, so this file doesn't quote one.
 
