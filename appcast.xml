@@ -3,6 +3,31 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.37.0</title>
+            <pubDate>Thu, 17 Sep 2026 16:16:58 +0300</pubDate>
+            <sparkle:version>2.37.0</sparkle:version>
+            <sparkle:shortVersionString>2.37.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.37.0</h2>
+<p>17 September 2026 · First-time setup is a guided six-step walk, it survives the relaunch macOS 14 needs for the Screen Recording grant, and Homebrew installs the official cask.</p>
+
+<h3>New</h3>
+<ul>
+  <li><strong>First-time setup is a guided walk.</strong> The welcome window is now a six-step wizard — Welcome, Screen Recording, Shortcuts, Menu Bar, Start at Login, Ready — with a sidebar that ticks off each step and a "Step n of 6" chip. Screen Recording is still the only permission it asks for: the step says the state in a word (Not requested, Requested, Granted), makes Grant the one prominent button while the grant is missing, and offers System Settings once macOS's single prompt has been spent. Shortcuts shows the live chords with a "Try it now" line, Show Me drops a "Snapline is here" bubble under the menu bar icon, and Start at Login is proposed and applied only when you press Get Started — closing the window applies nothing.</li>
+  <li><strong>Setup survives the relaunch macOS 14 needs.</strong> On Sonoma a Screen Recording grant reaches a running app only after it relaunches, and System Settings says so. The wizard says so too, offers Quit &amp; Reopen Snapline, and comes back on the same step reading Granted. Quitting mid-setup never counts as finishing it.</li>
+  <li><strong>Homebrew.</strong> <code>brew install --cask snapline</code> installs the same signed, notarized build from the official cask.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.37.0.zip" length="9052964" type="application/octet-stream" sparkle:edSignature="KfmkfQZvHyouq5QtxsJHdpL/ILtwMZZGkQvLtQbOPT8VmWK/0vANcKy7WQiMmY8d6c8IwHpPXaEHpkQVLOywCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.36.0.delta" sparkle:deltaFrom="2.36.0" length="978174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ucfB5I/nPMVgMnYhkHnR3aAMI/ICnlw11lKpTSENYKUtOxgIpvn/SMSTIv+r1HoCF3k4PtQLy5iu7WUE9Pe/Ag=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.35.0.delta" sparkle:deltaFrom="2.35.0" length="1493282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1bSL3R9UC0+9gAsFqFPkSYmWo4G4qwXVpNikWYZD19sRSVN/AF+DNw+t5WIQsE+5fyeoVfXtRUof0bgzHj6vCw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="1952122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FSssItbiKL+yTqk+VcQjlLACfrgqEqoaPnGmlCHcrGS+27JfDkcNSyj7XEgl7mBHzspqD8NwFT9afmTQELp+Ag=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="1957394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/Zn/ryq00kn29h93Dr5RH72Dq4PhqXuKX5M7fOalrdrduL0LxqMFS9SGFuvRXJgHAYNvzQ90SaWsvkBMGUo5Bg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="2117594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p2bMaZ5HQ6XUKHoj29AqyX7ReJ/Sk4tJovP2BBC6cnMZY9uSmvbBrHSbsDg01xifvBT7nXgOul84cxOBDc4lCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.36.0</title>
             <pubDate>Tue, 15 Sep 2026 22:33:35 +0300</pubDate>
             <sparkle:version>2.36.0</sparkle:version>
@@ -28,13 +53,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.36.0.zip" length="8937576" type="application/octet-stream" sparkle:edSignature="lnCydOJv6zOO8YokNRki8ohAPQfIn6XA0e7Mhw+SacBv8oQK6F+Ms70S/hs+CdgbDMweOF0UyEGuqPhO9BXBCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.35.0.delta" sparkle:deltaFrom="2.35.0" length="1310366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MVRU/Ja/JyMDgjbU15hQpNMcWegztGsOWLXV3CtmUKfGxXtz0PROBppxUIZ9ecwfhrKxfuXmHDnsJemwDaUJDg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="1806554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5VXRIXP/XuDbo4hSaUFoEM9u6nLlVl1Ugro2kwpMRWRpHaS3G4olwb2vqG3X+2T7ge52G2ImfMmMMbTmd41+CA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="1809886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L2djX/cjzPG2IGBBh4Onr5LOJIhE7UmzcJDeTr5ZnU9ht5Lr9ZGZarMuSlxYkVuhRwrlOqjO1j9UIXwQtmzSDA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="1992306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uIH5DZ6auQbG3BVU65bRenzWmm9rWnjyeTYdGL+x6kV7b4K+YzkjYIpNiViq2E398CpT2uBJAndreXCxJHNIBA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.36.0-2.32.0.delta" sparkle:deltaFrom="2.32.0" length="2061242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="e5phPFf+hkKwvAouBgjEuttMOAciFeCy90ubj3KadmeDMfJ0NVlxybxWMq2rSy7DMndmCwy1FekB1UpPBAFAAA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.35.0</title>
@@ -54,30 +72,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.35.0.zip" length="8764685" type="application/octet-stream" sparkle:edSignature="DCpV04Gm+iPoRtBAti6qqZAj3SfBhmgOsmL+YNSQl4yZ+AuwRfrs3kWixACQkTPaCCJPCGkzxNP8kyAaaFFmAw=="/>
-        </item>
-        <item>
-            <title>2.34.1</title>
-            <pubDate>Sun, 13 Sep 2026 17:35:07 +0300</pubDate>
-            <sparkle:version>2.34.1</sparkle:version>
-            <sparkle:shortVersionString>2.34.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.34.1</h2>
-<p>13 September 2026 · A fix for a crash in Settings → Shortcuts. It follows 2.34.0 on the same day, so that release's notes are repeated below.</p>
-
-<h3>Fixed</h3>
-<ul>
-  <li><strong>Clicking a shortcut row no longer quits the app.</strong> On some Macs, clicking Capture — or any row — in Settings → Shortcuts to record a new chord took the whole app down, and the eyedropper's value label could go the same way. The labels' typeface tripped a fault inside macOS's text engine that no app can recover from. Both now draw with the system font, the one menus print shortcuts in, with digits kept aligned, so a chord and a hex value read as they did.</li>
-</ul>
-
-<h3>New in 2.34.0, released earlier today</h3>
-<ul>
-  <li><strong>Live zoom</strong>: Press ⌥⌘Z mid-recording and the take pushes in to 2× on whatever the pointer is over, eased in over a third of a second; press it again to come back out. The framing then follows the pointer, moving only once it nears the edge of what is on screen, so nothing jitters or drifts. While you are zoomed, a yellow guide on the recording's boundary marks exactly what is being filmed, with the magnification beside it — the guide is Snapline's own chrome and never lands in the movie. Region, window and whole-display takes all zoom. The zoom button sits on the floating recording control beside Stop and Pause, and Zoom In / Zoom Out is in the menu bar as well.</li>
-  <li><strong>Zoomed in the frames, so everything downstream keeps it</strong>: The zoom is composited into the recorded frames rather than applied afterwards, so a trim, a Convert to GIF and a share all carry it, with nothing to re-export. It cannot be removed from a finished recording — one more press takes it back while the take is still running. Click rings scale and stay put with the content they ring; the keystroke capsule and the camera bubble hold their size and position through a zoom.</li>
-  <li><strong>⌥⌘Z belongs to your other apps between takes</strong>: The zoom chord is held only while a recording is running and given back the moment it ends, so ⌥⌘Z stays Step Backward in Photoshop, Illustrator and After Effects the rest of the time. It is rebindable in Settings → Shortcuts like every other chord, and Snapline's own record and zoom chords are kept out of the keystroke capsule so they never flash in the movie.</li>
-  <li><strong>Help</strong>: The feature tour names the live zoom and the floating recording controls, and the Help window fits a 13-inch display again on both tabs.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.34.1.zip" length="8378742" type="application/octet-stream" sparkle:edSignature="3Irp3ou8Z1osTWxTt7Ib1TDKEIX8ZLOvlnoNnjBKBL4zVtDKcUcokyQK7BlhZZzb3CiIQbfRBGryKgTH+Qu4BA=="/>
         </item>
         <item>
             <title>2.17.0</title>
