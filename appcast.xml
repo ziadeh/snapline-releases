@@ -3,6 +3,34 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.38.0</title>
+            <pubDate>Fri, 18 Sep 2026 14:46:18 +0300</pubDate>
+            <sparkle:version>2.38.0</sparkle:version>
+            <sparkle:shortVersionString>2.38.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.38.0</h2>
+<p>18 September 2026 · Select Text: drag across the words on a capture to copy, redact or highlight them, right in the editor.</p>
+
+<h3>New</h3>
+<ul>
+  <li><strong>Select Text.</strong> A new editor tool, beside the select tool on the rail, selects the text in a capture right on the image, the way Preview does. Press to place a caret, double-click for a word, triple-click for a line, and drag to extend by the character. The selection runs in reading order: a span from the middle of one line to the middle of a later one holds every line between them whole, past the end of a line it runs to the line's end, and below the last line to the end of the text.</li>
+  <li><strong>Copy, redact or highlight what you selected.</strong> ⌘C copies the selection. R or H, or the Inspector's Redact and Highlight buttons, cover exactly the selected characters with one redaction or highlight per line, as a single undo step, and the tool stays active for the next selection. The tool never creates a shape on its own.</li>
+  <li><strong>Double-click a word.</strong> In the select tool, a double-click on a word of the capture now enters Select Text with that word selected (it used to drop a text box on top of it). A double-click clear of any text still places a text box, and holding Option keeps the old behaviour everywhere.</li>
+  <li><strong>Columns and panes read one after another.</strong> Two terminal panes or two page columns side by side are read left column whole, then right, so a drag down one pane never takes the other's lines. It takes three or more lines level with each other across a clear gutter to make columns; a chat transcript or a row of labels stays in row order.</li>
+  <li><strong>Right-to-left text.</strong> A bidirectional line selects by its logical characters, with the carets laid out through Core Text and fitted to the words on the capture.</li>
+  <li><strong>Where it draws the line.</strong> Text under an existing redaction, outside the crop, or in a hidden capture is not offered. Recognition runs once per editor window, on device, as soon as the capture is decoded, so the tool opens without a wait; "Recognizing text…" shows only if you get there first.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.38.0.zip" length="9143053" type="application/octet-stream" sparkle:edSignature="d72Xdx/Idy+jYJeNW5KzFt6iv2VOTougnaBlyqoHpfHGJ61r9mUj+g37m/hLCgRYGNJ1u5ROWk3GnvVsr9ELBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.37.0.delta" sparkle:deltaFrom="2.37.0" length="1010486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EQ93TL9O0iOau3CIGaGeTx+fIPRTTTG6ufiekzz2tVDWif0hah9e8rGmi0H/2sAtvz2xCrNwBz21YOmEkY54DQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.36.0.delta" sparkle:deltaFrom="2.36.0" length="1219946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sXq6NZpnK/Hd3b05Ps9BIhkLVY3F4eEWWznUeZongzkALJPlXmlEugwRztJig/eEJBzeDtaztxb1vmBU71DpBw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.35.0.delta" sparkle:deltaFrom="2.35.0" length="1664662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cWsWQhkPA6Z7zksME+sbqmmEfISdMXUEIoSgHqRDZ2mFLRUgtFbAYDRTdfafw7itgKXAPbcQ1ovm2h9CVcswCw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="2112510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H35C970qrh+DaPyD/Rv71cTaEZneQBG/d4CTwV/sHLa8QUGT86riKp47YvbqQV2uXLr/Kmn5Wu0R8l2T7JdKBA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="2115918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Rfk4Oj0UDmNshZBszfCeirTmvCyaVXZcul42cjNND/t0I2EX4jZbPB8ZJ8RVbj75zSeGU5sJGntHp8VReNThBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.37.0</title>
             <pubDate>Thu, 17 Sep 2026 16:16:58 +0300</pubDate>
             <sparkle:version>2.37.0</sparkle:version>
@@ -19,13 +47,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.37.0.zip" length="9052964" type="application/octet-stream" sparkle:edSignature="KfmkfQZvHyouq5QtxsJHdpL/ILtwMZZGkQvLtQbOPT8VmWK/0vANcKy7WQiMmY8d6c8IwHpPXaEHpkQVLOywCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.36.0.delta" sparkle:deltaFrom="2.36.0" length="978174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ucfB5I/nPMVgMnYhkHnR3aAMI/ICnlw11lKpTSENYKUtOxgIpvn/SMSTIv+r1HoCF3k4PtQLy5iu7WUE9Pe/Ag=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.35.0.delta" sparkle:deltaFrom="2.35.0" length="1493282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1bSL3R9UC0+9gAsFqFPkSYmWo4G4qwXVpNikWYZD19sRSVN/AF+DNw+t5WIQsE+5fyeoVfXtRUof0bgzHj6vCw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="1952122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FSssItbiKL+yTqk+VcQjlLACfrgqEqoaPnGmlCHcrGS+27JfDkcNSyj7XEgl7mBHzspqD8NwFT9afmTQELp+Ag=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="1957394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/Zn/ryq00kn29h93Dr5RH72Dq4PhqXuKX5M7fOalrdrduL0LxqMFS9SGFuvRXJgHAYNvzQ90SaWsvkBMGUo5Bg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.37.0-2.33.0.delta" sparkle:deltaFrom="2.33.0" length="2117594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p2bMaZ5HQ6XUKHoj29AqyX7ReJ/Sk4tJovP2BBC6cnMZY9uSmvbBrHSbsDg01xifvBT7nXgOul84cxOBDc4lCA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.36.0</title>
@@ -53,25 +74,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.36.0.zip" length="8937576" type="application/octet-stream" sparkle:edSignature="lnCydOJv6zOO8YokNRki8ohAPQfIn6XA0e7Mhw+SacBv8oQK6F+Ms70S/hs+CdgbDMweOF0UyEGuqPhO9BXBCg=="/>
-        </item>
-        <item>
-            <title>2.35.0</title>
-            <pubDate>Mon, 14 Sep 2026 18:16:52 +0300</pubDate>
-            <sparkle:version>2.35.0</sparkle:version>
-            <sparkle:shortVersionString>2.35.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.35.0</h2>
-<p>14 September 2026</p>
-<ul>
-  <li><strong>Collections</strong>: Group captures by project. The History window gains a sidebar with All Captures, Starred and one row per Collection, each wearing a four-thumbnail cover, plus an overview page of cover cards. A Collection is a label, not a folder: a capture can sit in several, and the file on disk never moves. Anything in a Collection is kept — exempt from auto-delete like a starred capture — and deleting a Collection deletes no capture. Drag tiles onto a sidebar row or a cover card to add them, or use Add to Collection ▸ on a tile's menu. Inside a Collection, ⌫ and the hover ✕ mean Remove from Collection; Move to Trash stays in the menu.</li>
-  <li><strong>Custom order, and a project view</strong>: Each Collection opens on a project header with its cover, a note, and a Newest | Custom order. Custom order reorders by drag and carries through Quick Look, Export (numbered names) and Combine, so a walkthrough exports in the order you arranged it.</li>
-  <li><strong>File new captures as they land</strong>: Choose File New Captures Into ▸ from the menu bar and every capture — stills, scrolling captures, recordings, GIFs, imports and Combine output — joins that Collection the moment it is saved. A dot on the status icon and a chip on the Quick Access card say filing is on, with a one-click way back out. A GIF inherits its recording's Collections; a Combine result the union of its sources'.</li>
-  <li><strong>Screenshots | Recordings | GIFs</strong>: A chip row above the History grid narrows any view to one medium, with a count per chip, and stays put as you move between All Captures, Starred and Collections. Starred moves into the sidebar, and the History toolbar now draws over the grid so tiles never show through its buttons.</li>
-  <li><strong>Updates no longer wait for a quit that never comes</strong>: A menu-bar app is never quit, so with "Automatically download and install updates" on, Sparkle could hold a downloaded update for up to a week and then offer one the feed had already superseded. An update found by a scheduled check is now announced in the status menu — "Snapline X is available…" — and, when automatic install is on, installs itself the first time the app is quiet: no capture running, nothing being filed, no window or pin on screen. Until then the row reads "Install Snapline X and Relaunch", for whenever you would rather not wait. A recording still finalizes before the relaunch.</li>
-  <li><strong>Help</strong>: The feature tour lists Collections.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.35.0.zip" length="8764685" type="application/octet-stream" sparkle:edSignature="DCpV04Gm+iPoRtBAti6qqZAj3SfBhmgOsmL+YNSQl4yZ+AuwRfrs3kWixACQkTPaCCJPCGkzxNP8kyAaaFFmAw=="/>
         </item>
         <item>
             <title>2.17.0</title>
