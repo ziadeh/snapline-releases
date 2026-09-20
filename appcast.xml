@@ -3,6 +3,42 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.39.0</title>
+            <pubDate>Sun, 20 Sep 2026 11:46:18 +0300</pubDate>
+            <sparkle:version>2.39.0</sparkle:version>
+            <sparkle:shortVersionString>2.39.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.39.0</h2>
+<p>20 September 2026 · Capture Text: drag over any words on screen and they're on your clipboard, no screenshot saved.</p>
+
+<h3>New</h3>
+<ul>
+  <li><strong>Capture Text.</strong> Press ⌥⌘E, or choose Capture Text in the menu bar, and the familiar crosshair appears wearing a "Capture Text" caption. Drag over any text on screen (a paused video, a slide in a call, a dialog that won't let you select) and the text is on your clipboard, recognized on your Mac. No screenshot is saved. The confirmation shows the first line it read; an area with no text says "No text found in that area" and saves nothing.</li>
+  <li><strong>Text clips.</strong> Each read is kept as a text clip, a small plain-text file saved where your screenshots go, with its own card and a Text chip in History. Search finds a clip by any word in it, and the Text View opens it as text alone, with per-block copy and translation. Turning off Index text in screenshots leaves clips alone.</li>
+  <li><strong>Copy-only, if you'd rather.</strong> Settings → History → Keep text clips in History. Turned off, a read is copied and that's all: no file, no History entry, no card.</li>
+  <li><strong>Paragraphs come back whole.</strong> Copied text no longer keeps the line breaks of the window it was read from: lines that only wrapped are joined, and the breaks the source meant (list items, short lines, code, blank lines) stay. It applies to every Copy Text. Settings → History → Join lines into paragraphs; hold Option over Copy All in the Text View to copy the other way once.</li>
+  <li><strong>Copy as Table and Copy as Code.</strong> Text that reads as a grid copies as tab-separated cells, ready for Numbers or Excel; code copies with its indentation rebuilt. Each appears only where that shape was found.</li>
+  <li><strong>Tables read more completely.</strong> Recognition goes back for digits it dropped from a numeric table column and fills only the cells that came back empty, never with a guess, and smaller captures are read at twice their size. Search, Copy Text, Select Text and Smart Redact all read the better text.</li>
+  <li><strong>The first read is quick.</strong> Snapline prepares text recognition at launch, so the first Capture Text after an install or an update no longer sits on "Recognizing…" for five or six seconds.</li>
+  <li><strong>Select Text.</strong> A right-click over a text selection in the editor now offers Copy, Redact and Highlight, instead of shape commands that were all greyed out.</li>
+  <li><strong>Shortcuts.</strong> A shortcut you chose now always wins over one a newer version ships with. If ⌥⌘E was already one of your Snapline shortcuts, yours stays, and Capture Text waits for a chord in Settings → Shortcuts.</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li>Scrolling capture: a button fixed on the page now appears once instead of in every strip; a page border that ended partway is no longer painted down the capture; a window's rounded corners no longer leave black notches at the first seam; and the discard question no longer opens behind the side rail.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.39.0.zip" length="9349555" type="application/octet-stream" sparkle:edSignature="3l7M6nza3St7Ud9w3xXiWizeltcj11+5H2+wqUgf04Xj/rxMZfguj4LeccAgO4oyglTyLgRdQSQAIKsai0ZBAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.39.0-2.38.0.delta" sparkle:deltaFrom="2.38.0" length="1459734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v6Szqdtd4xS5rpmK0nfSiU3E9NEoRcPjLVziDISG/WggDJXcuJHMz/fpbF5rU924suGZDY/XIYv5PBhibfHtAQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.39.0-2.37.0.delta" sparkle:deltaFrom="2.37.0" length="1607586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/mXmG0SV0pgZorZlV7NP4nGDHI1qDS3haSVKT8GHkDdlReSqn5lLQBTjCYjOSAhU+LqwkapCxRmPvbSxDDU1Bw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.39.0-2.36.0.delta" sparkle:deltaFrom="2.36.0" length="1752082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EcjdFywSWdwzThXFlOXti6CmbvppNBaSdJyh8iIsdtB1BPECECEDvgZOFFMkr8e+9dfiYExawITot5Iquo6zCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.39.0-2.35.0.delta" sparkle:deltaFrom="2.35.0" length="2079378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zFi/RHIfum9IJg5gwF1mpRelLhol3TNlNrgs3RvOeg0o84TMwd+f2mb0TPyzaDZAn0J2nbHZaivbFVGVzxNICw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.39.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="2435162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S70REIOzNbS+TTV3XWl1YUUeuvL9lM3FK6ZWFHVuGNVQFdYvlsc6CjE8GCVm99Gf8JfVDFq957uHxNaqDcFUCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.38.0</title>
             <pubDate>Fri, 18 Sep 2026 14:46:18 +0300</pubDate>
             <sparkle:version>2.38.0</sparkle:version>
@@ -22,13 +58,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.38.0.zip" length="9143053" type="application/octet-stream" sparkle:edSignature="d72Xdx/Idy+jYJeNW5KzFt6iv2VOTougnaBlyqoHpfHGJ61r9mUj+g37m/hLCgRYGNJ1u5ROWk3GnvVsr9ELBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.37.0.delta" sparkle:deltaFrom="2.37.0" length="1010486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EQ93TL9O0iOau3CIGaGeTx+fIPRTTTG6ufiekzz2tVDWif0hah9e8rGmi0H/2sAtvz2xCrNwBz21YOmEkY54DQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.36.0.delta" sparkle:deltaFrom="2.36.0" length="1219946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sXq6NZpnK/Hd3b05Ps9BIhkLVY3F4eEWWznUeZongzkALJPlXmlEugwRztJig/eEJBzeDtaztxb1vmBU71DpBw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.35.0.delta" sparkle:deltaFrom="2.35.0" length="1664662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cWsWQhkPA6Z7zksME+sbqmmEfISdMXUEIoSgHqRDZ2mFLRUgtFbAYDRTdfafw7itgKXAPbcQ1ovm2h9CVcswCw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.34.1.delta" sparkle:deltaFrom="2.34.1" length="2112510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H35C970qrh+DaPyD/Rv71cTaEZneQBG/d4CTwV/sHLa8QUGT86riKp47YvbqQV2uXLr/Kmn5Wu0R8l2T7JdKBA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.38.0-2.34.0.delta" sparkle:deltaFrom="2.34.0" length="2115918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Rfk4Oj0UDmNshZBszfCeirTmvCyaVXZcul42cjNND/t0I2EX4jZbPB8ZJ8RVbj75zSeGU5sJGntHp8VReNThBA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.37.0</title>
@@ -47,33 +76,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.37.0.zip" length="9052964" type="application/octet-stream" sparkle:edSignature="KfmkfQZvHyouq5QtxsJHdpL/ILtwMZZGkQvLtQbOPT8VmWK/0vANcKy7WQiMmY8d6c8IwHpPXaEHpkQVLOywCA=="/>
-        </item>
-        <item>
-            <title>2.36.0</title>
-            <pubDate>Tue, 15 Sep 2026 22:33:35 +0300</pubDate>
-            <sparkle:version>2.36.0</sparkle:version>
-            <sparkle:shortVersionString>2.36.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>Snapline 2.36.0</h2>
-<p>15 September 2026 · GIFs play in Snapline, a GIF can be re-cut from its recording, Convert to GIF moves into the Trim Editor, and recording and GIF cards get the still card's frame.</p>
-
-<h3>New</h3>
-<ul>
-  <li><strong>GIFs play in Snapline.</strong> Play on a GIF's card or tile opens it in a player of its own, with a frame scrubber and a counter that reads position over total in frames and in seconds ("119 / 239 · 11.8 / 23.9 s"), so the seconds can never be mistaken for the GIF's length. The GIF's own actions sit beside it.</li>
-  <li><strong>Adjust GIF.</strong> A GIF remembers the recording it was converted from. "Adjust GIF…" reopens the Trim Editor on that recording, seeded with the GIF's crop and range, and Replace GIF writes a new GIF in its place: same History entry, same file name. The export runs beside the original and is swapped in only when it succeeds, so a cancel or a failure leaves the GIF you had untouched.</li>
-  <li><strong>Convert to GIF, in one window.</strong> The GIF options no longer have a window of their own. Convert to GIF… opens the Trim Editor with a crop layer over the player, the range on the scrubber, and the presets, size, frame rate, speed, dither and loop controls under it with the live size estimate. Convert is the footer's single click; progress stays on the card's pill or the History tile as before. "Show these options each time" still turns the card's GIF button into a one-click conversion with the remembered options.</li>
-  <li><strong>Recording and GIF cards wear the still card's frame.</strong> The frosted frame the still card shows on hover now surrounds recordings and GIFs too. A recording card carries Star and Reveal in Finder down the left, dismiss, Copy and Save on the right, and Play and GIF across the bottom band; GIF reads Cancel while a conversion runs. The caption reads length over size and format. A GIF card carries Play across the band and leads its caption with the loop length. Recording cards are keyboard-navigable now.</li>
-  <li><strong>One editor per recording.</strong> A Trim window and a Convert or Adjust window never open side by side on the same recording; asking for the second brings the first forward. A conversion the app refuses now says why in the feedback bubble, and the options lock while an export is running.</li>
-</ul>
-
-<h3>Fixed</h3>
-<ul>
-  <li><strong>Flipping a GIF option could quit the app.</strong> Changing Dither gradients, or any option, while the size estimate was still reading the recording could take Snapline down, and Cancel mid-conversion could do the same. The reader is now stopped only by the thread that owns it.</li>
-  <li><strong>Live zoom follows the cursor on display and region takes.</strong> With Highlight Clicks off, a zoom on a display or region recording landed where you pressed and never panned. It follows the pointer now, as window recordings always did.</li>
-  <li><strong>Recording controls readable in Light Mode.</strong> The floating pill and its edge tab draw white on dark glass, and under Light Mode the glass went near-white over a light desktop. The panel is pinned to dark now, collapsed timer included.</li>
-</ul>
-]]></description>
-            <enclosure url="https://snap-line.app/updates/Snapline-2.36.0.zip" length="8937576" type="application/octet-stream" sparkle:edSignature="lnCydOJv6zOO8YokNRki8ohAPQfIn6XA0e7Mhw+SacBv8oQK6F+Ms70S/hs+CdgbDMweOF0UyEGuqPhO9BXBCg=="/>
         </item>
         <item>
             <title>2.17.0</title>
