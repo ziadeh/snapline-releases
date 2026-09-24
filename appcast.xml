@@ -39,6 +39,27 @@
             <sparkle:version>2.39.0</sparkle:version>
             <sparkle:shortVersionString>2.39.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.39.0</h2>
+<p>20 September 2026 · Capture Text: drag over any words on screen and they're on your clipboard, no screenshot saved.</p>
+
+<h3>New</h3>
+<ul>
+  <li><strong>Capture Text.</strong> Press ⌥⌘E, or choose Capture Text in the menu bar, and the familiar crosshair appears wearing a "Capture Text" caption. Drag over any text on screen (a paused video, a slide in a call, a dialog that won't let you select) and the text is on your clipboard, recognized on your Mac. No screenshot is saved. The confirmation shows the first line it read; an area with no text says "No text found in that area" and saves nothing.</li>
+  <li><strong>Text clips.</strong> Each read is kept as a text clip, a small plain-text file saved where your screenshots go, with its own card and a Text chip in History. Search finds a clip by any word in it, and the Text View opens it as text alone, with per-block copy and translation. Turning off Index text in screenshots leaves clips alone.</li>
+  <li><strong>Copy-only, if you'd rather.</strong> Settings → History → Keep text clips in History. Turned off, a read is copied and that's all: no file, no History entry, no card.</li>
+  <li><strong>Paragraphs come back whole.</strong> Copied text no longer keeps the line breaks of the window it was read from: lines that only wrapped are joined, and the breaks the source meant (list items, short lines, code, blank lines) stay. It applies to every Copy Text. Settings → History → Join lines into paragraphs; hold Option over Copy All in the Text View to copy the other way once.</li>
+  <li><strong>Copy as Table and Copy as Code.</strong> Text that reads as a grid copies as tab-separated cells, ready for Numbers or Excel; code copies with its indentation rebuilt. Each appears only where that shape was found.</li>
+  <li><strong>Tables read more completely.</strong> Recognition goes back for digits it dropped from a numeric table column and fills only the cells that came back empty, never with a guess, and smaller captures are read at twice their size. Search, Copy Text, Select Text and Smart Redact all read the better text.</li>
+  <li><strong>The first read is quick.</strong> Snapline prepares text recognition at launch, so the first Capture Text after an install or an update no longer sits on "Recognizing…" for five or six seconds.</li>
+  <li><strong>Select Text.</strong> A right-click over a text selection in the editor now offers Copy, Redact and Highlight, instead of shape commands that were all greyed out.</li>
+  <li><strong>Shortcuts.</strong> A shortcut you chose now always wins over one a newer version ships with. If ⌥⌘E was already one of your Snapline shortcuts, yours stays, and Capture Text waits for a chord in Settings → Shortcuts.</li>
+</ul>
+
+<h3>Fixed</h3>
+<ul>
+  <li>Scrolling capture: a button fixed on the page now appears once instead of in every strip; a page border that ended partway is no longer painted down the capture; a window's rounded corners no longer leave black notches at the first seam; and the discard question no longer opens behind the side rail.</li>
+</ul>
+]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.39.0.zip" length="9349555" type="application/octet-stream" sparkle:edSignature="3l7M6nza3St7Ud9w3xXiWizeltcj11+5H2+wqUgf04Xj/rxMZfguj4LeccAgO4oyglTyLgRdQSQAIKsai0ZBAA=="/>
         </item>
         <item>
@@ -47,6 +68,19 @@
             <sparkle:version>2.38.0</sparkle:version>
             <sparkle:shortVersionString>2.38.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.38.0</h2>
+<p>18 September 2026 · Select Text: drag across the words on a capture to copy, redact or highlight them, right in the editor.</p>
+
+<h3>New</h3>
+<ul>
+  <li><strong>Select Text.</strong> A new editor tool, beside the select tool on the rail, selects the text in a capture right on the image, the way Preview does. Press to place a caret, double-click for a word, triple-click for a line, and drag to extend by the character. The selection runs in reading order: a span from the middle of one line to the middle of a later one holds every line between them whole, past the end of a line it runs to the line's end, and below the last line to the end of the text.</li>
+  <li><strong>Copy, redact or highlight what you selected.</strong> ⌘C copies the selection. R or H, or the Inspector's Redact and Highlight buttons, cover exactly the selected characters with one redaction or highlight per line, as a single undo step, and the tool stays active for the next selection. The tool never creates a shape on its own.</li>
+  <li><strong>Double-click a word.</strong> In the select tool, a double-click on a word of the capture now enters Select Text with that word selected (it used to drop a text box on top of it). A double-click clear of any text still places a text box, and holding Option keeps the old behaviour everywhere.</li>
+  <li><strong>Columns and panes read one after another.</strong> Two terminal panes or two page columns side by side are read left column whole, then right, so a drag down one pane never takes the other's lines. It takes three or more lines level with each other across a clear gutter to make columns; a chat transcript or a row of labels stays in row order.</li>
+  <li><strong>Right-to-left text.</strong> A bidirectional line selects by its logical characters, with the carets laid out through Core Text and fitted to the words on the capture.</li>
+  <li><strong>Where it draws the line.</strong> Text under an existing redaction, outside the crop, or in a hidden capture is not offered. Recognition runs once per editor window, on device, as soon as the capture is decoded, so the tool opens without a wait; "Recognizing text…" shows only if you get there first.</li>
+</ul>
+]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.38.0.zip" length="9143053" type="application/octet-stream" sparkle:edSignature="d72Xdx/Idy+jYJeNW5KzFt6iv2VOTougnaBlyqoHpfHGJ61r9mUj+g37m/hLCgRYGNJ1u5ROWk3GnvVsr9ELBw=="/>
         </item>
         <item>
@@ -55,6 +89,13 @@
             <sparkle:version>2.17.0</sparkle:version>
             <sparkle:shortVersionString>2.17.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Show your clicks and keys in screen recordings</h2>
+<ul>
+  <li><b>Highlight Clicks</b>: every mouse click draws a brief expanding ring at the pointer — dual-tone, so it reads against any background. Display and region recordings.</li>
+  <li><b>Show Keystrokes</b>: the keys you press appear in a capsule at the bottom of the movie, with shortcuts in the same ⌃⌥⇧⌘ symbols as the Shortcuts pane. Needs the Input Monitoring permission, asked once at the toggle; a recording never fails over it — refused access just means no capsule, and Snapline says so.</li>
+  <li>Both overlays are drawn into the recorded frames, so trims, GIF conversions, and shares keep them. The toggles live in the Record Screen bar and Settings → Recording, are remembered, and ship off. Worth knowing: Show Keystrokes records what you type — ordinary text included — into the video.</li>
+</ul>
+]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.17.0.zip" length="6188255" type="application/octet-stream" sparkle:edSignature="3xYz3PHiy0xUMy9LivPOfIPlA/4O0enzj/JLMdNWdJX9KUZ6As5M3Lqvs5DFsLYo5u7NUgJXZfJF6/F1f9OPAg=="/>
             <sparkle:deltas>
                 <enclosure url="https://snap-line.app/updates/Snapline2.17.0-2.16.0.delta" sparkle:deltaFrom="2.16.0" length="594714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5C1ceaQ8sm3amsG8W+Y3wJFj+zFmIqe8fAAM32NO9wCcFiE657L8nyoznZP4FcP9p4eg0STZGhiaXAYCB0U1Aw=="/>
@@ -67,6 +108,16 @@
             <sparkle:version>2.16.0</sparkle:version>
             <sparkle:shortVersionString>2.16.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.16.0</h2>
+<p>Capture with Self-Timer: frame the region first, watch the countdown, and the shot fires by itself.</p>
+
+<h3>Capture</h3>
+<ul>
+  <li><b>Capture with Self-Timer.</b> Frame the region first, then a visible countdown runs — and the shot fires by itself. The delay is for staging: open the menu or tooltip you want inside the frame while the timer counts. Selection works exactly like a normal region capture (releasing the drag starts the timer — no extra confirm), and the countdown sits inside the region with the seconds, an Esc hint, and a ✕ to cancel. Nothing steals focus, so the menu you stage stays open, and the countdown never appears in the shot.</li>
+  <li><b>Pick 3, 5, or 10 seconds</b> from the new status-menu item beside the Self-Timer setting — its top row remembers your last-used delay for a one-click repeat — or bind a shortcut in Settings → Shortcuts (it ships unbound). A canceled timer saves nothing and says so.</li>
+  <li><b>The invisible delay is gone.</b> If you keep a sticky Self-Timer default set, region and main-display captures now show this same live countdown instead of silently stalling before the crosshair — same delay, visible and cancellable.</li>
+</ul>
+]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.16.0.zip" length="6137596" type="application/octet-stream" sparkle:edSignature="TBY09lHOiaTtFJ6FulRJwdoUq+xuEqYxDUeShILStsu+MvvxSwPyeRFufqYIfRV8ec3Q7iRBcuMoNyqMN5+IBg=="/>
         </item>
         <item>
@@ -75,6 +126,20 @@
             <sparkle:version>2.15.0</sparkle:version>
             <sparkle:shortVersionString>2.15.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.15.0</h2>
+<p>History learns starred captures. The relaunch now waits for the old copy to actually exit.</p>
+
+<h3>History</h3>
+<ul>
+  <li><b>History learns starred captures.</b> Star anything worth keeping and it survives the retention sweep unconditionally — it never expires, and a starred card asks before a manual delete goes through. Star from the card's hover control or its Star/Unstar menu item; a starred capture wears a badge at rest. The History toolbar gains a Starred filter that combines with search.</li>
+</ul>
+
+<h3>Robustness</h3>
+<ul>
+  <li><b>Fixed:</b> Snapline could quit itself and not come back after you answered the Screen Recording prompt. The relaunch waited a fixed half-second before reopening, which could fire while the old copy was still shutting down — so nothing came back, and no crash report explained it. The relaunch now waits for the old copy to actually exit, and when it can't reopen safely it stays running and tells you instead of vanishing. The prompt for one permission no longer triggers a relaunch offer for another.</li>
+  <li><b>Also fixed:</b> the camera bubble no longer scans for cameras on the main thread, which could stall the Record Screen bar (and probe for nearby iPhones) each time it opened; its window now closes cleanly instead of racing an in-flight animation; and the bubble's style controls no longer risk a crash from a settings change or a removed gradient stop.</li>
+</ul>
+]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.15.0.zip" length="6099842" type="application/octet-stream" sparkle:edSignature="EM5SxvgjZ0ekE8Cded7r40is0eOXU/bu8HX0nIxAQb/z03SXyJ443giBwY3KAqk4nmxHyy+D+KRcI/12hqEmCA=="/>
         </item>
     </channel>
