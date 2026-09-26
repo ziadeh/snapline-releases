@@ -3,6 +3,31 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.42.0</title>
+            <pubDate>Sat, 26 Sep 2026 20:34:05 +0300</pubDate>
+            <sparkle:version>2.42.0</sparkle:version>
+            <sparkle:shortVersionString>2.42.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.42.0</h2>
+<p>26 September 2026 · Fixes for Scrolling Capture, Smart Redact, History, the editor, recording and MCP.</p>
+<ul>
+  <li><strong>MCP.</strong> On a new install, Take new screenshots starts on and each assistant asks before its first capture, unless you choose the area yourself. A capture that fails while an assistant waits is reported to the assistant, not shown as an alert.</li>
+  <li><strong>Scrolling Capture.</strong> The area you chose keeps its outline while you scroll, and what was stitched so far is kept if capturing stops or the save fails.</li>
+  <li><strong>Smart Redact.</strong> A capture that couldn't be redacted is marked Needs review, and its tile's menu offers Redact in Editor… and Publish Without Redacting….</li>
+  <li><strong>History and Editor.</strong> Choosing an Auto-delete period asks before anything goes to the Trash, and text you're typing in the editor is no longer lost to a double-click.</li>
+  <li><strong>Recording, quitting and the keyboard.</strong> Clicks on Snapline's own controls no longer show as click rings, quitting waits at most two minutes for work in progress and names anything unfinished at the next launch, and a region can be chosen and adjusted from the keyboard in Record Screen and Scrolling Capture.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.42.0.zip" length="9622530" type="application/octet-stream" sparkle:edSignature="IGrj6fKzcO5ZC3fkiXVo0Q0rBY8Th+O2kZef0EPJTMORNVeMqRyd8Fwnh1mygyE1nsliyKhFnHeinfSenqhEAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.42.0-2.41.0.delta" sparkle:deltaFrom="2.41.0" length="2338674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lWGvO09O8TTq+t0nXPJwbFshfp5c3HmA5RZtgFUZWPStHwt4e+tpc/MLHCvCLuo2pxc2ewGHOZDvoi6173eYCw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.42.0-2.40.0.delta" sparkle:deltaFrom="2.40.0" length="3592874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FfPmEKCxMIk8173vrz15878zoR6o2euIjonYvlpdEPA+Qihjw7FeyyLBMdslapGtlc19o9ccFos+jSH+ZTr5Bg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.42.0-2.39.0.delta" sparkle:deltaFrom="2.39.0" length="3931846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VH5bGZaJpyTt2APQZiRB/yvPkU+MCSfpe0zkQI+YVK8FHINjwvOQPAl5S4bXleBTN0gkR0tuodI3FPZv+jYQAw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.42.0-2.38.0.delta" sparkle:deltaFrom="2.38.0" length="4217326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="APj3k7F7fTlRhAtvHik9x4vnl3HFm7spWdmx5URwYlho8/rtLwfGJJ6aBP9DYOErJUfxrVEwrVl2D/fgXw00Bg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.42.0-2.37.0.delta" sparkle:deltaFrom="2.37.0" length="4305198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="41vRmAaxZCS8CC0jr69qJW2aZoJ/U5VM6WXHIg0eleVKm3xAG5a0Q+dzos7aw5sZWGbzCzcpj6iiM/bxJtuoBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.41.0</title>
             <pubDate>Thu, 24 Sep 2026 13:53:59 +0300</pubDate>
             <sparkle:version>2.41.0</sparkle:version>
@@ -21,13 +46,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.41.0.zip" length="9082354" type="application/octet-stream" sparkle:edSignature="GuVxBIN0pHTpPG6LdJHpIHsrOrryGAof6rtGLWJeOqRO9CaZRi9Dk/fkqTlGqmmK4KQkkTUebiDv/KTzr4JXAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.41.0-2.40.0.delta" sparkle:deltaFrom="2.40.0" length="2603578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wzXutPYgWqoSRldfo63q4mlaCei0Irt7PYgFOWwujWnq/VzLxOeIFdyvTmLQ/cdi9lIylNXvnxTDvEjrE6/ACw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.41.0-2.39.0.delta" sparkle:deltaFrom="2.39.0" length="3041006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+2lwH08NEZxxHhijdS/gfXNoU6JRAUf+Xjd+hLyYSt9epczCQx/pJsAlda8ydQ10Ry85Nn1/CQuylBsjkcGCDw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.41.0-2.38.0.delta" sparkle:deltaFrom="2.38.0" length="3436234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LomeocT8lh48DtjW5CqRuqXh8skp5KQaZ3Pz3+tZpX6AtUzc1Q6Ontkyikr+UV/usaCzRU5chywou56dfsMiBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.41.0-2.37.0.delta" sparkle:deltaFrom="2.37.0" length="3542934" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DYl8BqZR3o04Zig3413XLuwqdNU4ul9dI8WBKiIIGO5OAsXfOlM/V8qX938RLH/110KUxRCamah6UtTL5QcPBA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.41.0-2.36.0.delta" sparkle:deltaFrom="2.36.0" length="3661074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FRKOHJP3Am1yGQek2yqQQASVr8cpTgTZ4iFfWAG1G25StnRMAF8wxdr5+VlzpTMxhskAPJRdHLo7VEDAh+fMCw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.40.0</title>
