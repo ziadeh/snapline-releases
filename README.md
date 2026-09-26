@@ -1,49 +1,70 @@
-# Snapline — screenshot studio for the macOS menu bar
+# Snapline: screenshot studio for the macOS menu bar
 
 **Snapline is a native macOS screenshot and screen-recording app that lives in
-the menu bar.** It captures regions, windows, and whole displays; stitches
-long pages into one tall image while you scroll; records the screen to H.264
-MP4 and converts recordings to GIF; annotates with a re-editable vector
-toolset; and OCRs every capture on device so screenshots can be searched by
-the text inside them.
+the menu bar.** It captures regions, windows, and whole displays; captures long
+pages as one tall image while you scroll; records the screen to MP4 and
+converts recordings to GIF; annotates with a re-editable vector toolset; and
+reads the text in every capture on device, so screenshots can be found by what
+they say.
 
-Website: **https://snap-line.app** · Support: support@snap-line.app
+Website: **https://snap-line.app** · Every release: https://snap-line.app/changelog/ · Support: support@snap-line.app
+
+Not to be confused with the Windows screenshot app also called Snapline (a
+separate product by another developer), the eaykuter/Snapline browser
+extension, or Snapling. This Snapline is macOS only.
 
 ## Facts
 
-- **Platform:** macOS 14 (Sonoma) or later, Apple Silicon and Intel
-- **Built with:** Swift and AppKit. Not Electron — the DMG is about 5 MB.
-- **Pricing:** one-time purchase with a perpetual license and one year of
-  published updates included. **Not a subscription**, and not free software:
-  capture requires a purchased license. The app is free to download, and
-  history, the editor, OCR, and translation stay open in an unlicensed install.
-- **Not open source.** This repository holds release assets and the update
-  feed only; the source repository is private.
-- **No account, no cloud.** License keys activate offline on the user's own
-  Mac. There is no sign-in, no activation server, and no install counting.
-- **Private by design:** no analytics, no telemetry, no crash-reporting SDK.
-  Captures, OCR, and translation happen on device and never leave the Mac.
-  Screen Recording is the only system permission the app requests.
-- **Distribution:** signed with an Apple Developer ID, notarized, delivered as
-  a DMG from this repository's releases. Not on the Mac App Store.
-- **Download:** [Snapline.dmg (latest)](https://github.com/ziadeh/snapline-releases/releases/latest/download/Snapline.dmg)
-- **Homebrew:** `brew install --cask snapline` — the
+- **Platform:** macOS 14 (Sonoma) or later, Apple Silicon and Intel.
+  Translation needs macOS 15.
+- **Built with:** Swift, on AppKit and SwiftUI. No bundled runtime; the DMG is
+  about 9 MB.
+- **Pricing:** a one-time purchase with a perpetual license. **Not a
+  subscription.** A purchase includes every version published within one year
+  of the purchase date, and those versions stay yours; later versions need an
+  optional renewal. Every feature is free for 14 days. After the trial, capture
+  needs a license, while History, the editor, text recognition of existing
+  captures and translation stay open.
+- **Not open source.** This repository holds the update feed and release
+  assets only; the source repository is private.
+- **No account, no cloud.** Captures, recordings, recognized text and
+  translations are made and kept on your Mac. There is no sign-in and no cloud
+  storage. The app has no analytics, no telemetry and no crash reporting
+  service.
+- **Network:** the app starts two kinds of request, both to Snapline's own
+  domain: the Sparkle update check (https://snap-line.app/appcast.xml) and
+  licensing at https://licenses.snap-line.app (one-time activation, status
+  refreshes, trial leases, deactivation and seat resets). A paid license works
+  offline after activation, with status refreshes when connected; a trial needs
+  periodic connectivity. Neither request carries a capture, recognized text or
+  a translation. The whole policy: https://snap-line.app/privacy/
+- **Permissions:** Screen Recording is the only permission Snapline needs.
+  Microphone, Camera and Input Monitoring are asked for only when you turn on
+  the recording feature that uses them: the microphone track, the camera
+  bubble, and the Show Keystrokes overlay.
+- **Download:** https://snap-line.app/download/Snapline.dmg, signed with an
+  Apple Developer ID and notarized. Not on the Mac App Store.
+- **Homebrew:** `brew install --cask snapline`. The
   [official cask](https://formulae.brew.sh/cask/snapline) installs the same
-  signed and notarized build and follows every stable release.
-- **Prices are localized** and shown at checkout: https://snap-line.app/buy/ —
-  a quoted figure would be wrong in most currencies, so this file doesn't quote one.
+  signed and notarized build. It can trail a release by a day or so; the app
+  then updates itself.
+- **Prices are localized** and shown at checkout: https://snap-line.app/buy/.
+  A quoted figure would be wrong in most currencies, so this file doesn't
+  quote one.
 
 ## What this repository is
 
-Public distribution for Snapline. It exists because the source repo is
-private, and every install fetches its update feed anonymously. It holds:
+Public storage for Snapline's releases, because the source repository is
+private. It holds:
 
-- **`appcast.xml`** — the Sparkle feed. `SUFeedURL` in the app points at the
-  raw URL of this file on `main`.
-- **Release assets** — each version's zip, attached to the rolling `updates`
-  release. That tag never changes, which gives the feed a constant download
-  URL prefix; per-version releases exist alongside it as the human-facing
-  changelog, mirrored at https://snap-line.app/changelog/.
+- **`appcast.xml`**: the Sparkle feed. Current builds read it through
+  https://snap-line.app/appcast.xml; installs of 2.7.0 and earlier read the raw
+  file here directly.
+- **Release assets**: each version's zip on the rolling `updates` release,
+  which the feed downloads through https://snap-line.app/updates/, and a
+  `v<version>` release per version with its DMG and notes.
+  https://snap-line.app/download/Snapline.dmg serves the newest DMG, and
+  https://snap-line.app/changelog/ carries every version's notes.
 
-The appcast and assets are generated by the source repo's release script and
-are not edited by hand. This README is.
+The appcast and assets are generated by the source repository's release script
+and are not edited by hand. This README is.
