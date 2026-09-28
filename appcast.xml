@@ -3,6 +3,31 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>2.43.1</title>
+            <pubDate>Mon, 28 Sep 2026 19:32:13 +0300</pubDate>
+            <sparkle:version>2.43.1</sparkle:version>
+            <sparkle:shortVersionString>2.43.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 2.43.1</h2>
+<p>28 September 2026 · Pinned Windows that are easier to resize, and windows that open where you are working.</p>
+
+<h3>Fixed</h3>
+<ul>
+  <li><strong>Resizing a Pinned Window.</strong> A window shot pinned with its shadow now resizes from the window's own edges, not from the transparent shadow around it. A band just inside every edge resizes the pin, with the resize cursor showing even while another app is active, and the hover border follows the window's rounded corner instead of thinning there.</li>
+  <li><strong>Windows open on the display you are using.</strong> The Editor, the Trim Editor and the GIF player open on the display under the pointer, sized for that display, instead of always on the main one.</li>
+  <li><strong>The Editor's Background preview.</strong> The backdrop and its shadow are drawn only around the padded capture, matching the exported file, instead of filling the whole editor.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-2.43.1.zip" length="9735951" type="application/octet-stream" sparkle:edSignature="ai9Ub1JnXD+LBmxJGvm19Ud99Pvk+7881zKA4jBgbmt0RMX5kvFpOoc6gkKdAr+f2m4Ud5t4PPHJ6wXvzpf1BQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline2.43.1-2.43.0.delta" sparkle:deltaFrom="2.43.0" length="1008202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OOrzx33g2aKD/i2nhAj1pgjq8ko2IJdlfSvir3CSYXYy8D2Husk3rkU1aPn+RIUpPgAKvgShVEfz3H/9MXXjAw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.43.1-2.42.0.delta" sparkle:deltaFrom="2.42.0" length="1310750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zvU/95xLjwCxd5kY5H/mmPxNB63bbzpENSIY7uo9BoS9n1eu0Y6crjrnWKTgvHJ7n1gMdH/eBxd8dodss8RHDQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.43.1-2.41.0.delta" sparkle:deltaFrom="2.41.0" length="2512554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PhvcGCJnHbFCxjmuQ0SDeUJB4C4yPUEeMVzKQSCBz+u1rTwGa4SnzXkzuTlwkPKKG65FaodU6EfIcJHYpZgdDQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.43.1-2.40.0.delta" sparkle:deltaFrom="2.40.0" length="3749002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bEZK55wFjgFMKB8297j6JBUs69fa+uUvcmA78C0zSxrstjCBRQmiqBUvpsZT7JEEpaZXSN7LtAD3zVH8ukxVAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline2.43.1-2.39.0.delta" sparkle:deltaFrom="2.39.0" length="4091158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EsfKqvYwhdj4yVNh89mmK5mwO7q4LbAZ3VZK2tf+9lAtxkrMnauWSe/jDiSEIe4OSRGsKF3xLlfsvnisN7CvDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.43.0</title>
             <pubDate>Sun, 27 Sep 2026 14:28:38 +0300</pubDate>
             <sparkle:version>2.43.0</sparkle:version>
@@ -17,12 +42,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.43.0.zip" length="9724931" type="application/octet-stream" sparkle:edSignature="wsY90XQRFIaivLLBIX+/ln5K9pcV3AE4oLqSyK63Zf8gsWkwl8Q7OLcTO6BOptkt2yuQbdkGim/XfQqT1fvcCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.43.0-2.41.0.delta" sparkle:deltaFrom="2.41.0" length="2486462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1Usg7NlMuFpTFjyA90HulCfqr5vZpOpyXvINyFGvx6HYseb5S3GlhGvS8g/v/211wzqbdlVOCp+SHesS8FJGAQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.43.0-2.40.0.delta" sparkle:deltaFrom="2.40.0" length="3730046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YiOXRR5/h+H2tN7TZhw1YKW0e9edTnBSwMuVNWoaIEzrYUEeoMWqvJiuX/qjRHuxo5sIZbJ9kiACFcc3ZVS/CQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.43.0-2.39.0.delta" sparkle:deltaFrom="2.39.0" length="4056574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kYvprEzDS3zEtL72PpU7H5d6jJqHK+keN0Vvm/oLa9muewxRlGdJFFlZGwvz4sK7tDdUL4Ys6iAGlCxuW7JCCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.43.0-2.38.0.delta" sparkle:deltaFrom="2.38.0" length="4336330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jmy08ds27h/2qI/xIAFG586cSYeZQNfH8b60aNfPq0Y7q7hsH5ryyNPjIXGGlxzHi9P8L0VsCV8RnjeGaM8aBA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.42.0</title>
