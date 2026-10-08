@@ -3,6 +3,43 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>3.0.0</title>
+            <pubDate>Thu, 08 Oct 2026 19:57:36 +0300</pubDate>
+            <sparkle:version>3.0.0</sparkle:version>
+            <sparkle:shortVersionString>3.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 3.0.0</h2>
+<p>8 October 2026 · Introducing Snapline Studio: screen recordings made into styled, zoomed movies you edit on a timeline.</p>
+<h3>Snapline Studio</h3>
+<ul>
+  <li><strong>Studio takes.</strong> Flip the Record Screen bar from Quick to Studio, or give Record in Studio a shortcut in Settings. The pointer is recorded rather than filmed, so the editor can redraw it.</li>
+  <li><strong>A finished look.</strong> A gradient, colour, image or blurred background, with padding, rounded corners and a shadow, on a canvas from 16:9 to 9:16. A new take opens already styled.</li>
+  <li><strong>The cursor, redrawn.</strong> Smoothed, in the style and size you choose, with click effects and an optional click sound.</li>
+  <li><strong>Zooms that follow your clicks.</strong> Auto zoom puts a zoom wherever your clicks cluster. Drag it, trim it, delete it, or add your own.</li>
+  <li><strong>A timeline.</strong> Split, trim and delete, with the sound mixed to the loudness you choose.</li>
+  <li><strong>Export to MP4.</strong> H.264 or HEVC, from 720p up to the canvas's full size, filed in History like any recording. The project stays on your Mac, ready to edit again.</li>
+  <li><strong>Try it, then keep it.</strong> Studio is part of the 14-day trial. Already licensed? In Settings, License, press Try Studio for a 14-day Studio Trial, or Buy Studio to add it to your license, with nothing to re-enter. Studio needs a Mac with Apple silicon; on an Intel Mac, Snapline works as before.</li>
+</ul>
+<h3>Also in this version</h3>
+<ul>
+  <li><strong>Quitting asks first.</strong> Snapline asks before it discards a moved trim range or stops a trim, an Adjust GIF export or a GIF conversion that is still running. If an Annotate save has not finished within 120 seconds, Snapline stays open and says so.</li>
+  <li><strong>Text clips drag as text.</strong> Drag a Capture Text clip into a text field or a chat and its words land there. Hold Option as you start the drag to get the .txt file instead.</li>
+  <li><strong>Reveal All is now ⌥⇧⌘R.</strong> In Annotate's Image menu. The old ⌥⌘R is the default Record shortcut, so it never reached Reveal All.</li>
+  <li><strong>VoiceOver in Annotate.</strong> It now reaches every swatch, emoji and shape preset in the Inspector, and the shape presets sit beside the Shape label.</li>
+  <li><strong>Mixed displays.</strong> The Record Screen bar, toasts, the Capture Set pill and the self-timer countdown sit exactly where they should when a Retina display is beside one that is not.</li>
+  <li><strong>Privacy.</strong> On a Mac with Apple silicon, a trial check-in now also says that the Mac runs a version with Studio, so a trial that included Studio counts as that Mac's one try of it. A licensed Mac never sends this. The privacy policy has the details.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-3.0.0.zip" length="12330957" type="application/octet-stream" sparkle:edSignature="ex8bjJz4B2A66irvRhZ8aI8XFMnM9kBDWZ0KTCvPi4t5yBamPU+2a+m3PxkRYL12B6XvHg+vLYqtmNu0K2FpCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.45.0.delta" sparkle:deltaFrom="2.45.0" length="3828094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="12qnnniBp4Iscuuau8Ow2XyO0fyuJRBDceaoOzRa/AoqlAePAVtCG2KvEeRS5ln4BuceFfmTb/Db/TWcdEQ2AA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.44.0.delta" sparkle:deltaFrom="2.44.0" length="3919978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2XIv5mkv8pN8L0lj/cXaCLuMh+2N0qhfG/yNx+mCOsXQTs3W8Apcax9zcFlOiFzAGX5bEJ7e06PHEHcwxs0cAw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.43.3.delta" sparkle:deltaFrom="2.43.3" length="5559586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ndBH+uInt/DBJqhOKxirS9qU9no2tneVgvf2+hvDGHFVkdPpr1H8Iju5yKZEEMk5Tof1bJCncf4wzOvGzy7JAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.43.2.delta" sparkle:deltaFrom="2.43.2" length="5624494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8P71osSycHlCBzGpAofpylaG9AP3ZTsdm1KRQjhjTLDHLM+o5AmgKQ+1j11n4CvWub0Jke/mh0zb8KaD9z2KDQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.43.1.delta" sparkle:deltaFrom="2.43.1" length="5660118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oKydRd1wcBwVe9ZyV5z++KIIpjarKJjXQ5mfrxRpkSmhXynRuM9SI1lx5WZwEDj5oTXhYvNxkk/icNJqdUxIDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.45.0</title>
             <pubDate>Sat, 03 Oct 2026 21:35:38 +0300</pubDate>
             <sparkle:version>2.45.0</sparkle:version>
@@ -18,13 +55,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-2.45.0.zip" length="10282113" type="application/octet-stream" sparkle:edSignature="q8YkFrNrTRQ2FB8QtIA1fSbNSBziqRuggvsmc/tiAQh1nFNxlsn53h7kI+ifOuPHjx9ESP52Z1L5EA6OkD1yDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline2.45.0-2.44.0.delta" sparkle:deltaFrom="2.44.0" length="1136046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZCVxcsjtj+ICiBFlPNl3OTS4wGUxnnaIeAunRBxpd0GVsnrrrGoM8YZ/XDkZL/30bv/KX7d8Zbo/9iZCL9OnDw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.45.0-2.43.3.delta" sparkle:deltaFrom="2.43.3" length="2793262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7pyPIyOlqPWNoq7toYm99WH/65ENz8cotjO0Kxt5aPqexpekazrrPLQ/WOXBuxViJDc/YOFbxAx6VfXAQi6oAw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.45.0-2.43.2.delta" sparkle:deltaFrom="2.43.2" length="2893190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XLiI+VS7BZ29EkkA+2Ak1S8uzldzqi2rOepePrzOP2JmPtA/E2CsJYF1A/r3c3Fz479TwyRyNc4mJj8NonacAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.45.0-2.43.1.delta" sparkle:deltaFrom="2.43.1" length="2947450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wMD3cj/Dvgkbg6V6JR1Yk/6dGPj9nANzYOCnFRzGwQClDOkq9+UmrkF7Y+fx2X7dBKpfSEJYXjecREXocmhRDA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline2.45.0-2.43.0.delta" sparkle:deltaFrom="2.43.0" length="3027470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Zs0wNmCl90cdOWRoNiz0+FPmzUGQBhCyYY1+xqy93JmUvuJfwiD3/7Ome/Y2rnhMiWBvYkghTnxH8GennX5pAA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.44.0</title>
