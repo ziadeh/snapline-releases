@@ -3,6 +3,32 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>3.2.0</title>
+            <pubDate>Sat, 10 Oct 2026 19:58:25 +0300</pubDate>
+            <sparkle:version>3.2.0</sparkle:version>
+            <sparkle:shortVersionString>3.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Snapline Studio records your camera, and lays it out with your screen.</p>
+<ul>
+  <li><strong>Your camera in a Studio take.</strong> Turn on Camera in the Record Screen bar and the camera is recorded beside the screen, on the same clock. Its bubble shows on screen so you can see yourself, and where you leave it is where the camera starts in the editor. Turn the camera off mid-take and it stops, light included. Camera access is asked for only when you turn it on.</li>
+  <li><strong>Place it and style it.</strong> The Camera section (⌘5): move it and resize it on the preview, give it a shape, roundness, shadow and border, mirror it or hide it. The recording itself never changes, so every edit can be undone.</li>
+  <li><strong>Layouts.</strong> The Layout section (⌘6) and a new Layout track: Desktop, Split, Mobile, Camera Only and Screen Only, each starting with a Cut or a Smooth move. Add Layout puts one at the playhead. Choosing a layout never changes the canvas.</li>
+  <li><strong>Hide the camera for a moment.</strong> Split the Camera track and delete a piece: the camera is hidden there and nothing else moves. The track shows your face along it.</li>
+  <li><strong>A window around the recording.</strong> Background, Frame now offers a Title Bar or a Browser Bar, in Light or Dark.</li>
+  <li><strong>More room for the timeline.</strong> Drag the divider between the preview and the timeline.</li>
+  <li><strong>Earlier projects</strong> open exactly as they did.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-3.2.0.zip" length="14019724" type="application/octet-stream" sparkle:edSignature="09itOGVI3TRVqoIRrW8nfl9njnAztWyMqiuiGA5YDq08DkltovZ8j7p0wqjgB5vLxyEkIGLKS+0KsChUEGmMAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline3.2.0-3.1.0.delta" sparkle:deltaFrom="3.1.0" length="2648490" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u+CfuSIhAkRrdsn2/X6ttp+kZ6QIBbGdhFKHkf3Z8jvcH6wSFo1UXZ4Gq0M4qpIqEFzthMj30l/V0VOIACTpCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.2.0-3.0.0.delta" sparkle:deltaFrom="3.0.0" length="4219522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ekFlMsho8J0kbNM8b/x54KxnxhGvcSHUJqKI0VjrHJpStxwsuzH1N3GWrLuCoQqLqU9FcHxZ4jj/GZhCssffDw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.2.0-2.45.0.delta" sparkle:deltaFrom="2.45.0" length="5675838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H27Q4S9F3AjOyxTx79t4dKDYhL+o2h5veU3TrrNVSA/1H1a5bGYIGaZm9VQYJmrARGK4jW2vi/QYOdzjRj2nCw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.2.0-2.44.0.delta" sparkle:deltaFrom="2.44.0" length="5756746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+gXG5spS+cfV+zZMMUFzeGcV7/FTjRexkIJYu+Hx4Sv2uUtaFxsjIckS/2lQPXs7a8ruKnp3d4exLI+eqG7nBA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.2.0-2.43.3.delta" sparkle:deltaFrom="2.43.3" length="7397110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tnqSsjjfOUjB08jlEdS3VY3G7QXc49N7yCBnX9aPUoOshZ/+ZJcptAxj+AocAyK0PJmVAFFLGETXZizecyn2Bw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.1.0</title>
             <pubDate>Sat, 10 Oct 2026 03:20:33 +0300</pubDate>
             <sparkle:version>3.1.0</sparkle:version>
@@ -42,13 +68,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-3.1.0.zip" length="13445033" type="application/octet-stream" sparkle:edSignature="ye0uQJ8Y4X/+4jJQ5dtGaUxzcWL1kB0EbN4x9FH6IljYXZJGa64S6fNPuCk8LQ+w0LDwzJqhKN8JGSPHMyOiBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-3.0.0.delta" sparkle:deltaFrom="3.0.0" length="3323022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aTRGFQRNz8ASKDSTUJDn6DmXy0lfc98QTQYFh4m80bP5w9IhM6C1stKI3NZXVPfwR3w/IdTF6t4Cw8tdO5UaBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-2.45.0.delta" sparkle:deltaFrom="2.45.0" length="5170342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="isYvl1Ad0EiI7MtqHjehZ21iKs7O5GlT5+RT9Qvw09vQcJUaChf4wQVzEWhBTfAzmE0Ys5YpYd5EnJlZmKBbCg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-2.44.0.delta" sparkle:deltaFrom="2.44.0" length="5256378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nOjuCIRyT/zh4gLjrTDtPibEMTZcEtc0nLkJF5llM/bAy/OmoE8jkY5rUD6f2S39J2MCz6gl1Jo4DkfLs6mIAQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-2.43.3.delta" sparkle:deltaFrom="2.43.3" length="6888738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WMdy6U3L/uZPorkxd4BJBOQH/nKcOjb58snsCGFrBF0BNoZa36AVU2zxgXkz7ykZWBK0FYnSErRtPRyZOND/Bw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-2.43.2.delta" sparkle:deltaFrom="2.43.2" length="6956334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lkjNAZ6BmAjDZ3OXNyIOK1dmUfaJYjVwEQPw0twHhp1UhWyh9NroX3cw8iXeHtrtYpyvyRTH6jErQDUWdKAwBA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.0.0</title>
