@@ -3,6 +3,54 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>3.1.0</title>
+            <pubDate>Sat, 10 Oct 2026 03:20:33 +0300</pubDate>
+            <sparkle:version>3.1.0</sparkle:version>
+            <sparkle:shortVersionString>3.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 3.1.0</h2>
+<p>10 October 2026 · A new Text View: correct what was recognized, see where each block sits on the capture, and take the text out in the shape you need. And a new Shelf: reach it from a handle at the edge of the screen, and search all of History from it.</p>
+<h3>The Text View</h3>
+<ul>
+  <li><strong>Fix what was misread.</strong> With Text Indexing on, edit a block in place (press Return or double-click it), or edit All Text as one document. Likely misreads are underlined, with Fix and Fix All. Your corrections stay with the capture and are what Copy, search and translation read. Revert, or Revert All, brings back what was recognized.</li>
+  <li><strong>See where each block is.</strong> The capture sits beside the text with its blocks outlined. Hover or click a box to find its block, or pick a block to find its box. Pinch, or use ⌘= and ⌘−, to zoom; the capture opens fitted to the pane.</li>
+  <li><strong>The Block tab.</strong> The new Inspector gives each block's kind and counts, copies it as Markdown, a table, CSV or plain lines, cleans it up (Join Lines, Tidy Spaces, Change Case, Sort Lines), and acts on what it finds: write to an email address, open a link, add a date to Calendar.</li>
+  <li><strong>Find and Replace</strong> across every block, and every edit can be undone.</li>
+  <li><strong>Translation where you read.</strong> On macOS 15 and later, the translation sits below the text, beside it or under each block, with Copy Translation in its header.</li>
+  <li><strong>Columns read as columns.</strong> Cards or columns side by side are read one column at a time, and Copy Text puts a blank line between them. Tables keep their rows.</li>
+  <li><strong>Text Clips you can edit.</strong> A Capture Text clip opens in a plain editor with Find and Replace, the same clean-ups, and Revert to Captured Text. Your edits are saved to the clip's .txt file; a file another app has changed is left as it is, and the window says so.</li>
+</ul>
+<h3>The Shelf</h3>
+<ul>
+  <li><strong>A handle to reach it.</strong> A small bar at the edge of the screen shows where the Shelf is: top centre on new installs, under the notch on a MacBook, and on whichever edge you chose before. Move toward it and it shows History and your shortcut. Click it, or drop files on it to import them. In Settings, History, show the handle always, as you approach, or never, and open the Shelf on click or on hover.</li>
+  <li><strong>A compact Shelf.</strong> It floats beside its edge instead of spanning the screen, with captioned tiles grouped by day.</li>
+  <li><strong>Search all of History.</strong> Start typing and the Shelf searches every capture, the text inside screenshots included when Text Indexing is on, with Screenshots, Recordings, GIFs, Text and Projects filters.</li>
+  <li><strong>From the keyboard.</strong> The arrow keys move between tiles, Return copies and closes, Space opens a preview (recordings play, recognized text reads, and Copy, Edit, Pin, Redact and Reveal in Finder are one click away), and Esc steps back.</li>
+  <li><strong>It gets out of the way.</strong> Move away and it closes. Drag a capture out and it slides away so you can drop it. Pin it to keep it open.</li>
+</ul>
+<h3>Also in this version</h3>
+<ul>
+  <li><strong>Exact regions.</strong> Both region selectors take an aspect lock (1:1, 4:3, 16:9, 9:16) and a width and height in pixels. A dragged edge snaps to strong edges on the screen; hold Option to place it freely.</li>
+  <li><strong>GIFs with gifski.</strong> If gifski is installed on your Mac (from Homebrew, say), turn on Encode with gifski in Settings, Recording. If gifski can't make a GIF, Snapline's own encoder makes it and says so.</li>
+  <li><strong>Beta updates.</strong> Turn on Check for beta updates in Settings, General to be offered betas. Off unless you turn it on.</li>
+  <li><strong>The Editor opens faster</strong>, with the capture showing first.</li>
+  <li><strong>The screen capture reminder.</strong> When macOS shows its screen capture reminder during a Scrolling Capture or a display or region recording, Snapline now takes it out of the frames as soon as it appears.</li>
+  <li><strong>Shortcuts.</strong> A shortcut the Editor's Image menu already uses asks before it is taken.</li>
+  <li><strong>Scrolling Capture.</strong> Moving the window to a display with a different resolution now says so, instead of "The area changed size".</li>
+  <li><strong>macOS 14.</strong> When stopping a window recording may leave the screen recording indicator lit, Snapline says how to turn it off.</li>
+  <li><strong>VoiceOver.</strong> History tiles say their time to the second, so captures from the same minute are told apart.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-3.1.0.zip" length="13445033" type="application/octet-stream" sparkle:edSignature="ye0uQJ8Y4X/+4jJQ5dtGaUxzcWL1kB0EbN4x9FH6IljYXZJGa64S6fNPuCk8LQ+w0LDwzJqhKN8JGSPHMyOiBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-3.0.0.delta" sparkle:deltaFrom="3.0.0" length="3323022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aTRGFQRNz8ASKDSTUJDn6DmXy0lfc98QTQYFh4m80bP5w9IhM6C1stKI3NZXVPfwR3w/IdTF6t4Cw8tdO5UaBg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-2.45.0.delta" sparkle:deltaFrom="2.45.0" length="5170342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="isYvl1Ad0EiI7MtqHjehZ21iKs7O5GlT5+RT9Qvw09vQcJUaChf4wQVzEWhBTfAzmE0Ys5YpYd5EnJlZmKBbCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-2.44.0.delta" sparkle:deltaFrom="2.44.0" length="5256378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nOjuCIRyT/zh4gLjrTDtPibEMTZcEtc0nLkJF5llM/bAy/OmoE8jkY5rUD6f2S39J2MCz6gl1Jo4DkfLs6mIAQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-2.43.3.delta" sparkle:deltaFrom="2.43.3" length="6888738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WMdy6U3L/uZPorkxd4BJBOQH/nKcOjb58snsCGFrBF0BNoZa36AVU2zxgXkz7ykZWBK0FYnSErRtPRyZOND/Bw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.1.0-2.43.2.delta" sparkle:deltaFrom="2.43.2" length="6956334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lkjNAZ6BmAjDZ3OXNyIOK1dmUfaJYjVwEQPw0twHhp1UhWyh9NroX3cw8iXeHtrtYpyvyRTH6jErQDUWdKAwBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.0.0</title>
             <pubDate>Thu, 08 Oct 2026 19:57:36 +0300</pubDate>
             <sparkle:version>3.0.0</sparkle:version>
@@ -31,13 +79,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-3.0.0.zip" length="12330957" type="application/octet-stream" sparkle:edSignature="ex8bjJz4B2A66irvRhZ8aI8XFMnM9kBDWZ0KTCvPi4t5yBamPU+2a+m3PxkRYL12B6XvHg+vLYqtmNu0K2FpCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.45.0.delta" sparkle:deltaFrom="2.45.0" length="3828094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="12qnnniBp4Iscuuau8Ow2XyO0fyuJRBDceaoOzRa/AoqlAePAVtCG2KvEeRS5ln4BuceFfmTb/Db/TWcdEQ2AA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.44.0.delta" sparkle:deltaFrom="2.44.0" length="3919978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2XIv5mkv8pN8L0lj/cXaCLuMh+2N0qhfG/yNx+mCOsXQTs3W8Apcax9zcFlOiFzAGX5bEJ7e06PHEHcwxs0cAw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.43.3.delta" sparkle:deltaFrom="2.43.3" length="5559586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ndBH+uInt/DBJqhOKxirS9qU9no2tneVgvf2+hvDGHFVkdPpr1H8Iju5yKZEEMk5Tof1bJCncf4wzOvGzy7JAg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.43.2.delta" sparkle:deltaFrom="2.43.2" length="5624494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8P71osSycHlCBzGpAofpylaG9AP3ZTsdm1KRQjhjTLDHLM+o5AmgKQ+1j11n4CvWub0Jke/mh0zb8KaD9z2KDQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.0.0-2.43.1.delta" sparkle:deltaFrom="2.43.1" length="5660118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oKydRd1wcBwVe9ZyV5z++KIIpjarKJjXQ5mfrxRpkSmhXynRuM9SI1lx5WZwEDj5oTXhYvNxkk/icNJqdUxIDg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>2.45.0</title>
