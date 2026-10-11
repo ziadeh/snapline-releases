@@ -3,6 +3,34 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>3.4.0</title>
+            <pubDate>Sun, 11 Oct 2026 22:00:31 +0300</pubDate>
+            <sparkle:version>3.4.0</sparkle:version>
+            <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Search History with @ operators, copy any of your last ten captures with a shortcut, share from a card, a tile or the Editor, and keep notification banners out of your recordings.</p>
+<ul>
+  <li><strong>Notification banners stay out of recordings.</strong> A display or region recording, Studio takes included, no longer picks up Notification Center's banners or its panel. Settings, Recording has a new "Keep notification banners out of recordings" option, on by default. Turn it off to show them on purpose. Window recordings are not affected.</li>
+  <li><strong>Search with @ operators.</strong> Type @screenshot, @recording, @gif or @text in the search field to narrow by type, or @ and an app's name (@chrome) to narrow by app. The field and the type chips and app pop-up stay in step, and typing @ offers a list of completions. The Shelf gains the app filter too. An @ word that matches nothing is searched as ordinary text.</li>
+  <li><strong>Copy recent captures from the keyboard.</strong> A new "Copy recent captures" row in Settings, Shortcuts takes a modifier combination: with 1 it copies the newest capture, and with 2 to 9 and 0 the older ones. It is unbound until you record a shortcut. The Shelf tiles and the menu bar's recent captures show the matching shortcut while it is set.</li>
+  <li><strong>Share from a card, a tile or the Editor.</strong> A Share… item opens the system share sheet from a Quick Access card's menu, a History or Shelf tile's menu, and the Editor's toolbar. It shares what Copy would copy: the flattened file for a still, the text for a text clip, the file for a recording or GIF.</li>
+  <li><strong>Copy As.</strong> The Copy menu in the Text View and the Text Clip editor gains a Copy As submenu: UPPERCASE, lowercase and Capitalized. With a selection in a text clip it reads "Copy Selection As", and a block's menu has "Copy Block As".</li>
+  <li><strong>Shelf tile size and click action.</strong> Settings, History, under "Open the Shelf", lets you pick Small, Medium or Large tiles (Medium is the current size) and choose what a click on a tile does: Open, Copy or Reveal in Finder.</li>
+  <li><strong>A smoother Shelf preview.</strong> Opening and closing a preview now flies the whole capture to and from its tile on one clock, instead of a zoomed, blurry thumbnail that jumped on landing. Tiles are wider (the compact Shelf is wider to match), the caption fade is lighter, and wide screenshots fill the tile like any other capture. The tile caption no longer shows the file size.</li>
+  <li><strong>Back onto a lingering handle.</strong> With the Shelf set to open on hover, moving the pointer back to the handle just after the Shelf closes reopens it at once.</li>
+  <li><strong>Fixes.</strong> A tall Scrolling Capture now shows whole and sharp in the Shelf preview instead of a stretched blur. The Shelf no longer keeps the main thread busy while it sits open and idle. In the Editor, the Inspector's resize cursor no longer sits over Share… or Save to File…, and pressing them no longer resizes the Inspector: the toolbar now ends where the Inspector begins, the Editor's minimum width is 900, and the Image menu has Show Inspector and Hide Inspector (⌥⌘I).</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-3.4.0.zip" length="14399210" type="application/octet-stream" sparkle:edSignature="xzgiixLc38giiqD1gU9+XMpw0QG32QNPAok5C/r0G7BGt/y69zOqVNVxRwrw2QGblol5a60FbnuqcA+8KtAoBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-3.3.0.delta" sparkle:deltaFrom="3.3.0" length="2293270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eqcajUZjzzK7piW6RxfrHnOTX/S5ZiT1/tCwlYApUdxeurhjyuyLYJ8Wum+cy/rgBj8veI/HoiEENEM7KRvwCQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-3.2.0.delta" sparkle:deltaFrom="3.2.0" length="2906786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LAqsZ4loVYV8MdAtZUHmmWBrmKccmDe1wdaS39XM/pongCZ5dfMgTYdqQFjKvuUqzvSum0piGzp6pEvJ5mBMAA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-3.1.0.delta" sparkle:deltaFrom="3.1.0" length="3845970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/AK9P7fZ1D/mYPUffZGvQM0uymddi6OhIYKo05JmxzgeKWP2bu7P6wxxebM3Ebmw31aNmfuMyvL6A0n/7IAqCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-3.0.0.delta" sparkle:deltaFrom="3.0.0" length="4819554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DuPOGl/DKlW0JNjYeDa5cd6JNjz/BtMgCF9CA5DAFVkHKWMrU/q2ujp5TjWKMCSmpOHOVRujgQok1n5tmwfRCg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-2.45.0.delta" sparkle:deltaFrom="2.45.0" length="6167338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O4IuJ/3reYjv5AxDWI5GAKIAJ9V7qBE4AIQKBHW8wn3lyAsaB/pVewsCPv/WceX6/UjuHwhQMgn2ULZvEidaDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.3.0</title>
             <pubDate>Sun, 11 Oct 2026 03:28:16 +0300</pubDate>
             <sparkle:version>3.3.0</sparkle:version>
@@ -21,13 +49,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-3.3.0.zip" length="14242130" type="application/octet-stream" sparkle:edSignature="WZBgYoUF5uPvy58KRypZVUJFbKy2W3/T5197ufuzS20AGr1X0ZIiCft1CNY/iIjQEHOFJoajtl+tCFeYEBktBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline3.3.0-3.2.0.delta" sparkle:deltaFrom="3.2.0" length="2506890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1JuRYJm1CBwrA6X1MPREbFncxHYlecgg4usCi53eQOLzf0I3rgANdC2iFWqV8NA3wIbW2p93rbCVAi2Dg77oCg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.3.0-3.1.0.delta" sparkle:deltaFrom="3.1.0" length="3474670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3NNh73k3UOHORfWFKa3GKmL/VlIO8bYseJuA2ogoGdO2l3hGhLXkXmwGpTOr1ncuQqY0A92uR2SF7njBSp/2CQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.3.0-3.0.0.delta" sparkle:deltaFrom="3.0.0" length="4590874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="laBD0rFN/Rf9pQZwl3w3yVOR2X8p52tz6Rc58BlBJLE98W/jZxTF/lIlOTKXitWYMIRTb+KFolBPcS76VCtRBA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.3.0-2.45.0.delta" sparkle:deltaFrom="2.45.0" length="5972974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cocuWbbJfr5FI3N0au7gzioNW0NAKBHWDV+9iI8pNWNSfnCznqXfRbdLrtSNKh11ArDI4j12gtDe7J9vaV7FDQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.3.0-2.44.0.delta" sparkle:deltaFrom="2.44.0" length="6053750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Om/WB7nIqrIecMECvnGM5CPCPYj5Xh53wXJYg23RVkH+WeQ8/CEBOKaG0JI6HjFsLbbuFsGgviPpXCgSpm9mCA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.2.0</title>
