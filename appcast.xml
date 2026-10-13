@@ -3,6 +3,34 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>3.5.0</title>
+            <pubDate>Tue, 13 Oct 2026 20:03:37 +0300</pubDate>
+            <sparkle:version>3.5.0</sparkle:version>
+            <sparkle:shortVersionString>3.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Snapline Studio is now included in every Snapline License, the Capture Set grows out of the Shelf Handle, short messages appear in the handle instead of a toast at the bottom of the screen, and wide or tall screenshots stay sharp in their thumbnails.</p>
+<ul>
+  <li><strong>Snapline Studio is included.</strong> Every Snapline License now includes Snapline Studio, licenses bought before this release too: there is no separate Studio purchase or Studio Trial any more, and Settings, License simply says "Snapline Studio included". The 14-day free Trial includes Studio as before. Studio still needs a Mac with Apple silicon.</li>
+  <li><strong>The Capture Set lives in the Shelf Handle.</strong> Starting a set turns the handle into a dark capsule that shows the last three frames, the count, a Capture button while the crosshair is paused, and a Done button. It stays visible whatever the handle setting is (Never included), over full-screen apps and above the crosshair, and moves to the display of each shot the set takes. The separate Capture Set pill is gone. Reduce Motion keeps only a short fade.</li>
+  <li><strong>A tray for editing the set in place.</strong> Click the capsule (or rest the pointer on it, if the Shelf opens on hover) and a tray grows out of it with one numbered tile per frame; the number is the frame's place in the Combine. Opening the tray pauses the chain. Hover a tile and click the X, or press Delete, to drop a frame (the capture stays in History). Drag a tile, or press ⌘← or ⌘→, to reorder, and press ⌘Z to put a dropped frame back. Capture, or the dashed "Capture another" tile, resumes capturing.</li>
+  <li><strong>Done has two outcomes.</strong> Done still combines the captures by default. Its menu adds Copy All, which puts every capture's file on the clipboard in set order, says "Copied 3 Captures" in the handle, and ends the set. Drag the count in the tray header to drag the whole set out as files.</li>
+  <li><strong>Keyboard paths for the set.</strong> Pressing the Capture Set shortcut while a set is running opens the tray with the keyboard, last frame selected, instead of combining; the menu bar item then reads "Show Capture Set (3)". Return is Done and ⌘C is Copy All. ⌘Delete discards the set, from the tray or the crosshair: with one capture or none it ends at once, and with two or more the tray asks to keep or discard (Return discards, Esc keeps). Esc on the crosshair of an empty set ends it. Discarded captures stay in History.</li>
+  <li><strong>Set shots are not copied or opened.</strong> A shot the set takes no longer goes to the clipboard and no longer opens the Annotate tool, even if "Copy to clipboard" or "Open Annotate tool" is on under After capture, because the set's own Done or Copy All is the outcome. A shot a full set ignores behaves as before.</li>
+  <li><strong>Short messages appear in the Shelf Handle.</strong> Any message that fits on one line of the handle is now said there, with a checkmark for success or the message's own symbol (a warning triangle for a short failure such as "No text found in that area"). Capture Text shows "Recognizing…" with a spinner in the handle until its result replaces it, and says the result there too. Longer messages, a handle set to Never, an open Shelf, or a capture on screen still use the toast at the bottom, and a toast is no longer shown twice for a message the handle took. Notes also show over full-screen apps.</li>
+  <li><strong>Sharp thumbnails for wide and tall screenshots.</strong> A wide Combine, a phone screenshot or a tall Scrolling Capture was drawn from a thumbnail too small to fill its tile and looked soft. Tiles in the Shelf, the History grid and the Capture Set tray now load enough pixels to fill their shape, up to a 2048 px limit.</li>
+  <li><strong>Fixes.</strong> Frames in the tray no longer show empty placeholders the second time it opens. A reordered frame settles where you drop it instead of the tiles jumping back and forth. Closing the tray while it asks to discard now counts as keeping the set. The capsule no longer flickers as the tray closes into it.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-3.5.0.zip" length="14582408" type="application/octet-stream" sparkle:edSignature="M/CnL5Y8q/3IdbnAkmGTZ3ZdIyZxCQssM7dA16PjQDwYiviFP7JxliT56OZIBbkfHrtOK+Ww/B0k9Sh/WVcTAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.4.0.delta" sparkle:deltaFrom="3.4.0" length="2207746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ll8/DsgMDkQXh7UtQbWwbm+jiXlWrynpjOpx214QbM0FF7c3s8p3Jx3z1272ZorZbvYSucIrnUi4M5VN9Jg3Aw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.3.0.delta" sparkle:deltaFrom="3.3.0" length="2768790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RCLLbkAOWIyC9lpy2wCLv76gQbP24lmPjlVxsD/nLKg3lfr+YrdYnWl4mNljN2PfhZS0nuzgGpJKBnoMAmRmDg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.2.0.delta" sparkle:deltaFrom="3.2.0" length="3300818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NwcZaPoWj2dk3Sl+p7Jx3+A+0xEf18RHX8lzgAofM2T4qdn3YR5SP0wOyingDRpKCaQ2LS3i8BdRPp7BIUiCAA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.1.0.delta" sparkle:deltaFrom="3.1.0" length="4199882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="15LDM4jSRZj0aFmP7lw/7DyDxKoamW43O6lSZjxt39INeD/ryyUObaFzkQ80QNw5EMFmthmjBfyVZwg0tp8jBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.0.0.delta" sparkle:deltaFrom="3.0.0" length="5130398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="C7HtB1bHP8Iyw5neY0lToeLlFm+PHIXEvKkW2QMZ/+arWkvBD0K2cK4cU3jW4Lk6KTc6ezv/wK1E5RilBKZiDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.4.0</title>
             <pubDate>Sun, 11 Oct 2026 22:00:31 +0300</pubDate>
             <sparkle:version>3.4.0</sparkle:version>
@@ -22,13 +50,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-3.4.0.zip" length="14399210" type="application/octet-stream" sparkle:edSignature="xzgiixLc38giiqD1gU9+XMpw0QG32QNPAok5C/r0G7BGt/y69zOqVNVxRwrw2QGblol5a60FbnuqcA+8KtAoBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-3.3.0.delta" sparkle:deltaFrom="3.3.0" length="2293270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eqcajUZjzzK7piW6RxfrHnOTX/S5ZiT1/tCwlYApUdxeurhjyuyLYJ8Wum+cy/rgBj8veI/HoiEENEM7KRvwCQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-3.2.0.delta" sparkle:deltaFrom="3.2.0" length="2906786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LAqsZ4loVYV8MdAtZUHmmWBrmKccmDe1wdaS39XM/pongCZ5dfMgTYdqQFjKvuUqzvSum0piGzp6pEvJ5mBMAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-3.1.0.delta" sparkle:deltaFrom="3.1.0" length="3845970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/AK9P7fZ1D/mYPUffZGvQM0uymddi6OhIYKo05JmxzgeKWP2bu7P6wxxebM3Ebmw31aNmfuMyvL6A0n/7IAqCg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-3.0.0.delta" sparkle:deltaFrom="3.0.0" length="4819554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DuPOGl/DKlW0JNjYeDa5cd6JNjz/BtMgCF9CA5DAFVkHKWMrU/q2ujp5TjWKMCSmpOHOVRujgQok1n5tmwfRCg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.4.0-2.45.0.delta" sparkle:deltaFrom="2.45.0" length="6167338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O4IuJ/3reYjv5AxDWI5GAKIAJ9V7qBE4AIQKBHW8wn3lyAsaB/pVewsCPv/WceX6/UjuHwhQMgn2ULZvEidaDQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.3.0</title>
