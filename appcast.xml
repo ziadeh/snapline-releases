@@ -3,6 +3,29 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>3.6.0</title>
+            <pubDate>Wed, 14 Oct 2026 23:59:39 +0300</pubDate>
+            <sparkle:version>3.6.0</sparkle:version>
+            <sparkle:shortVersionString>3.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Resize a capture from its Quick Access card or its tile, scale the whole document up or down with Image Size in the Editor, and drag a text clip's tile to Finder as its .txt.</p>
+<ul>
+  <li><strong>Resize from a card or a tile.</strong> A Quick Access card and a History or Shelf tile now offer Resize beside Compress: 50%, 25% and Custom…, each showing the size it comes to. Custom… takes a width, a height or a scale, with Keep proportions on. The capture is made smaller in place, as Convert and Compress do, and copied again. It keeps the size it pastes at, down to 1×: a 2× capture taken to half its width becomes a 1× file. Making a capture larger, or resizing one you have edited, is done in the Editor instead, where the edits scale with it.</li>
+  <li><strong>Image Size in the Editor.</strong> Scale the whole document larger or smaller, picture, layers, annotations and crop together, as one undo step. Press K, pick it from the tool rail beside Crop, or choose Image, Image Size… (⌥⇧⌘I). Drag a handle on the canvas (Shift frees the proportions) or type a width, a height or a scale in the Inspector, then press Return or pick another tool to apply, or Esc to cancel. A smaller document stays smaller on screen once applied.</li>
+  <li><strong>The size in the status bar is a menu.</strong> 25%, 50%, 75%, 150% and 200% scale the document in one step, and Image Size… and Canvas Size… are one click away.</li>
+  <li><strong>A text clip's tile drags like its card.</strong> Dragging a text clip's tile from History or the Shelf onto Finder or the Desktop now makes its .txt, where it used to make a small "Snapline Captures" file. A text field still gets the words, Option-drag still hands over the .txt, and a drag onto a Collection still files it.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-3.6.0.zip" length="14685259" type="application/octet-stream" sparkle:edSignature="/rovDTa1nnKjQssvp4UFUsWqTzwSo05AUZmb/kklMReDYf9EgvwDW1xi6Tm0RnxTvrkL/YBHuD+O6hZNTUr9CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.5.0.delta" sparkle:deltaFrom="3.5.0" length="1989294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U9aqK4pdj53vsiRkMI9LpOufKNoF/MhdRhGZB93bT/zAa6bDIo4rwhWd+CXVyE9aepKRk7p5VN7rdm5iakbPBw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.4.0.delta" sparkle:deltaFrom="3.4.0" length="2535350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ewgNYniIoKfHLDk5mTGM+DKQmjTJiGakqEjwIEwWRR/x88h2ga6GaZiooqoS+R41N6OLTkaCQ8BgFFQUjjn4Ag=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.3.0.delta" sparkle:deltaFrom="3.3.0" length="3064878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zTEvJes2HLB5G3dg96ChDUO7COT0xbZUCEWUEmenJY7bo7SCMa4GDyE7YLxynaI1Q2pbXfVGkjupPeAvNuHcDw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.2.0.delta" sparkle:deltaFrom="3.2.0" length="3528366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vQhKNHpXAxZHNulbcF7bZjb04HjvV3YKBL88VZxcE6Q47KYqNDJHV9yVeTlnW8znY7UGXOwab0XZyMoRSq5ADQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.1.0.delta" sparkle:deltaFrom="3.1.0" length="4425050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="26a5plBXoSzr1t2J+7BQHGMvGQHvOYw985dzan8UcYuAJ+MK8xlfG2JWbZFYUH8+ORqRTDurLIs71Suv8xTXAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.5.0</title>
             <pubDate>Tue, 13 Oct 2026 20:03:37 +0300</pubDate>
             <sparkle:version>3.5.0</sparkle:version>
@@ -22,13 +45,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-3.5.0.zip" length="14582408" type="application/octet-stream" sparkle:edSignature="M/CnL5Y8q/3IdbnAkmGTZ3ZdIyZxCQssM7dA16PjQDwYiviFP7JxliT56OZIBbkfHrtOK+Ww/B0k9Sh/WVcTAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.4.0.delta" sparkle:deltaFrom="3.4.0" length="2207746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ll8/DsgMDkQXh7UtQbWwbm+jiXlWrynpjOpx214QbM0FF7c3s8p3Jx3z1272ZorZbvYSucIrnUi4M5VN9Jg3Aw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.3.0.delta" sparkle:deltaFrom="3.3.0" length="2768790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RCLLbkAOWIyC9lpy2wCLv76gQbP24lmPjlVxsD/nLKg3lfr+YrdYnWl4mNljN2PfhZS0nuzgGpJKBnoMAmRmDg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.2.0.delta" sparkle:deltaFrom="3.2.0" length="3300818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NwcZaPoWj2dk3Sl+p7Jx3+A+0xEf18RHX8lzgAofM2T4qdn3YR5SP0wOyingDRpKCaQ2LS3i8BdRPp7BIUiCAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.1.0.delta" sparkle:deltaFrom="3.1.0" length="4199882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="15LDM4jSRZj0aFmP7lw/7DyDxKoamW43O6lSZjxt39INeD/ryyUObaFzkQ80QNw5EMFmthmjBfyVZwg0tp8jBQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.5.0-3.0.0.delta" sparkle:deltaFrom="3.0.0" length="5130398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="C7HtB1bHP8Iyw5neY0lToeLlFm+PHIXEvKkW2QMZ/+arWkvBD0K2cK4cU3jW4Lk6KTc6ezv/wK1E5RilBKZiDg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.4.0</title>
