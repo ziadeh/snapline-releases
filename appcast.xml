@@ -3,6 +3,33 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>3.7.0</title>
+            <pubDate>Thu, 15 Oct 2026 15:39:32 +0300</pubDate>
+            <sparkle:version>3.7.0</sparkle:version>
+            <sparkle:shortVersionString>3.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Snapline Studio makes captions: transcribed on your Mac from a take's microphone, styled and edited in the editor, burned into the export or saved as SRT and WebVTT subtitles, and translated on device.</p>
+<ul>
+  <li><strong>Captions in Studio.</strong> The Studio editor gains a Captions section (⌘7). On macOS 26 and later, Generate Captions transcribes each take on the timeline from its microphone, or from its system audio when it has none, with Apple's on-device speech, so nothing is sent to Snapline or any server. If a language isn't on this Mac yet, macOS downloads it once, and only when you press Download. "Caption new takes automatically" captions a take when its project opens. On an earlier macOS you can add captions by hand, and captions already in a project open, edit and export everywhere Studio does.</li>
+  <li><strong>Ten caption styles.</strong> Pick a style, with the spoken word highlighted in a colour you choose, one or two lines at a time, at the top, middle or bottom, or drag the captions anywhere on the stage. Show safe area outlines the title-safe area while you place them, and is never exported.</li>
+  <li><strong>Edit the lines.</strong> Captions have their own lane in the timeline. Edit a caption's text, retime it on the lane, split it at the playhead (S), merge it with the next one or delete it, each as one undo step. Find in Captions searches the lines, and a cut on the timeline takes its words with it.</li>
+  <li><strong>Burned in, or as subtitles.</strong> The export draws the captions into the video. Export Captions… saves them as an SRT or WebVTT subtitle file, and the Export sheet can also save them beside a copy of the video, timed to what was exported.</li>
+  <li><strong>Translate Captions.</strong> On macOS 15 and later, Translate Captions… puts every caption into another language with Apple's on-device Translation, keeping its timing, as one undo step.</li>
+  <li><strong>Find a project by what it says.</strong> With text indexing on, History search finds a Studio project by the words of its captions. Turning indexing off removes them with the rest of the indexed text.</li>
+  <li><strong>The Studio timeline keeps its height.</strong> Resizing the editor window no longer makes the timeline grow. It keeps the height you dragged it to.</li>
+  <li><strong>Writing Tools in the Text View.</strong> On macOS 15.1 and later with Apple Intelligence, Writing Tools over a capture's text offer Copy rather than Replace, so a rewrite or a summary is never kept as Edited Text.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-3.7.0.zip" length="15374707" type="application/octet-stream" sparkle:edSignature="blGA+ERKi9iv9N8MyG3Uz4hc5N8nF5nbn65NyG9ese5eqkxT43vqBob0yjXvOEeSLqiS4wr3V7WEvF24FZRyBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline3.7.0-3.6.0.delta" sparkle:deltaFrom="3.6.0" length="2866262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HMpa5KIDSa0aNqRXEI7ci1bUxVihSY9h70qI2ms8jgjDLyzfZU9PbOFwPVkj+U/4jUuf2WL7d6SuIE2eMzyiBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.7.0-3.5.0.delta" sparkle:deltaFrom="3.5.0" length="3199550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GtVPMTSke9VGccumQ3NZhaJex1EDBKzimb07WDO9y3+R4dU2+RSaxzrEsCi45mc+NUfOoj/FqOtskW95tEYrDw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.7.0-3.4.0.delta" sparkle:deltaFrom="3.4.0" length="3628582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="noMScbS8hxvRSh8dbEIfLNweDjKjxdFEApNg/4wrghp2jE2r8WsNU5nTfZbdk52b2BndgZ3rAgeccgGSPanyBQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.7.0-3.3.0.delta" sparkle:deltaFrom="3.3.0" length="4094298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xFwfX7QFlViaVacQ2pI+dozn9D+CyWVTt5YS2vtbXADPAeDxcyLMj9JZbxaOEWhyWNlRuGASs70eEwKKQkdhCQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.7.0-3.2.0.delta" sparkle:deltaFrom="3.2.0" length="4439562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mNNmXS34NN1HA2rpH3Qgl+pdhWPSvhyAORKoKYNOOvgzAPwpsIsUo1oYuMQ3UGxVCw5PTEnj/39EChI2xd4fBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.6.0</title>
             <pubDate>Wed, 14 Oct 2026 23:59:39 +0300</pubDate>
             <sparkle:version>3.6.0</sparkle:version>
@@ -17,13 +44,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-3.6.0.zip" length="14685259" type="application/octet-stream" sparkle:edSignature="/rovDTa1nnKjQssvp4UFUsWqTzwSo05AUZmb/kklMReDYf9EgvwDW1xi6Tm0RnxTvrkL/YBHuD+O6hZNTUr9CQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.5.0.delta" sparkle:deltaFrom="3.5.0" length="1989294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U9aqK4pdj53vsiRkMI9LpOufKNoF/MhdRhGZB93bT/zAa6bDIo4rwhWd+CXVyE9aepKRk7p5VN7rdm5iakbPBw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.4.0.delta" sparkle:deltaFrom="3.4.0" length="2535350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ewgNYniIoKfHLDk5mTGM+DKQmjTJiGakqEjwIEwWRR/x88h2ga6GaZiooqoS+R41N6OLTkaCQ8BgFFQUjjn4Ag=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.3.0.delta" sparkle:deltaFrom="3.3.0" length="3064878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zTEvJes2HLB5G3dg96ChDUO7COT0xbZUCEWUEmenJY7bo7SCMa4GDyE7YLxynaI1Q2pbXfVGkjupPeAvNuHcDw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.2.0.delta" sparkle:deltaFrom="3.2.0" length="3528366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vQhKNHpXAxZHNulbcF7bZjb04HjvV3YKBL88VZxcE6Q47KYqNDJHV9yVeTlnW8znY7UGXOwab0XZyMoRSq5ADQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.6.0-3.1.0.delta" sparkle:deltaFrom="3.1.0" length="4425050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="26a5plBXoSzr1t2J+7BQHGMvGQHvOYw985dzan8UcYuAJ+MK8xlfG2JWbZFYUH8+ORqRTDurLIs71Suv8xTXAw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.5.0</title>
