@@ -5,7 +5,15 @@ the menu bar.** It captures regions, windows, and whole displays; captures long
 pages as one tall image while you scroll; records the screen to MP4 and
 converts recordings to GIF; annotates with a re-editable vector toolset; and
 reads the text in every capture on device, so screenshots can be found by what
-they say.
+they say. **Snapline Studio**, included in every Snapline license, turns screen
+recordings into styled, zoomed movies you edit on a timeline.
+
+![Snapline's capture menu, held open over a web page](screenshots/01-capture-menu.png)
+
+| | |
+|---|---|
+| ![Snapline Studio: the editor, with a screen recording framed on a background](screenshots/02-studio.png) | ![Scrolling Capture: a long page stitched into one tall image while you scroll](screenshots/03-scrolling.png) |
+| ![Annotate: arrows, counters and text that stay editable, with redaction baked into the pixels](screenshots/04-annotate.png) | ![The Shelf: recent captures in a strip over the current app, with a search that reads the text in each](screenshots/05-history.png) |
 
 Website: **https://snap-line.app** · Every release: https://snap-line.app/changelog/ · Support: support@snap-line.app
 
@@ -17,6 +25,13 @@ extension, or Snapling. This Snapline is macOS only.
 
 - **Platform:** macOS 14 (Sonoma) or later, Apple Silicon and Intel.
   Translation needs macOS 15.
+- **Snapline Studio:** included in every Snapline license, with no add-on and
+  no separate price. A Studio take records the screen, the pointer and the
+  camera as parts, and the editor adds a background and frame, smooths the
+  cursor, zooms where the clicks are, lays out the camera, adds captions and
+  exports an MP4. Studio needs a Mac with Apple silicon; on an Intel Mac it is
+  absent and the rest of Snapline is unchanged. Generated captions need
+  macOS 26.
 - **Built with:** Swift, on AppKit and SwiftUI. No bundled runtime; the DMG is
   about 9 MB.
 - **Pricing:** a one-time purchase with a perpetual license. **Not a
