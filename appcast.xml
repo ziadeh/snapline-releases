@@ -3,6 +3,36 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>3.9.0</title>
+            <pubDate>Sat, 17 Oct 2026 04:49:20 +0300</pubDate>
+            <sparkle:version>3.9.0</sparkle:version>
+            <sparkle:shortVersionString>3.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>Snapline Studio shows your keystrokes, draws and redacts inside the video, cleans up your camera, cuts by the words of the transcript, saves your style as a look, and exports ProRes, transparent video and GIFs.</p>
+<ul>
+  <li><strong>Keystrokes on screen.</strong> A take recorded with Record Keystrokes can show the shortcuts you pressed as a pill on the video. Turn on Show Keystrokes in the Cursor section, pick a style and a size, show shortcuts only or every key, and drag the pill anywhere on the canvas. The presses sit on a Keystrokes lane, where Delete hides the ones you would rather not show. A project from 3.8 starts with them off.</li>
+  <li><strong>Annotations inside the recording.</strong> The Annotate section (⌘9) adds an arrow, a box, a highlight, a redaction or a spotlight at the playhead. Each one plays for as long as you choose on the Annotations lane, and stays on what it points at when a zoom moves the picture.</li>
+  <li><strong>Smart Redact for video.</strong> Find Sensitive Text… reads the recording on your Mac and lists the email addresses, keys and other sensitive text it shows, with when. Pick the ones to cover and each becomes a redaction that blurs, pixelates or covers it, and follows it as it scrolls. Text on screen for less than half a second can be missed, so play the recording through before you share it.</li>
+  <li><strong>A cleaner camera.</strong> Blur the background behind you, or remove it so the canvas shows through, and Keep Face Centred keeps your face in the middle of the camera as you move. It is all worked out on your Mac.</li>
+  <li><strong>Motion blur and zoom shake.</strong> The cursor can blur with its movement, and a zoom can shake as it arrives or all the way through.</li>
+  <li><strong>Edit by the words.</strong> In a project with captions, the Transcript pane (⌥⌘T) shows what was said. Select words and press Delete to cut them out of the video, as one undo step. Remove Filler Words… and Remove Pauses… find the ums and the long silences and cut them in one go.</li>
+  <li><strong>Looks.</strong> Save a project's canvas, background, cursor, camera, caption and keystroke styling as a look, apply it to another project as one undo step, use it for every new take, or match the background to one you styled on a screenshot.</li>
+  <li><strong>More ways to export.</strong> ProRes 422 and ProRes 4444 in a MOV, a transparent background with ProRes 4444 so the recording sits over anything in another video editor, and animated GIFs. Presets for YouTube, X, LinkedIn and Slack set the size, frame rate and format each one wants.</li>
+  <li><strong>Copy recent captures has a shortcut.</strong> ⌥⌘1 copies your newest capture, ⌥⌘2 the one before, up to ⌥⌘0 for the tenth. Change it in Settings, Shortcuts.</li>
+  <li><strong>A Color Clip shows every way of writing it.</strong> On the Shelf, a Color Clip is a wide swatch with its Hex, RGB, HSL, CMYK, SwiftUI and NSColor values under it, each with its own Copy.</li>
+  <li><strong>Projects stay compatible.</strong> A project from 3.8 looks exactly as it did. Opened in 3.8, a project keeps everything 3.9 added, but 3.8 does not draw it, redactions included, so export a redacted project from 3.9.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-3.9.0.zip" length="19465476" type="application/octet-stream" sparkle:edSignature="XFFjjbTnXvw+pM5cMPu8xsO3lVuMD0RZaD+hgBIcN9GX8/OpiPI6530U9v8apKhW6Hvv3Fgub1qWrGfOVDFQBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="4271514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ef5Z+Vuc6EBhIWklb1uWyG1qUNhm74JBtqCcRjT49JBmrh0LsWoGKsDj0n74lgLdxNEPRlaUuvMJlcEGUleqAg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="7049226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cIXy0tAXCsY6O7VTyUK234G8CZTG6bT4mKNxOxYo+Imj7SnX3jrH5qt8qD3C8p6e8jE6FHIsIMdg6n9IwdOTBg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.6.0.delta" sparkle:deltaFrom="3.6.0" length="7460862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="guk9xE5AYNCNi6qM3dk58kAajbNEde0LhVd6NPNpPRnC6ZPQf9UnMR8/HTjV4Ebia4B/4XTSppCKonK6gzbHAw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.5.0.delta" sparkle:deltaFrom="3.5.0" length="7679134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="doQWQcKDQVBGhLLrJP5m/sbZtB39sRKcRrEY2i3wtH8sc7gt8SsUMAv8zCs5ggS65uxm/TFnirqQPI03DrG7AQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.4.0.delta" sparkle:deltaFrom="3.4.0" length="8034026" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4ClIKz8EM9NfllobLubKqqj0w5Er3YoZgGo8RNFj6YkL357qTdghpBxT38at0i0AJNTW++gDG2C6Ory4Sw5PDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.8.0</title>
             <pubDate>Fri, 16 Oct 2026 06:41:39 +0300</pubDate>
             <sparkle:version>3.8.0</sparkle:version>
@@ -24,13 +54,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-3.8.0.zip" length="18321141" type="application/octet-stream" sparkle:edSignature="Brl+Qkv9YnWIpaKkEJkCOZYMfSX9tPTcD40VOXL7fuhz09ZWHqcIZrVomoSnWC4WlZVll+A3H4/kQRpHOfQJCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline3.8.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="5925194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lI03QuE0ubKrmDNWHIv0xG0rH+V3irNU3fsGufafj+il4/L0+GOHVW54PYwwBl0tXp81ar+rviepCDkTA2znAw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.8.0-3.6.0.delta" sparkle:deltaFrom="3.6.0" length="6376250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZSW1W0pKiKg9DgYdyaQnfxxNOQWPxG3z099msDRvAMIe1CANcHbBjKX4u8lTSntdiyvjgAV6WWKgN144/lQQBA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.8.0-3.5.0.delta" sparkle:deltaFrom="3.5.0" length="6610006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xdKz05H54eXEtjdM7PxCnYYAHh6qJ8naX/236nS/KrovBl9KF4pVoLhlrIqW7bh4Dhqytq61MFgvaMjyfQ5KDA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.8.0-3.4.0.delta" sparkle:deltaFrom="3.4.0" length="6974742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CnKZeuSS9dt0g87wWlx+ggxWwGRLC3FKEaUpl0qo/7cb/JN9uCx0OkpT596KnHUToIyot/Dht5m8xa/D7A+fAA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.8.0-3.3.0.delta" sparkle:deltaFrom="3.3.0" length="7329662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TzEsKyaee2FM+vvgGSJ4bMkLxMFsEe2eVpTzQK1UoblFIs5ULVrVn09UQWpgkcgeEnycAhd9qfWgr6iOdx6WBA=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.7.0</title>
