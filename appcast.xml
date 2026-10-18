@@ -3,6 +3,37 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>4.0.0</title>
+            <pubDate>Sun, 18 Oct 2026 09:42:11 +0300</pubDate>
+            <sparkle:version>4.0.0</sparkle:version>
+            <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 4.0.0</h2>
+<p>18 October 2026 · A Bundle collects what you copy from any app into one item, and pastes it whole.</p>
+<h3>Bundle</h3>
+<ul>
+  <li><strong>Collect copies from any app.</strong> Press ⌃⌘C (its default), or choose Add Clipboard to Bundle from the status menu, which works whatever the shortcut is set to. Text, with its formatting, links and images join in order. Snapline reads what you copied only when you press Add. A copy another app marks as private is refused, and so is a file that is not an image.</li>
+  <li><strong>Your own items join too.</strong> Add to Bundle, in the menu on Quick Access, History or the Shelf, adds a screenshot, a Text Clip or a Color Clip. Recordings and GIFs cannot join.</li>
+  <li><strong>The capsule and tray.</strong> The Bundle capsule on the Shelf Handle shows the count, and lights Add when a new copy is waiting. Its tray lists each item with the app it was added from. Remove an item (Command-Z undoes), drag to reorder, then Copy All, Done or Cancel. Cancel asks first.</li>
+  <li><strong>Done files it.</strong> Done puts the Bundle in History. Copy or drag pastes it as one item, with text, links and images in order. Slack drops the images from a paste. If you turn off Keep bundles in History in Settings, Done copies the Bundle and ends it instead. An open Bundle survives a quit and comes back at launch.</li>
+  <li><strong>Library search reaches inside.</strong> Search finds words in a Bundle's text and link titles, even with Text Indexing off. The tile shows the item that matched, and the Shelf preview lists the apps the items came from and the Bundle's size. A link opens in your browser after you confirm. Agents using the MCP server never see Bundle text.</li>
+  <li><strong>Show Bundle.</strong> A new shortcut, unset by default, opens the Bundle's tray. While a Bundle is open, the status menu has a Show Bundle row with its count.</li>
+</ul>
+<h3>Also in this version</h3>
+<ul>
+  <li><strong>Arrows in Studio.</strong> An arrow's head no longer shows a hole where its shaft runs under it, and the round tail is solid too.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-4.0.0.zip" length="20067681" type="application/octet-stream" sparkle:edSignature="4KEyEpeMNt3Wv5zSk3WYzD6hymteZahFcgO/+RuwKywYQuC3QZMYPLKCjhYcQ+gte1FZVO6BoimBa0T+F+BgBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.9.0.delta" sparkle:deltaFrom="3.9.0" length="3682402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eV8gUGwIzdn3O4it80OulibmZtFV7DA+f6GMDlaDsqWCEjvr69DUUuCigW5WCz9+fEa9V0fJya3fIBGpzf2cBg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="5532218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cTpbU9Z7fvkGlJ+XGEvzuxWzufjo89DWt43ZoRBhJbFGkmeyjhIktRHUrVfLq0OfMbdUEqidKjK6VANFpqPKAw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="7827086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L1X0csGOPeIoXeVsdb9OasXQMnuirtMQGc1ks68ngs78eMcCZmQs6dct7nSVoFVYGXzVZJSjtPUr7QsZKU3fCw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.6.0.delta" sparkle:deltaFrom="3.6.0" length="8239674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wqSPosvrR+MyG9KDm3VxXE+c83SAi7bYCb0UTe0tfirqwxRBrhX8wslEZJ5BxQ5MZN1yqV1bZ1sh5dJj1c8sDg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.5.0.delta" sparkle:deltaFrom="3.5.0" length="8452286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zf0PoxoKz9HssTQGLNwrdKu5UAmtGBz6hVQ3IGpVDt1g7H5WoorpSzZAdcFCmipN04DjqjdA621foY+JhRvhBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>3.9.0</title>
             <pubDate>Sat, 17 Oct 2026 04:49:20 +0300</pubDate>
             <sparkle:version>3.9.0</sparkle:version>
@@ -24,13 +55,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-3.9.0.zip" length="19465476" type="application/octet-stream" sparkle:edSignature="XFFjjbTnXvw+pM5cMPu8xsO3lVuMD0RZaD+hgBIcN9GX8/OpiPI6530U9v8apKhW6Hvv3Fgub1qWrGfOVDFQBA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="4271514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ef5Z+Vuc6EBhIWklb1uWyG1qUNhm74JBtqCcRjT49JBmrh0LsWoGKsDj0n74lgLdxNEPRlaUuvMJlcEGUleqAg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="7049226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cIXy0tAXCsY6O7VTyUK234G8CZTG6bT4mKNxOxYo+Imj7SnX3jrH5qt8qD3C8p6e8jE6FHIsIMdg6n9IwdOTBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.6.0.delta" sparkle:deltaFrom="3.6.0" length="7460862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="guk9xE5AYNCNi6qM3dk58kAajbNEde0LhVd6NPNpPRnC6ZPQf9UnMR8/HTjV4Ebia4B/4XTSppCKonK6gzbHAw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.5.0.delta" sparkle:deltaFrom="3.5.0" length="7679134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="doQWQcKDQVBGhLLrJP5m/sbZtB39sRKcRrEY2i3wtH8sc7gt8SsUMAv8zCs5ggS65uxm/TFnirqQPI03DrG7AQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline3.9.0-3.4.0.delta" sparkle:deltaFrom="3.4.0" length="8034026" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4ClIKz8EM9NfllobLubKqqj0w5Er3YoZgGo8RNFj6YkL357qTdghpBxT38at0i0AJNTW++gDG2C6Ory4Sw5PDQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.8.0</title>
