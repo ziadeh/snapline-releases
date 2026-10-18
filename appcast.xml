@@ -3,6 +3,39 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>4.1.0</title>
+            <pubDate>Mon, 19 Oct 2026 02:34:18 +0300</pubDate>
+            <sparkle:version>4.1.0</sparkle:version>
+            <sparkle:shortVersionString>4.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 4.1.0</h2>
+<p>18 October 2026 · Record one app and nothing else, and capture open menus the way ⌘⌃⇧4 does.</p>
+<h3>Only Record</h3>
+<ul>
+  <li><strong>Record a single app.</strong> In Region and Full Screen, the Record Screen bar's target menu has a new Only Record section: All Apps, the app that was in front, your running apps, and Menu Bar and Background Apps under their own header. Pick one and the recording shows only that app's windows, with black everywhere else. It works for Quick and Studio recordings.</li>
+  <li><strong>Windows come and go.</strong> Windows the app opens during the take join it on their own. If the app quits and relaunches (a rebuild from Xcode, say), the recording carries on in black and picks the app up again when it is back.</li>
+  <li><strong>Only its keystrokes.</strong> The keystroke capsule and Studio's Keystroke Track keep only the keys you typed into that app.</li>
+</ul>
+<h3>Open menus</h3>
+<ul>
+  <li><strong>Capture a menu without closing it.</strong> If a menu, a context menu, a Control Center panel (Wi-Fi, Sound) or a menu bar app's dropdown is open when you start Capture Area or Capture Window, Snapline uses the system crosshair instead of its own selector. The menu stays open and lands in the shot, and the screen keeps moving. That shot has no edge snapping, typed size or Previous Area.</li>
+</ul>
+<h3>Also in this version</h3>
+<ul>
+  <li><strong>Launchers in the window pickers.</strong> Capture Window and window recordings can now pick other apps' floating windows, such as a launcher's.</li>
+  <li><strong>Recordings drop overlays cleanly.</strong> A keystroke capsule or a camera bubble turned off mid-take no longer lingers in a Quick Recording when the screen is still or the recorded window is hidden.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-4.1.0.zip" length="20124543" type="application/octet-stream" sparkle:edSignature="2DhyKfe8nYHnngsxysIE9SYZz2LyQGrDNJymcr38MQoJC7aDYbv5euBAhuVNaiT1qy4VXjyqPqwqJslzOtnGDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-4.0.0.delta" sparkle:deltaFrom="4.0.0" length="2459246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H6HHwd1XzXjm5PMeHiacQ+QXpzxaalqXqjkRgkAXtU5Tv06WaIJk0mqYfJcKcZymSIiO35kolsaWbkhnluWGCA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-3.9.0.delta" sparkle:deltaFrom="3.9.0" length="3875174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Mgql3pinkmnTsHq6ZGOPWMIYs/Jhh/8nNkybH5s4V08GxVaguVPJPz3aa8mMDsRB1/yf7InmyY/qTd/iCBI+Cw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="5689946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y3yaVCUHO730AIfxR9lrirWXovzu6UDTNjjdFo+ejUXw1Rv66WDqDWXnfQ2YkRykrp2iMf5fnHPkEBdY8U3WAQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="7956678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GmSRkWzyXH84iZ+c5z1FZdu1c4VE0pwoaY4lnTdFc2dDPQDuvmL5xLWaCwgUm7fomCbAPgGW/Hfv7FuRqaTvDw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-3.6.0.delta" sparkle:deltaFrom="3.6.0" length="8367170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z/bR42sivhkIJraLJ2pb63pUlPL51EeTuV6QKjLguXfSj9UBu07aAJZ3eStiSJJOhjce77YI8Vn9q6fiHzLvDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.0.0</title>
             <pubDate>Sun, 18 Oct 2026 09:42:11 +0300</pubDate>
             <sparkle:version>4.0.0</sparkle:version>
@@ -25,13 +58,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-4.0.0.zip" length="20067681" type="application/octet-stream" sparkle:edSignature="4KEyEpeMNt3Wv5zSk3WYzD6hymteZahFcgO/+RuwKywYQuC3QZMYPLKCjhYcQ+gte1FZVO6BoimBa0T+F+BgBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.9.0.delta" sparkle:deltaFrom="3.9.0" length="3682402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eV8gUGwIzdn3O4it80OulibmZtFV7DA+f6GMDlaDsqWCEjvr69DUUuCigW5WCz9+fEa9V0fJya3fIBGpzf2cBg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="5532218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cTpbU9Z7fvkGlJ+XGEvzuxWzufjo89DWt43ZoRBhJbFGkmeyjhIktRHUrVfLq0OfMbdUEqidKjK6VANFpqPKAw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="7827086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L1X0csGOPeIoXeVsdb9OasXQMnuirtMQGc1ks68ngs78eMcCZmQs6dct7nSVoFVYGXzVZJSjtPUr7QsZKU3fCw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.6.0.delta" sparkle:deltaFrom="3.6.0" length="8239674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wqSPosvrR+MyG9KDm3VxXE+c83SAi7bYCb0UTe0tfirqwxRBrhX8wslEZJ5BxQ5MZN1yqV1bZ1sh5dJj1c8sDg=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.0.0-3.5.0.delta" sparkle:deltaFrom="3.5.0" length="8452286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zf0PoxoKz9HssTQGLNwrdKu5UAmtGBz6hVQ3IGpVDt1g7H5WoorpSzZAdcFCmipN04DjqjdA621foY+JhRvhBg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>3.9.0</title>
