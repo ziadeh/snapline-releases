@@ -3,6 +3,47 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>4.2.0</title>
+            <pubDate>Tue, 20 Oct 2026 02:36:31 +0300</pubDate>
+            <sparkle:version>4.2.0</sparkle:version>
+            <sparkle:shortVersionString>4.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 4.2.0</h2>
+<p>19 October 2026 · Window shots look right on a Background, Quick Access lets you choose every action, and Settings has a Capture pane.</p>
+<h3>Backgrounds and window shots</h3>
+<ul>
+  <li><strong>The shadow follows the window.</strong> On a window shot that kept its macOS shadow, the Background's shadow is cast by the window itself, so the file no longer has a black frame round it, and the editor and the export now agree.</li>
+  <li><strong>The Background wraps the window.</strong> While a Background is on, the frame is the window, not its transparent shadow margin, so Corners rounds the window and the margin comes back when you turn the Background off. The window's own corners are never cut tighter than macOS drew them.</li>
+  <li><strong>Shadow controls.</strong> The shadow has X, Y, Blur and Opacity, with a Reset button. The default matches macOS's own window shadow.</li>
+  <li><strong>Crops export what you see.</strong> A crop that does not start at the top-left corner exported the wrong pixels. It now exports exactly the crop.</li>
+</ul>
+<h3>Quick Access</h3>
+<ul>
+  <li><strong>Choose the card's actions.</strong> Settings, Quick Access, Card actions has a switch for Pin, Text, Redact, Convert, Resize and Compress. An action you turn off is gone from the card, its menu, History and the Shelf.</li>
+  <li><strong>Copy Path.</strong> Copy Path sits under Reveal in Finder, in the card's menu and in History's. It copies the file's path as text, one path per line for a selection.</li>
+</ul>
+<h3>Only Record</h3>
+<ul>
+  <li><strong>The bar names the app.</strong> While an app is chosen, the Record Screen bar shows "Only: <em>app</em>" with a button to go back to all apps, and the recording controls show the name during the take.</li>
+  <li><strong>Snapline's own controls stay out of the recording.</strong> The frame, the zoom guide, the recording controls and the camera bubble's window no longer appear in a recording limited to one app.</li>
+</ul>
+<h3>Also in this version</h3>
+<ul>
+  <li><strong>A Capture pane in Settings.</strong> Hiding desktop icons, the window shadow, what happens after a capture or after annotating, Smart Redact and the redaction style now live in Settings, Capture. General keeps where files go, their format and the app's own options.</li>
+  <li><strong>Full Screen recording is ready at once.</strong> It opens with the display you started from already selected, so Return records straight away.</li>
+  <li><strong>⌘⌫ moves to the Trash.</strong> In History it moves the selection to the Trash, and on the Shelf it deletes the focused capture, as in Finder.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-4.2.0.zip" length="20196306" type="application/octet-stream" sparkle:edSignature="KQ0e15yF0I43Thu+lC++FQiw0I+fTRdz52bEWE2D4j5ft55atr/qbyVwoPURuAKyPRFHqo0U2TFARPwQDwRwCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-4.1.0.delta" sparkle:deltaFrom="4.1.0" length="2964006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fVS60TnsiYUMXvkahIVqX/yxoxsyolUmYmsToN5c+Q9cqMhJppvdGsbHU64H3TroRTFk8kNRbxVknTIzSrS0CA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-4.0.0.delta" sparkle:deltaFrom="4.0.0" length="3218442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Au7b+yB0hFU3k9k3k9wjb2utAfrYuawLCtMi8zpx/l5Wk6bpHOQtECrF9lfDsFoeHxjZ8kL2jO0Korf02VqODQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-3.9.0.delta" sparkle:deltaFrom="3.9.0" length="4245362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bdSNlisyZuYI6wfP4LWvS/rDF00XfOqb2Ylzf4SvBN6gJQ2sHEKF9oFDSNj1LVKsi2fZN0faq8mg968fWYHkCw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="6034918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+0nxr6rTfymq5mb0i6ccOkJdnPi3V70pvYOBSZ36JCGlXazPk1fLErgJesz/iN3HA3VN5DjJcdmKLJ+vHsi5Cw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="8298070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qgih7/fwaKHB0aWdcnf+SxSQmUu0YwRtEfd9CKUMnGSwqBnIH45i9gkGkbw1SxAlzt4xnpg9uRxPnLkkzZXbAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.1.0</title>
             <pubDate>Mon, 19 Oct 2026 02:34:18 +0300</pubDate>
             <sparkle:version>4.1.0</sparkle:version>
@@ -27,13 +68,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-4.1.0.zip" length="20124543" type="application/octet-stream" sparkle:edSignature="2DhyKfe8nYHnngsxysIE9SYZz2LyQGrDNJymcr38MQoJC7aDYbv5euBAhuVNaiT1qy4VXjyqPqwqJslzOtnGDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-4.0.0.delta" sparkle:deltaFrom="4.0.0" length="2459246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="H6HHwd1XzXjm5PMeHiacQ+QXpzxaalqXqjkRgkAXtU5Tv06WaIJk0mqYfJcKcZymSIiO35kolsaWbkhnluWGCA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-3.9.0.delta" sparkle:deltaFrom="3.9.0" length="3875174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Mgql3pinkmnTsHq6ZGOPWMIYs/Jhh/8nNkybH5s4V08GxVaguVPJPz3aa8mMDsRB1/yf7InmyY/qTd/iCBI+Cw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="5689946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y3yaVCUHO730AIfxR9lrirWXovzu6UDTNjjdFo+ejUXw1Rv66WDqDWXnfQ2YkRykrp2iMf5fnHPkEBdY8U3WAQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="7956678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GmSRkWzyXH84iZ+c5z1FZdu1c4VE0pwoaY4lnTdFc2dDPQDuvmL5xLWaCwgUm7fomCbAPgGW/Hfv7FuRqaTvDw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.1.0-3.6.0.delta" sparkle:deltaFrom="3.6.0" length="8367170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z/bR42sivhkIJraLJ2pb63pUlPL51EeTuV6QKjLguXfSj9UBu07aAJZ3eStiSJJOhjce77YI8Vn9q6fiHzLvDQ=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>4.0.0</title>
