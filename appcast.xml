@@ -3,6 +3,44 @@
     <channel>
         <title>Snapline</title>
         <item>
+            <title>4.3.0</title>
+            <pubDate>Fri, 23 Oct 2026 04:55:05 +0300</pubDate>
+            <sparkle:version>4.3.0</sparkle:version>
+            <sparkle:shortVersionString>4.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Snapline 4.3.0</h2>
+<p>23 October 2026 · Remove the background from a screenshot in the Editor, and cleaner Scrolling Captures.</p>
+<h3>Remove Background</h3>
+<ul>
+  <li><strong>Lift the subject off its background.</strong> In the Editor, Remove Background (in the toolbar and the Image menu) cuts the subject out and leaves the rest transparent. It runs on this Mac, and nothing is uploaded. It works best on something set against a backdrop: a window on its desktop, a device mockup, a photo of a person, an icon.</li>
+  <li><strong>It tells you when there is nothing to lift.</strong> A full desktop or a bare window has no single subject, so the picture is left as it is and the Editor says "No subject found".</li>
+  <li><strong>One step to undo.</strong> Restore Background puts the whole picture back, and Undo works either way. Your shapes, crop and redactions are left as they were.</li>
+  <li><strong>Transparency is kept.</strong> If your format is JPEG, a picture with its background removed is saved as PNG instead, and the Editor says so.</li>
+</ul>
+<h3>Scrolling Capture</h3>
+<ul>
+  <li><strong>Fewer seams on repetitive pages.</strong> Pages built from rows that look alike, such as an inbox or a long list, and pages with smooth gradients no longer join at the wrong place.</li>
+  <li><strong>Sidebars stay where they belong.</strong> A sidebar or header that changes as you scroll, such as a highlighted section link or a blinking icon, is no longer copied into the wrong part of the capture.</li>
+</ul>
+<h3>Also in this version</h3>
+<ul>
+  <li><strong>The Shelf opens on hover.</strong> Resting the pointer on the Shelf handle now opens the Shelf, without a click. A pointer passing over the handle opens nothing, and a click still opens it at once. If you chose On click in Settings, History, you keep it.</li>
+  <li><strong>Private copies stay private.</strong> Open from Clipboard no longer opens a copy another app marked private, such as a password from a password manager, and says "Not opened: that copy is marked private". The Shelf no longer offers to paste one either.</li>
+  <li><strong>Quit &amp; Reopen brings Snapline back.</strong> After you turn on Screen Recording or keyboard capture in System Settings, its Quit &amp; Reopen button could quit Snapline without opening it again. Snapline now reopens itself, and setup continues where it was.</li>
+  <li><strong>A stop from macOS no longer quits Snapline.</strong> When macOS stopped a Scrolling Capture or a recording without giving a reason, Snapline could quit and lose it. Now the capture keeps what had joined, and the recording is saved up to that moment.</li>
+  <li><strong>Find in the Text View no longer crashes.</strong> Searching the Text View's block list could quit Snapline. It now finds as it should.</li>
+</ul>
+]]></description>
+            <enclosure url="https://snap-line.app/updates/Snapline-4.3.0.zip" length="20253733" type="application/octet-stream" sparkle:edSignature="XBBPpDwUmMk+voDLm9q5pcNwzoAp3TLSoFDDzGTPh4jtRqO3YQc7YzzSYdHoGUgX8ymQSPiXRmgzJlZLMShRAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://snap-line.app/updates/Snapline4.3.0-4.2.0.delta" sparkle:deltaFrom="4.2.0" length="2565930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4Ojh8vTcEdNiznVqfdQ3rvpyrpEgPgj2YTSiGlsgy33ezWiZdagQIRC3ISj6d0D6axpUaRPaF+uh+s1PTDnDBg=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.3.0-4.1.0.delta" sparkle:deltaFrom="4.1.0" length="3277226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FCkdVPtgw5yX0ZupPKeP09uly0nBHFsgl6R+KphWQajohNY08K0pL66K4oohDjyE2kLdzo5RSrLWVzqo5rSHAQ=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.3.0-4.0.0.delta" sparkle:deltaFrom="4.0.0" length="3491386" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AC4Op/W56Vmmbk2K90gaW2gKejksJvMU0OlPBbZSz+gDPGzUx7HtJO2afDmoeM24N1xOozNae3xbqHBU0m4+Bw=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.3.0-3.9.0.delta" sparkle:deltaFrom="3.9.0" length="4441262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QjgTSaZxP4l9CduTZIQMfaZrRWr/JdhF/fAinVv3Y/+TBq0zde8jn0lXYgBrlgHyNEgv47LtZFuwkbOU21ENCA=="/>
+                <enclosure url="https://snap-line.app/updates/Snapline4.3.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="6227474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nkRviqJFhQmDoCOQjy1JIM0G43gBUpNBkNLbmaxgL7rNIyDhWcFuD/P2yRdid7gz5c0mYZMMRIazlo0MUSfDCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>4.2.0</title>
             <pubDate>Tue, 20 Oct 2026 02:36:31 +0300</pubDate>
             <sparkle:version>4.2.0</sparkle:version>
@@ -35,13 +73,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://snap-line.app/updates/Snapline-4.2.0.zip" length="20196306" type="application/octet-stream" sparkle:edSignature="KQ0e15yF0I43Thu+lC++FQiw0I+fTRdz52bEWE2D4j5ft55atr/qbyVwoPURuAKyPRFHqo0U2TFARPwQDwRwCw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-4.1.0.delta" sparkle:deltaFrom="4.1.0" length="2964006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fVS60TnsiYUMXvkahIVqX/yxoxsyolUmYmsToN5c+Q9cqMhJppvdGsbHU64H3TroRTFk8kNRbxVknTIzSrS0CA=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-4.0.0.delta" sparkle:deltaFrom="4.0.0" length="3218442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Au7b+yB0hFU3k9k3k9wjb2utAfrYuawLCtMi8zpx/l5Wk6bpHOQtECrF9lfDsFoeHxjZ8kL2jO0Korf02VqODQ=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-3.9.0.delta" sparkle:deltaFrom="3.9.0" length="4245362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bdSNlisyZuYI6wfP4LWvS/rDF00XfOqb2Ylzf4SvBN6gJQ2sHEKF9oFDSNj1LVKsi2fZN0faq8mg968fWYHkCw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-3.8.0.delta" sparkle:deltaFrom="3.8.0" length="6034918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+0nxr6rTfymq5mb0i6ccOkJdnPi3V70pvYOBSZ36JCGlXazPk1fLErgJesz/iN3HA3VN5DjJcdmKLJ+vHsi5Cw=="/>
-                <enclosure url="https://snap-line.app/updates/Snapline4.2.0-3.7.0.delta" sparkle:deltaFrom="3.7.0" length="8298070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qgih7/fwaKHB0aWdcnf+SxSQmUu0YwRtEfd9CKUMnGSwqBnIH45i9gkGkbw1SxAlzt4xnpg9uRxPnLkkzZXbAw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>4.1.0</title>
